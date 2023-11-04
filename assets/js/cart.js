@@ -1044,7 +1044,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 		}
 		else if(productName=='trekking'){
 			lowerLimit = 10
-			upperLimit = 42
+			upperLimit = 29
 		}
 		else if(productName=='camping'){
 			lowerLimit = 43
@@ -1197,7 +1197,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				}
 			}
 			// Treks
-			else if((upperLimit >= 10)&&(upperLimit<=42)){
+			else if((upperLimit >= 10)&&(upperLimit<=29)){
 				if(products[i].stock > 0){
 					content+= '<div class="row row--padding-medium">'
 					content+= '<div class="wrapper col-medium" data-aos="zoom-in" data-aos-easing="ease-in-out-quad">'
