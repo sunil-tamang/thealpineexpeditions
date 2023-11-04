@@ -1,0 +1,181 @@
+/*--------------------------------------------
+Beautiful Form.css
+Copyright (C) https://www.github.com/arjunthaku08
+--------------------------------------------*/
+
+form{
+    margin: 2em auto;
+    max-width: 768px;
+    width: 100%;
+}
+
+fieldset{
+    width: 100%;
+    border: 0px;
+    padding-top: 1em;
+    margin: 1em auto;
+    color: #333;
+    text-align: justify;
+}
+
+legend{
+    width: 100%;
+    font-weight: 200;
+    font-family: 'Montserrat', sans-serif;
+    -webkit-user-select: none;
+    font-size: 2.4rem;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: 0 0 0.2em;
+    border-bottom: 1px solid #dcdcdc;
+    color: #777;
+}
+
+legend i{
+    font-weight: 200;
+    font-size: 0.9rem;
+}
+
+.ar-input-set{
+    position: relative;
+    padding: 1.4em 0 1.1em;
+}
+
+.two-in-one_1,
+.two-in-one_2{
+    width: 49.4%;
+    float: right;
+    display: inline-block;
+}
+.two-in-one_1{
+    float: left;
+}
+
+input, textarea{
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+textarea,
+input[type='text'],
+input[type='password'],
+input[type='email']{
+    width: 100%;
+    max-width: 100%;
+    border:1px solid #cecece;
+/*    border-radius: 3px;*/
+    padding: 0.8em;
+    transition: all 0.5s ease;
+    // padding-left: 48px;
+    background: #fbfbfb;
+	background: rgba(248, 248, 248, 0.7);
+    color: #555;
+	padding-left: 3em;
+}
+
+textarea:focus,
+input:focus{
+    outline: none;
+    background: #ffffff;
+    background: rgba(255, 255, 255, 0.75);
+    border-color: #acacac;
+    box-shadow: 0 0 5px rgba(44, 151, 222, 0.2);
+    box-shadow: 0 0 5px rgba(142, 142, 142, 0.3);
+    box-shadow: 0 0 7px 0px rgba(142, 142, 142, 0.3);
+    transition: all 0.3s ease,color 0.9s ease;
+}
+
+textarea{
+    resize: vertical;
+}
+.ar-form-input{
+
+}
+
+.line-and-text{
+    position: relative;
+    display: block;
+    width: 100%;
+    z-index: 1;
+    text-align: center;
+}
+
+.line-and-text span{
+    position: relative;
+    display: inline-block;
+    padding: 1rem;
+    z-index: 1000;
+    background:#fdfdfd;
+    font-size: 1.5rem;
+}
+
+.line-and-text:before{
+    position: absolute;
+    content:'';
+    top:50%;
+    width: 100%;
+    height: 1px;
+    background: #8c8c8c;
+    z-index: 0;
+    left: 0;
+}
+
+.ar-form-btn-span{
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 0.5em auto;
+}
+
+input:invalid ~ .ar-floating-label,
+input:not(:focus):invalid ~ .ar-floating-label{
+
+}
+
+.ar-floating-label{
+    display: block;
+    position: absolute;
+    top:39px;
+    left: 14px;
+    left: 50px;
+    z-index: 1;
+    color: rgba(36, 41, 46, 0.63);
+    color: #888;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 0.9rem;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    transition: all 0.3s cubic-bezier(1, 0.05, 0, 1);
+    pointer-events: none;
+}
+
+textarea:valid ~ .ar-floating-label,
+textarea:not(:focus):valid ~ .ar-floating-label,
+input:valid ~ .ar-floating-label,
+input:not(:focus):valid ~ .ar-floating-label,
+.floating-label>.ar-floating-label{
+    font-size: 0.9rem;
+    top:0;
+    left: 0;
+    pointer-events: all;
+}
+
+.ar-fixed-label{
+    color: #222;
+    border-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    display: block;
+    position: absolute;
+    top: 23px;
+    left: 0px;
+    padding: 13px 18px;
+    background-color: rgba(216, 211, 211, 0);
+    z-index: 1;
+    pointer-events: none;
+}

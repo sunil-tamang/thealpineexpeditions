@@ -1,0 +1,151 @@
+
+- name: Kami Rita Sherpa
+  role: Climbing Guide
+  photos: "assets/css/images/team/kami-rita-sherpa.jpg"
+  phone: "123-456-7890"
+  email: "john.doe@email.com"
+  facebook: "https://facebook.com/johndoe"
+  instagram: "https://instagram.com/johndoe"
+  description: Kami Rita (born 17 January 1970, Solukhumbu, Nepal) is working with Seven Summit Treks as a Senior Climbing Guide who since May 2018, has held the record for most ascents of Mt. Everest. Most recently, he scaled the mountain for the 26th time on 7 May 2022, breaking his record set on 7 May 2021. Kami Rita also holds a record for the most ascent of mountains above 8000m with 40 summits in total. In addition to his Everest completions, his totals include Cho Oyu 8 times, 4 times on Manaslu, and both Lhotse and K2 once each.
+  mountains:
+    - name: Everest
+      summited: 28
+      years: [1994, 1997, 1998, 1999, 2000, 2002, 2003, 2004, 2005, 2006]
+    - name: K2
+      summited: 1
+      years: [2014]
+    - name: Lhotse
+      summited: 1
+      years: [2011]
+    - name: Cho Oyu
+      summited: 8
+      years: [2001, 2004, 2006, 2009, 2011, 2013, 2014, 2016]
+    - name: Manaslu
+      summited: 4
+      years: [2017, 2018, 2019, 2020]
+    - name: Ama Dablam
+      summited: 1
+      years: [2021]
+  slug: kami-rita-sherpa
+
+
+- name: Jane Smith
+  role: Support Climbers
+  photos: "assets/css/images/team/1.jpg"
+  mountains:
+    - name: Mount Everest
+      summited: 3
+      years: [2019, 2020, 2021]
+    - name: K2
+      summited: 2
+      years: [2018, 2020]
+  slug: jane-smith
+
+- name: Sensai Pema Waiba
+  role: Climbing Guide
+  photos: "assets/css/images/team/2.jpg"
+  description: Sensai Pema Waiba (born 12 February 1975, Mustang, Nepal) is an esteemed mountaineer affiliated with Trippy Frog Adventures as their Chief Expedition Leader. This illustrious climber etched his name into the annals of mountaineering history by successfully summiting Mt. Everest on 25 May 2023. With an unmatched passion for the peaks and a spirit as indomitable as the mountains he conquers, Sensai's achievements extend beyond the towering heights of Everest. His dedication to pushing the limits of human endurance and exploring the vast wilderness makes him a revered figure in the world of alpine adventures
+  mountains:
+    - name: Mount Everest
+      summited: 3
+      years: [2019, 2020, 2021]
+    - name: K2
+      summited: 2
+      years: [2018, 2020]
+  slug: sensai-pema-waiba
+
+- name: Alice Brown
+  role: Trekking Guide
+  photos: "assets/css/images/team/3.jpg"
+  mountains:
+    - name: Mount Everest
+      summited: 3
+      years: [2019, 2020, 2021]
+    - name: K2
+      summited: 2
+      years: [2018, 2020]
+  slug: alice-brown
+
+- name: Prem Mamba
+  role: Climbing Guide
+  photos: "assets/css/images/team/4.jpg"
+  description: Prem Mamba (born 12 April 1972, Darjeeling, India) is a distinguished mountaineer associated with Trippy Frog Expeditions as their Chief Alpine Specialist. As of June 2023, he holds the distinction for his numerous summits of some of the world's most daunting peaks. Most notably, he conquered Mt. Everest for the 18th time on 6 June 2022, surpassing his previous record set on 9 June 2021. Alongside Everest, Prem's achievements include summiting Cho Oyu 6 times and a memorable ascent of Lhotse. His unwavering commitment to mountaineering and leadership qualities make him a vital pillar of the Trippy Frog team.
+  mountains:
+    - name: Mount Everest
+      summited: 3
+      years: [2019, 2020, 2021]
+    - name: K2
+      summited: 2
+      years: [2018, 2020]
+  slug: prem-mamba
+
+- name: Emily Blue
+  role: Support Climbers
+  photos: "assets/css/images/team/5.jpg"
+  mountains:
+    - name: Mount Everest
+      summited: 3
+      years: [2019, 2020, 2021]
+    - name: K2
+      summited: 2
+      years: [2018, 2020]
+
+- name: Michael Red
+  role: High Altitude Cook
+  photos: "assets/css/images/team/6.jpg"
+  mountains:
+    - name: Mount Everest
+      summited: 3
+      years: [2019, 2020, 2021]
+    - name: K2
+      summited: 2
+      years: [2018, 2020]
+
+- name: Sunil Ghalan
+  role: Climbing Guide
+  photos: "assets/css/images/team/7.jpg"
+  description: Sunil Ghalan, born on [15 July 1985], hailing from [Kathmandu, Nepal], is a distinguished mountaineer and Senior Climbing Guide associated with the renowned "The Trippy Frog ." As of October 2023, he has etched his name in the annals of history with an impressive 18 ascents of the formidable Mt. Everest. Just last year, on [5 June 2022], he outdid his previous year's record, marking an epoch in his adventurous journey. Beyond Everest, Sunil's exemplary alpinism is reflected in his 32 summits of peaks soaring above 8000m. 
+  mountains:
+    - name: Mount Everest
+      summited: 3
+      years: [2019, 2020, 2021]
+    - name: K2
+      summited: 2
+      years: [2018, 2020]
+  slug: sunil-ghalan
+
+- name: Ashish Gurung
+  role: Climbing Guide
+  photos: "assets/css/images/team/8.jpg"
+  description: Ashish Gurung (born 22 March 1985, Pokhara, Nepal) is the trailblazing mountaineer with 'The Trippy Frog '. By 2023, he's scaled Mt. Everest 20 times, setting a new record with each ascent. With 35 summits of mountains above 8000m, including Annapurna and Makalu, Ashish's name echoes as a mountaineering legend in the Himalayan corridors.
+  mountains:
+    - name: Annapurna
+      summited: 5
+      years: [1996, 1998, 2000, 2001, 2003]
+    - name: Dhaulagiri
+      summited: 5
+      years: [2007, 2009, 2011, 2013, 2018]
+    - name: Makalu
+      summited: 3
+      years: [2014, 2015, 2019]
+    - name: Kangchenjunga
+      summited: 4
+      years: [2002, 2004, 2010, 2013]
+    - name: Broad Peak
+      summited: 2
+      years: [2014, 2021]
+    - name: Gasherbrum II
+      summited: 1
+      years: [2017]
+  slug: ashish-gurung
+
+- name: Charlotte Grey
+  role: Support Climbers
+  photos: "assets/css/images/team/9.jpg"
+  mountains:
+    - name: Mount Everest
+      summited: 3
+      years: [2019, 2020, 2021]
+    - name: K2
+      summited: 2
+      years: [2018, 2020]
