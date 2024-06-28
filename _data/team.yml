@@ -1,32 +1,32 @@
 
-- name: Kami Rita Sherpa
-  role: Climbing Guide
-  photos: "assets/css/images/team/kami-rita-sherpa.jpg"
-  phone: "123-456-7890"
-  email: "john.doe@email.com"
-  facebook: "https://facebook.com/johndoe"
-  instagram: "https://instagram.com/johndoe"
-  description: Kami Rita (born 17 January 1970, Solukhumbu, Nepal) is working with Seven Summit Treks as a Senior Climbing Guide who since May 2018, has held the record for most ascents of Mt. Everest. Most recently, he scaled the mountain for the 26th time on 7 May 2022, breaking his record set on 7 May 2021. Kami Rita also holds a record for the most ascent of mountains above 8000m with 40 summits in total. In addition to his Everest completions, his totals include Cho Oyu 8 times, 4 times on Manaslu, and both Lhotse and K2 once each.
-  mountains:
-    - name: Everest
-      summited: 28
-      years: [1994, 1997, 1998, 1999, 2000, 2002, 2003, 2004, 2005, 2006]
-    - name: K2
-      summited: 1
-      years: [2014]
-    - name: Lhotse
-      summited: 1
-      years: [2011]
-    - name: Cho Oyu
-      summited: 8
-      years: [2001, 2004, 2006, 2009, 2011, 2013, 2014, 2016]
-    - name: Manaslu
-      summited: 4
-      years: [2017, 2018, 2019, 2020]
-    - name: Ama Dablam
-      summited: 1
-      years: [2021]
-  slug: kami-rita-sherpa
+# - name: Kami Rita Sherpa
+#   role: Climbing Guide
+#   photos: "assets/css/images/team/kami-rita-sherpa.jpg"
+#   phone: "123-456-7890"
+#   email: "john.doe@email.com"
+#   facebook: "https://facebook.com/johndoe"
+#   instagram: "https://instagram.com/johndoe"
+#   description: Kami Rita (born 17 January 1970, Solukhumbu, Nepal) is working with Seven Summit Treks as a Senior Climbing Guide who since May 2018, has held the record for most ascents of Mt. Everest. Most recently, he scaled the mountain for the 26th time on 7 May 2022, breaking his record set on 7 May 2021. Kami Rita also holds a record for the most ascent of mountains above 8000m with 40 summits in total. In addition to his Everest completions, his totals include Cho Oyu 8 times, 4 times on Manaslu, and both Lhotse and K2 once each.
+#   mountains:
+#     - name: Everest
+#       summited: 28
+#       years: [1994, 1997, 1998, 1999, 2000, 2002, 2003, 2004, 2005, 2006]
+#     - name: K2
+#       summited: 1
+#       years: [2014]
+#     - name: Lhotse
+#       summited: 1
+#       years: [2011]
+#     - name: Cho Oyu
+#       summited: 8
+#       years: [2001, 2004, 2006, 2009, 2011, 2013, 2014, 2016]
+#     - name: Manaslu
+#       summited: 4
+#       years: [2017, 2018, 2019, 2020]
+#     - name: Ama Dablam
+#       summited: 1
+#       years: [2021]
+#   slug: kami-rita-sherpa
 
 
 - name: Jane Smith
@@ -114,38 +114,38 @@
       years: [2018, 2020]
   slug: sunil-ghalan
 
-- name: Ashish Gurung
-  role: Climbing Guide
-  photos: "assets/css/images/team/8.jpg"
-  description: Ashish Gurung (born 22 March 1985, Pokhara, Nepal) is the trailblazing mountaineer with 'The Trippy Frog '. By 2023, he's scaled Mt. Everest 20 times, setting a new record with each ascent. With 35 summits of mountains above 8000m, including Annapurna and Makalu, Ashish's name echoes as a mountaineering legend in the Himalayan corridors.
-  mountains:
-    - name: Annapurna
-      summited: 5
-      years: [1996, 1998, 2000, 2001, 2003]
-    - name: Dhaulagiri
-      summited: 5
-      years: [2007, 2009, 2011, 2013, 2018]
-    - name: Makalu
-      summited: 3
-      years: [2014, 2015, 2019]
-    - name: Kangchenjunga
-      summited: 4
-      years: [2002, 2004, 2010, 2013]
-    - name: Broad Peak
-      summited: 2
-      years: [2014, 2021]
-    - name: Gasherbrum II
-      summited: 1
-      years: [2017]
-  slug: ashish-gurung
+# - name: Ashish Gurung
+#   role: Climbing Guide
+#   photos: "assets/css/images/team/8.jpg"
+#   description: Ashish Gurung (born 22 March 1985, Pokhara, Nepal) is the trailblazing mountaineer with 'The Trippy Frog '. By 2023, he's scaled Mt. Everest 20 times, setting a new record with each ascent. With 35 summits of mountains above 8000m, including Annapurna and Makalu, Ashish's name echoes as a mountaineering legend in the Himalayan corridors.
+#   mountains:
+#     - name: Annapurna
+#       summited: 5
+#       years: [1996, 1998, 2000, 2001, 2003]
+#     - name: Dhaulagiri
+#       summited: 5
+#       years: [2007, 2009, 2011, 2013, 2018]
+#     - name: Makalu
+#       summited: 3
+#       years: [2014, 2015, 2019]
+#     - name: Kangchenjunga
+#       summited: 4
+#       years: [2002, 2004, 2010, 2013]
+#     - name: Broad Peak
+#       summited: 2
+#       years: [2014, 2021]
+#     - name: Gasherbrum II
+#       summited: 1
+#       years: [2017]
+#   slug: ashish-gurung
 
-- name: Charlotte Grey
-  role: Support Climbers
-  photos: "assets/css/images/team/9.jpg"
-  mountains:
-    - name: Mount Everest
-      summited: 3
-      years: [2019, 2020, 2021]
-    - name: K2
-      summited: 2
-      years: [2018, 2020]
+# - name: Charlotte Grey
+#   role: Support Climbers
+#   photos: "assets/css/images/team/9.jpg"
+#   mountains:
+#     - name: Mount Everest
+#       summited: 3
+#       years: [2019, 2020, 2021]
+#     - name: K2
+#       summited: 2
+#       years: [2018, 2020]
