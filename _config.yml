@@ -59,6 +59,10 @@ collections:
     output: true
     permalink: /:title
     include: app-assets
+  peaks:
+    output: true
+    permalink: /:title
+    include: app-assets
 
 defaults:
   - scope:

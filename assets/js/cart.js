@@ -1029,6 +1029,151 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				urlName : 'nagarjun'
 			},
 
+			{
+				id : 61,
+				name : 'Mera Peak Climbing',
+				img : 'assets/css/images/peak-climbing/mera-peak/banner.jpg',
+				price : 36000.00,
+				prodType : 'peak-climbing',
+				descShort : 'Mera Peak, standing at an impressive altitude of 6,476 meters (21,247 feet), is the highest trekking peak in Nepal. Nestled in the stunning Everest region, it offers adventurous climbers an exhilarating experience combined with breathtaking views of the Himalayas. This peak is a perfect choice for those looking to take their mountaineering skills to the next level while enjoying the natural beauty of Nepal.',
+				descPartOne : 'Mera Peak, standing at an impressive altitude of 6,476 meters (21,247 feet), is the highest trekking peak in Nepal. Nestled in the stunning Everest region, it offers adventurous climbers an exhilarating experience combined with breathtaking views of the Himalayas. This peak is a perfect choice for those looking to take their mountaineering skills to the next level while enjoying the natural beauty of Nepal.',
+				descPartTwo : 'Mera Peak, standing at an impressive altitude of 6,476 meters (21,247 feet), is the highest trekking peak in Nepal. Nestled in the stunning Everest region, it offers adventurous climbers an exhilarating experience combined with breathtaking views of the Himalayas. This peak is a perfect choice for those looking to take their mountaineering skills to the next level while enjoying the natural beauty of Nepal.',
+				stock : 10,
+				days : 12,
+				nights: 11,
+				fixedDate: '15 September',
+				urlName : 'mera-peak'
+			},
+
+			{
+				id : 62,
+				name : 'Island Peak Climbing',
+				img : 'assets/css/images/peak-climbing/island-peak/banner.jpg',
+				price : 36000.00,
+				prodType : 'peak-climbing',
+				descShort : 'Island Peak, standing at an altitude of 6,160 meters (20,210 feet), is one of Nepals most popular trekking peaks. Located in the Khumbu region, it offers climbers an exhilarating experience combined with stunning views of the Himalayas.',
+				descPartOne : 'Island Peak, standing at an altitude of 6,160 meters (20,210 feet), is one of Nepals most popular trekking peaks. Located in the Khumbu region, it offers climbers an exhilarating experience combined with stunning views of the Himalayas.',
+				descPartTwo : 'Island Peak, standing at an altitude of 6,160 meters (20,210 feet), is one of Nepals most popular trekking peaks. Located in the Khumbu region, it offers climbers an exhilarating experience combined with stunning views of the Himalayas.',
+				stock : 10,
+				days : 12,
+				nights: 11,
+				fixedDate: '15 September',
+				urlName : 'island-peak'
+			},
+
+			{
+				id : 63,
+				name : 'Lobuche Peak Climbing',
+				img : 'assets/css/images/peak-climbing/lobuche-peak/banner.jpg',
+				price : 36000.00,
+				prodType : 'peak-climbing',
+				descShort : 'Lobuche East Peak, standing at an altitude of 6,119 meters (20,075 feet), is a more challenging trekking peak located in the Khumbu region of Nepal. It requires professional mountaineering skills and offers climbers an exhilarating and demanding adventure.',
+				descPartOne : 'Lobuche East Peak, standing at an altitude of 6,119 meters (20,075 feet), is a more challenging trekking peak located in the Khumbu region of Nepal. It requires professional mountaineering skills and offers climbers an exhilarating and demanding adventure.',
+				descPartTwo : 'Lobuche East Peak, standing at an altitude of 6,119 meters (20,075 feet), is a more challenging trekking peak located in the Khumbu region of Nepal. It requires professional mountaineering skills and offers climbers an exhilarating and demanding adventure.',
+				stock : 10,
+				days : 12,
+				nights: 11,
+				fixedDate: '15 September',
+				urlName : 'lobuche-peak'
+			},
+
+			{
+				id : 64,
+				name : 'Pisang Peak Climbing',
+				img : 'assets/css/images/peak-climbing/pisang-peak/banner.jpg',
+				price : 36000.00,
+				prodType : 'peak-climbing',
+				descShort : 'Pisang Peak, standing at an altitude of 6,091 meters (19,984 feet), is a popular trekking peak located in the Annapurna region of Nepal. The climb involves navigating rocky trails and steep snow slopes, offering climbers an exhilarating adventure combined with stunning views of the surrounding Annapurna range.',
+				descPartOne : 'Pisang Peak, standing at an altitude of 6,091 meters (19,984 feet), is a popular trekking peak located in the Annapurna region of Nepal. The climb involves navigating rocky trails and steep snow slopes, offering climbers an exhilarating adventure combined with stunning views of the surrounding Annapurna range.',
+				descPartTwo : 'Pisang Peak, standing at an altitude of 6,091 meters (19,984 feet), is a popular trekking peak located in the Annapurna region of Nepal. The climb involves navigating rocky trails and steep snow slopes, offering climbers an exhilarating adventure combined with stunning views of the surrounding Annapurna range.',
+				stock : 10,
+				days : 12,
+				nights: 11,
+				fixedDate: '15 September',
+				urlName : 'pisang-peak'
+			},
+
+			{
+				id : 65,
+				name : 'Tharpu Chuli Peak Climbing',
+				img : 'assets/css/images/bike-tours/leh-manali/banner1.jpg',
+				price : 36000.00,
+				prodType : 'peak-climbing',
+				descShort : 'Tharpu Chuli, also known as Tent Peak, is situated in the Annapurna Region. The base of this peak is a short walk through the stunningly beautiful route to Annapurna Base Camp. The climb involves navigating relatively easy routes that require basic climbing techniques, offering climbers an exhilarating adventure combined with stunning views of the surrounding Annapurna massif.',
+				descPartOne : 'Tharpu Chuli, also known as Tent Peak, is situated in the Annapurna Region. The base of this peak is a short walk through the stunningly beautiful route to Annapurna Base Camp. The climb involves navigating relatively easy routes that require basic climbing techniques, offering climbers an exhilarating adventure combined with stunning views of the surrounding Annapurna massif.',
+				descPartTwo : 'Tharpu Chuli, also known as Tent Peak, is situated in the Annapurna Region. The base of this peak is a short walk through the stunningly beautiful route to Annapurna Base Camp. The climb involves navigating relatively easy routes that require basic climbing techniques, offering climbers an exhilarating adventure combined with stunning views of the surrounding Annapurna massif.',
+				stock : 10,
+				days : 12,
+				nights: 11,
+				fixedDate: '15 September',
+				urlName : 'tharpu-peak'
+			},
+
+			{
+				id : 66,
+				name : 'Chulu East Peak Climbing',
+				img : 'assets/css/images/bike-tours/leh-manali/banner1.jpg',
+				price : 36000.00,
+				prodType : 'peak-climbing',
+				descShort : 'Chandrakhani pass is a beautiful & calm pass at altitude of 12,007 Ft located in kullu valley of himachal pradesh . the top of ChandraKhani pass offers the fabulous  view of Deo Tibba , Pir Panjal and parvati valley ..',
+				descPartOne : 'Chandrakhani pass is a beautiful & calm pass at altitude of 12,007 Ft located in kullu valley of himachal pradesh . the top of ChandraKhani pass offers the fabulous  view of Deo Tibba , Pir Panjal and parvati valley .',
+				descPartTwo : 'Chandrakhani pass is a beautiful & calm pass at altitude of 12,007 Ft located in kullu valley of himachal pradesh . the top of ChandraKhani pass offers the fabulous  view of Deo Tibba , Pir Panjal and parvati valley .',
+				stock : 10,
+				days : 12,
+				nights: 11,
+				fixedDate: '15 September',
+				urlName : 'chulu-east-peak'
+			},
+		
+			{
+				id : 67,
+				name : 'Chulu West Peak Climbing',
+				img : 'assets/css/images/bike-tours/leh-manali/banner1.jpg',
+				price : 36000.00,
+				prodType : 'peak-climbing',
+				descShort : 'Chandrakhani pass is a beautiful & calm pass at altitude of 12,007 Ft located in kullu valley of himachal pradesh . the top of ChandraKhani pass offers the fabulous  view of Deo Tibba , Pir Panjal and parvati valley ..',
+				descPartOne : 'Chandrakhani pass is a beautiful & calm pass at altitude of 12,007 Ft located in kullu valley of himachal pradesh . the top of ChandraKhani pass offers the fabulous  view of Deo Tibba , Pir Panjal and parvati valley .',
+				descPartTwo : 'Chandrakhani pass is a beautiful & calm pass at altitude of 12,007 Ft located in kullu valley of himachal pradesh . the top of ChandraKhani pass offers the fabulous  view of Deo Tibba , Pir Panjal and parvati valley .',
+				stock : 10,
+				days : 12,
+				nights: 11,
+				fixedDate: '15 September',
+				urlName : 'chulu-west-peak'
+			},
+			{
+				id : 68,
+				name : 'Naya Kanga Peak Climbing',
+				img : 'assets/css/images/bike-tours/leh-manali/banner1.jpg',
+				price : 36000.00,
+				prodType : 'peak-climbing',
+				descShort : 'Chandrakhani pass is a beautiful & calm pass at altitude of 12,007 Ft located in kullu valley of himachal pradesh . the top of ChandraKhani pass offers the fabulous  view of Deo Tibba , Pir Panjal and parvati valley ..',
+				descPartOne : 'Chandrakhani pass is a beautiful & calm pass at altitude of 12,007 Ft located in kullu valley of himachal pradesh . the top of ChandraKhani pass offers the fabulous  view of Deo Tibba , Pir Panjal and parvati valley .',
+				descPartTwo : 'Chandrakhani pass is a beautiful & calm pass at altitude of 12,007 Ft located in kullu valley of himachal pradesh . the top of ChandraKhani pass offers the fabulous  view of Deo Tibba , Pir Panjal and parvati valley .',
+				stock : 10,
+				days : 12,
+				nights: 11,
+				fixedDate: '15 September',
+				urlName : 'naya-kanga-peak'
+			},
+
+			{
+				id : 69,
+				name : 'Yala Peak Climbing',
+				img : 'assets/css/images/bike-tours/leh-manali/banner1.jpg',
+				price : 36000.00,
+				prodType : 'peak-climbing',
+				descShort : 'Chandrakhani pass is a beautiful & calm pass at altitude of 12,007 Ft located in kullu valley of himachal pradesh . the top of ChandraKhani pass offers the fabulous  view of Deo Tibba , Pir Panjal and parvati valley ..',
+				descPartOne : 'Chandrakhani pass is a beautiful & calm pass at altitude of 12,007 Ft located in kullu valley of himachal pradesh . the top of ChandraKhani pass offers the fabulous  view of Deo Tibba , Pir Panjal and parvati valley .',
+				descPartTwo : 'Chandrakhani pass is a beautiful & calm pass at altitude of 12,007 Ft located in kullu valley of himachal pradesh . the top of ChandraKhani pass offers the fabulous  view of Deo Tibba , Pir Panjal and parvati valley .',
+				stock : 10,
+				days : 12,
+				nights: 11,
+				fixedDate: '15 September',
+				urlName : 'yala-peak'
+			},
+
+
+
 	
 		],
 		wrapper = $('.productWrapper'),
@@ -1066,8 +1211,12 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			lowerLimit = 60
 			upperLimit = 61
 		}
+		else if(productName=='peak-climbing'){
+			lowerLimit = 62
+			upperLimit = 70
+		}
 		else{
-			lowerLimit = 63
+			lowerLimit = 68
 			upperLimit = products.length - 1
 		}
 
@@ -1196,6 +1345,77 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 					content+= '</div>'
 				}
 			}
+			// PeakClimbing
+			else if((upperLimit >= 62)&&(upperLimit<=70)){
+				if(products[i].stock > 0){
+
+					// content+='<div class="row--padding-medium col-medium">'
+					// content+='<div class="trek-slide">'
+					// content+='	<div style="position: relative;">'
+					// content+='		<img class="trek-slide--img trek-slide4" style="background-image:url(/'+ products[i].img +')">'
+					// content+='		<div class="wopper__footer adventure">'
+					// content+='			<div class="wopper__info" style="padding: 0;">'
+					// content+='				<a class="wopper__info-price white wopper__act-name" href="/activities/bike-tours/'+ products[i].urlName +'"><span>'+ products[i].name +'</span></a>'
+					// content+='			</div>'
+					// content+='		</div>'
+					// content+='	</div>'
+					// content+='	  <span class="trek-slide--price"><span style="font-size: 60%;">From</span> <i class="fa fa-rupee-sign"></i> '+ products[i].price +'/-</span>'
+					// content+= '<button class="wopper__info-cart btn-escape btn prod-'+products[i].id+'" data-style="zoom-out" onclick="app.addtoCart('+products[i].id+');" title="Add To Cart"><i class="fas fa-cart-plus"></i></button>'
+					// content+='	<div class="trek-slide--text">'
+					// content+='		<div class="trek-slide--meta">'
+					// content+='			<div class="">'
+					// content+='				<span>'+ products[i].days +'</span>'
+					// content+='				<span class="meta-type">DAYS &nbsp;<i class="fas fa-sun"></i></span>'
+					// content+='			</div>'
+					// content+='			<div class="">'
+					// content+='				<span>'+ products[i].nights +'</span>'
+					// content+='				<span class="meta-type">NIGHTS &nbsp;<i class="fas fa-moon"></i></span>'
+					// content+='			</div>'
+					// content+='			<div class="">'
+					// content+='				<span>'+ products[i].fixedDate +'</span>'
+					// content+='				<span class="meta-type">DEPARTURE &nbsp;<i class="fas fa-calendar-alt"></i></span>'
+					// content+='			</div>'
+					// content+='		</div>'
+					// content+='	</div>'
+					// content+='</div>'
+					// content+='</div>'
+
+					
+						content+= '<div class="row row--padding-medium">'
+						content+= '<div class="wrapper col-medium" data-aos="zoom-in" data-aos-easing="ease-in-out-quad">'
+						content+= '<a href="/activities/peak-climbing/'+ products[i].urlName +'" class="wopper wopper--trek" style="display: flex; justify-content: center; background-image: url(\'/'+products[i].img+'\')">'
+						content+= '<span class="banner__overlay">'
+						content+= '</span>'
+						content+= '<span class="trek__title">'
+						// content+= '<span>'+ products[i].name +'</span></span>'
+						content+= '</a>'
+						content+= '<div class="wopper__footer">'
+						content+= '<div class="wopper__info">'
+						content+= '<div>'
+						// content+= '<a class="wopper__info-detail" style="" href="/activities/trekking/'+ products[i].urlName +'">'+ products[i].days +' Days '+ products[i].nights +' Nights</a>'
+						// content+= '<button class="wopper__info-cart btn prod-'+products[i].id+'" data-style="zoom-out" onclick="app.addtoCart('+products[i].id+');" title="Add To Cart"><i class="fas fa-cart-plus"></i></button>'
+						content+= '</div>'
+						// content+= '<a class="wopper__info-price" href="/activities/trekking/'+ products[i].urlName +'"><span>₹ '+ products[i].price +' /-</span></a>'
+						content+= '<a class="wopper__info-price" href="/activities/trekking/"><span></span></a>'
+						// content+= '<a href="/activities/bike-tours/'+ products[i].urlName +'"><button class="trippy_btn"><span class="trippy_btn-left"></span>Book Now<span class="trippy_btn-right"></span></button>'
+						content+= '</div>'
+						content+= '</div>'
+						content+= '</div>'
+
+						content+= '<div class="col-medium wrapper-text-right" data-aos="fade-left" data-aos-easing="ease-in-out-quad">'
+						content+= '<h2 class="content__sub-title content__title-white" style="float: left; margin-left: 0; padding-top: 0; margin-bottom: .8em;">'+ products[i].name +'</h2><br />'
+						content+= '<p class="content__pg content--detail">'
+						content+= '<span>'+ products[i].descShort +' </span>'
+						content+= '</p>'
+						content+= '<p class="trippy_btn-wrapper">'
+						content+= '<a href="/activities/peak-climbing/'+ products[i].urlName +'"><button class="book_btn"><span class="trippy_btn-left"></span>Book Now<span class="trippy_btn-right"></span></button>'
+						content+= '</a><br />'
+						content+= '</p>'
+						content+= '</div>'
+						content+= '</div>'
+				}
+			}
+
 			// Treks
 			else if((upperLimit >= 10)&&(upperLimit<=29)){
 				if(products[i].stock > 0){
@@ -1234,7 +1454,6 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 					content+= '</div>'
 				}
 			}
-
 			// Camping
 			else if((upperLimit >= 43)&&(upperLimit<=44)){
 				if(products[i].stock > 0){
