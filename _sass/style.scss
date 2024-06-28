@@ -1,8 +1,4 @@
-/*+++++++++++++++++++++++++++++++++RECREATION.CSS+++++++++++++++++++++++++++++++++*/
 
-
-/*---------------------THE TRIPPY FROG---------------------*/
-/*----------------A HIMALAYAN RECREATIONAL CLUB ---------------*/
 body{
     background: #FFFFFF;
     // background: #080808;
@@ -1205,7 +1201,8 @@ i {
     z-index: 9999999999999999999;
     background: rgba(0, 0, 0, 0.9);
     transition: all 0.4s ease;
-    padding: 0.5em 0;
+    padding: 2em 0;
+    display:flex;
 }
 .headerBlack{
 	background: rgba(0, 0, 0, 0.9) !important;
@@ -2509,7 +2506,7 @@ p.content__pg:not(:last-child){
     }
     .nav__dropdown{
         position: absolute;
-        top: 4em;
+        top: 11em;
 		padding-right: 3em;
     }
     .nav__ul{margin-top:0; border-top: 0;}
@@ -2526,6 +2523,8 @@ p.content__pg:not(:last-child){
 {
 	.header__logo{
 		font-size: 1.5em;
+        display: flex;
+        justify-content: center;
 	}
 	.greeting{
 		transform: translateY(-1.2em)  !important;
