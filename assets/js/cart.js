@@ -1001,18 +1001,19 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			{
 				id : 59,
 				name : 'Parphing Rock Climbing',
-				img : 'assets/css/images/bike-tours/leh-manali/banner1.jpg',
+				img : 'assets/css/images/rock-climbing/parphing-rock-climbing/banner.jpg',
 				price : 36000.00,
 				prodType : 'rock',
-				descShort : 'Chandrakhani pass is a beautiful & calm pass at altitude of 12,007 Ft located in kullu valley of himachal pradesh . the top of ChandraKhani pass offers the fabulous  view of Deo Tibba , Pir Panjal and parvati valley ..',
-				descPartOne : 'Chandrakhani pass is a beautiful & calm pass at altitude of 12,007 Ft located in kullu valley of himachal pradesh . the top of ChandraKhani pass offers the fabulous  view of Deo Tibba , Pir Panjal and parvati valley .',
-				descPartTwo : 'Chandrakhani pass is a beautiful & calm pass at altitude of 12,007 Ft located in kullu valley of himachal pradesh . the top of ChandraKhani pass offers the fabulous  view of Deo Tibba , Pir Panjal and parvati valley .',
+				descShort : "Experience the thrill of rock climbing at Parphing, one of Nepal's premier climbing destinations. Nestled amidst the stunning landscapes, Parphing offers a perfect blend of adventure and natural beauty. Our Parphing Rock Climbing package is designed for climbers of all skill levels, from beginners seeking their first ascent to seasoned climbers looking for a new challenge.",
+				descPartOne : "Experience the thrill of rock climbing at Parphing, one of Nepal's premier climbing destinations. Nestled amidst the stunning landscapes, Parphing offers a perfect blend of adventure and natural beauty. Our Parphing Rock Climbing package is designed for climbers of all skill levels, from beginners seeking their first ascent to seasoned climbers looking for a new challenge.",
+				descPartTwo : "Experience the thrill of rock climbing at Parphing, one of Nepal's premier climbing destinations. Nestled amidst the stunning landscapes, Parphing offers a perfect blend of adventure and natural beauty. Our Parphing Rock Climbing package is designed for climbers of all skill levels, from beginners seeking their first ascent to seasoned climbers looking for a new challenge.",
 				stock : 10,
-				days : 12,
-				nights: 11,
+				days : 1,
+				nights: 0,
 				fixedDate: '15 September',
 				urlName : 'parphing'
 			},
+
 			{
 				id : 60,
 				name : 'Nagarjun Rock Climbing',
@@ -1028,7 +1029,6 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				fixedDate: '15 September',
 				urlName : 'nagarjun'
 			},
-
 			{
 				id : 61,
 				name : 'Mera Peak Climbing',
@@ -1209,7 +1209,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 		}
 		else if(productName=='rock-climbing'){
 			lowerLimit = 60
-			upperLimit = 61
+			upperLimit = 60
 		}
 		else if(productName=='peak-climbing'){
 			lowerLimit = 62
@@ -1348,39 +1348,6 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			// PeakClimbing
 			else if((upperLimit >= 62)&&(upperLimit<=70)){
 				if(products[i].stock > 0){
-
-					// content+='<div class="row--padding-medium col-medium">'
-					// content+='<div class="trek-slide">'
-					// content+='	<div style="position: relative;">'
-					// content+='		<img class="trek-slide--img trek-slide4" style="background-image:url(/'+ products[i].img +')">'
-					// content+='		<div class="wopper__footer adventure">'
-					// content+='			<div class="wopper__info" style="padding: 0;">'
-					// content+='				<a class="wopper__info-price white wopper__act-name" href="/activities/bike-tours/'+ products[i].urlName +'"><span>'+ products[i].name +'</span></a>'
-					// content+='			</div>'
-					// content+='		</div>'
-					// content+='	</div>'
-					// content+='	  <span class="trek-slide--price"><span style="font-size: 60%;">From</span> <i class="fa fa-rupee-sign"></i> '+ products[i].price +'/-</span>'
-					// content+= '<button class="wopper__info-cart btn-escape btn prod-'+products[i].id+'" data-style="zoom-out" onclick="app.addtoCart('+products[i].id+');" title="Add To Cart"><i class="fas fa-cart-plus"></i></button>'
-					// content+='	<div class="trek-slide--text">'
-					// content+='		<div class="trek-slide--meta">'
-					// content+='			<div class="">'
-					// content+='				<span>'+ products[i].days +'</span>'
-					// content+='				<span class="meta-type">DAYS &nbsp;<i class="fas fa-sun"></i></span>'
-					// content+='			</div>'
-					// content+='			<div class="">'
-					// content+='				<span>'+ products[i].nights +'</span>'
-					// content+='				<span class="meta-type">NIGHTS &nbsp;<i class="fas fa-moon"></i></span>'
-					// content+='			</div>'
-					// content+='			<div class="">'
-					// content+='				<span>'+ products[i].fixedDate +'</span>'
-					// content+='				<span class="meta-type">DEPARTURE &nbsp;<i class="fas fa-calendar-alt"></i></span>'
-					// content+='			</div>'
-					// content+='		</div>'
-					// content+='	</div>'
-					// content+='</div>'
-					// content+='</div>'
-
-					
 						content+= '<div class="row row--padding-medium">'
 						content+= '<div class="wrapper col-medium" data-aos="zoom-in" data-aos-easing="ease-in-out-quad">'
 						content+= '<a href="/activities/peak-climbing/'+ products[i].urlName +'" class="wopper wopper--trek" style="display: flex; justify-content: center; background-image: url(\'/'+products[i].img+'\')">'
@@ -1709,7 +1676,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 
 
 			// Rock Climbing Tours
-			else if((upperLimit >= 56)&&(upperLimit<=57)){
+			else if((upperLimit >= 56)&&(upperLimit<=56)){
 				if(products[i].stock > 0){
 
 					content+= '<div class="row row--padding-medium">'

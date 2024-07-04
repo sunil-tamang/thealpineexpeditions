@@ -837,7 +837,7 @@ i {
 .fix .floater {
 //	color: #fff;
     position: fixed;
-    top: 64px;
+    top: 264px;
     overflow: hidden;
 	width: auto;
 	margin-right: 1em;
@@ -852,7 +852,7 @@ i {
 }
 
 .banner__trek{
-	height: 80%;
+	height: 100%;
     padding: 1em;
     background-image: url(images/banner_bg.jpeg);
     background-position: center;
@@ -1870,6 +1870,7 @@ p.content__pg:not(:last-child){
 .wopper--paragliding{background: url(thumbs/paragliding-min.jpg) center no-repeat; background-size: cover;}
 .wopper--trek{background: url('thumbs/trek-min.jpg') center no-repeat ; background-size: cover;}
 .wopper--camping{background: url('thumbs/camp-bg.jpg') center no-repeat ; background-size: cover;}
+.wopper--rock{background: url('thumbs/rock.jpg') center no-repeat ; background-size: cover;}
 .wopper--bike{background: url('thumbs/bikes-min.jpg') center no-repeat; background-size: cover;}
 .wopper--gypsy{background: url('thumbs/4x4-min.jpg') center no-repeat; background-size: cover;}
 .wopper--escape-trips{background: url('thumbs/treks/lamadugh-min.jpg') center no-repeat; background-size: 100%;}
@@ -3531,15 +3532,18 @@ li.image-holder{
 
 
 
+
+
 .team-members {
     display: flex;
-    flex-wrap: wrap; 
-    gap: 2em; 
+    flex-wrap: wrap;
+    gap: 1em;
+    // justify-content: space-between;
 }
 
 .team-member {
     position: relative;
-    width: 200px;
+    width: 150px;
     height: 300px;
     background-size: cover;
     background-position: center;
@@ -3551,6 +3555,29 @@ li.image-holder{
     border-radius: 8px;
     transition: 0.3s; 
 }
+
+@media(min-width:48em) {
+    .team-members {
+        gap: 2em; 
+    }
+
+    .team-member {
+        position: relative;
+        width: 200px;
+        height: 300px;
+        background-size: cover;
+        background-position: center;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 8px;
+        transition: 0.3s; 
+    }
+
+}
+
 
 .team-member:hover {
     transform: scale(1.05); 
