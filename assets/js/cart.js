@@ -1213,7 +1213,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 		}
 		else if(productName=='peak-climbing'){
 			lowerLimit = 62
-			upperLimit = 70
+			upperLimit = 65
 		}
 		else{
 			lowerLimit = 68
@@ -1346,7 +1346,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				}
 			}
 			// PeakClimbing
-			else if((upperLimit >= 62)&&(upperLimit<=70)){
+			else if((upperLimit >= 62)&&(upperLimit<=65)){
 				if(products[i].stock > 0){
 						content+= '<div class="row row--padding-medium">'
 						content+= '<div class="wrapper col-medium" data-aos="zoom-in" data-aos-easing="ease-in-out-quad">'

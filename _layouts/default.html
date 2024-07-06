@@ -63,7 +63,20 @@ layout: compress
     {% endfor %}
     {% endif %}
 
-    <meta name="keywords" content=" Trekking in Nepal,Trekking company,Hiking in Nepal,Nepal trekking adventures,Himalayan treks,Nepal trekking packages,Ghorepani Poon Hill trek,Gokyo lakes trek  ,Nepal trekking guides ,Experienced trekking company,Sustainable tourism in Nepal,Adventure travel in Nepal ,Trekking safety ,Best trekking routes in Nepal,Himalayan mountain views,Authentic Nepalese culture,Personalized trekking itineraries,Budget-friendly trekking options, trekking experiences ,Off-the-beaten-path trekking options,Everest Base Camp Trek, Annapurna Circuit Trek, Annapurna Base Camp Trek, Langtang Valley Trek, Upper Mustang Trek, Manaslu Circuit Trek, Ghorepani Poon Hill Trek ,Gokyo Lakes Trek ,Kanchenjunga Base Camp Trek, Makalu Base Camp Trek" />
+
+
+    {% capture keywords %}
+    {% if page.keywords %}
+        {{ page.keywords }}
+    {% elsif trek.keywords %}
+        {{ trek.keywords }}
+    {% else %}
+        Trekking in Nepal, Trekking company, Hiking in Nepal, Nepal trekking adventures, Himalayan treks, Nepal trekking packages, Ghorepani Poon Hill trek, Gokyo lakes trek, Nepal trekking guides, Experienced trekking company, Sustainable tourism in Nepal, Adventure travel in Nepal, Trekking safety, Best trekking routes in Nepal, Himalayan mountain views, Authentic Nepalese culture, Personalized trekking itineraries, Budget-friendly trekking options, Trekking experiences, Off-the-beaten-path trekking options, Everest Base Camp Trek, Annapurna Circuit Trek, Annapurna Base Camp Trek, Langtang Valley Trek, Upper Mustang Trek, Manaslu Circuit Trek, Ghorepani Poon Hill Trek, Gokyo Lakes Trek, Kanchenjunga Base Camp Trek, Makalu Base Camp Trek
+    {% endif %}
+{% endcapture %}
+
+    <meta name="keywords" content="{{ keywords | strip_html }}">
+    <!-- <meta name="keywords" content=" Trekking in Nepal,Trekking company,Hiking in Nepal,Nepal trekking adventures,Himalayan treks,Nepal trekking packages,Ghorepani Poon Hill trek,Gokyo lakes trek  ,Nepal trekking guides ,Experienced trekking company,Sustainable tourism in Nepal,Adventure travel in Nepal ,Trekking safety ,Best trekking routes in Nepal,Himalayan mountain views,Authentic Nepalese culture,Personalized trekking itineraries,Budget-friendly trekking options, trekking experiences ,Off-the-beaten-path trekking options,Everest Base Camp Trek, Annapurna Circuit Trek, Annapurna Base Camp Trek, Langtang Valley Trek, Upper Mustang Trek, Manaslu Circuit Trek, Ghorepani Poon Hill Trek ,Gokyo Lakes Trek ,Kanchenjunga Base Camp Trek, Makalu Base Camp Trek" /> -->
   
   
     <meta name="trustpilot-one-time-domain-verification-id" content="503d5835-da9a-4f34-9a48-72aeccfe4302"/>
@@ -169,7 +182,7 @@ layout: compress
                             <li class="nav__dropdown--item"><a href="{% link _activities/rock-climbing.html %}">Rock Climbing</a></li>
                             <li class="nav__dropdown--item"><a href="{% link _activities/bike-tours.html %}">Bike Tours</a></li>
                             <li class="nav__dropdown--item"><a href="{% link _activities/rafting.html %}">RIVER Rafting</a></li>
-                            <!-- <li class="nav__dropdown--item"><a href="{% link _activities/camping.html %}">Camping</a></li> -->
+                            <li class="nav__dropdown--item"><a href="{% link _activities/camping.html %}">Camping</a></li>
                             <!-- <li class="nav__dropdown--item"><a href="{% link _activities/4x4-trails.html %}">4x4 Trails</a></li> -->
                         </ul>
                     </li>
