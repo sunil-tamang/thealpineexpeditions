@@ -23,7 +23,7 @@ manaslu-base-camp-trek:
 
     excerpt: "The Manaslu Base Camp Trek is a true gem for adventure seekers and nature lovers alike. The trek takes you through the pristine Manaslu Conservation Area, home to some of the rarest flora and fauna in the world. Along the way, you'll get to experience the warm hospitality of local communities, steeped in ancient traditions and customs that have remained unchanged for centuries."
 
-    video: "<iframe width='100%' height='400' src='https://www.youtube.com/embed/I1Sx_DdHaUE' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+    video: "<iframe width='100%' class='vid' height='400' src='https://www.youtube.com/embed/I1Sx_DdHaUE' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
     
 
     download: "//assets/docs/manaslu.pdf"
@@ -36,7 +36,7 @@ manaslu-base-camp-trek:
 
     overview:
 
-    - content: "The Manaslu Base Camp Trek is a true gem for adventure seekers and nature lovers alike. The trek takes you through the pristine Manaslu Conservation Area, home to some of the rarest flora and fauna in the world. Along the way, you'll get to experience the warm hospitality of local communities, steeped in ancient traditions and customs that have remained unchanged for centuries."
+    - content: "<a class='highlight-link' href='/activities/trekking/manaslu-base-camp-trek/'>Manaslu Base Camp Trek</a> is a true gem for adventure seekers and nature lovers alike. The trek takes you through the pristine Manaslu Conservation Area, home to some of the rarest flora and fauna in the world. Along the way, you'll get to experience the warm hospitality of local communities, steeped in ancient traditions and customs that have remained unchanged for centuries."
     - content: "As you ascend to the base camp of Manaslu, the eighth highest mountain in the world, you'll be treated to stunning panoramic views of the surrounding peaks, including the iconic Mt. Everest. You'll also have the opportunity to explore the famous Larkya La Pass, a high-altitude crossing that offers breathtaking views of the Himalayan range."
     - content: "The Manaslu Base Camp Trek is an experience that will stay with you forever. Whether you're an experienced hiker or a first-time trekker, this journey is sure to challenge and inspire you in equal measure. So why wait? Book your trek today and discover the magic of the Manaslu region for yourself!"
    
@@ -47,7 +47,7 @@ manaslu-base-camp-trek:
       content: "Welcome to the vibrant city of Kathmandu, where ancient architecture, rich culture, and warm hospitality await you. Upon arrival at the airport, our representative will greet you with a traditional garland of marigolds and transfer you to your hotel. After settling in, you can explore the city on your own or relax and prepare for your upcoming adventure."
 
     - title: "DAY 2 - Rest in Kathmandu, and Preparation"
-      content: "Today is a day for rest and preparation. You can take a stroll around the bustling streets of Thamel, where you will find a variety of restaurants, shops, and markets. You can also visit some of the city's historic landmarks, such as the Swayambhunath Stupa, also known as the Monkey Temple, or the stunning Pashupatinath Temple, one of the most sacred Hindu temples in the world."
+      content: "Today is a day for rest and preparation. You can take a stroll around the bustling streets of Thamel, where you will find a variety of restaurants, shops, and markets. You can also visit some of the city's historic landmarks, such as the Swayambhunath Stupa, also known as the  <a class='highlight-link' href='/news/Swayambhunath-Stupa-Discover-the-Spiritual-Hub-of-Nepal/'>Monkey Temple </a>, or the stunning Pashupatinath Temple, one of the most sacred Hindu temples in the world."
 
     - title: "DAY 3 - Drive from Kathmandu to Besisahar (760m)"
       content: " After breakfast, we will drive to Besisahar, the starting point of our trek. Along the way, we will pass through scenic landscapes, lush green forests, and traditional Nepalese villages. Upon arrival, we will check into our guesthouse and rest for the night."
@@ -120,7 +120,7 @@ manaslu-circuit-trek:
     description: "The Manaslu Circuit Trek is a breathtaking adventure that takes you on a journey through the rugged terrain and awe-inspiring landscapes of the Himalayas. This trek is a unique blend of natural beauty, cultural heritage, and unparalleled adventure, making it a popular choice among trekkers from all over the world."
     excerpt: "The Manaslu Circuit Trek is a breathtaking adventure that takes you on a journey through the rugged terrain and awe-inspiring landscapes of the Himalayas. This trek is a unique blend of natural beauty, cultural heritage, and unparalleled adventure, making it a popular choice among trekkers from all over the world."
 
-    video: "<iframe width='100%' height='400' src='https://www.youtube.com/embed/WH_AgfLedbE' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+    video: "<iframe width='100%' height='400' class='vid' src='https://www.youtube.com/embed/WH_AgfLedbE' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
 
     gears-list: "//assets/docs/trekking-gears-nepal.pdf"
 
@@ -223,7 +223,7 @@ langtang-valley-trek:
 
     excerpt: "The Langtang Valley Trek in Nepal is a fantastic adventure that is perfect for nature lovers and outdoor enthusiasts looking for a challenging and rewarding experience. This trek takes you through the stunning Langtang Valley, which is a hidden gem that offers stunning views of the Himalayan range without the crowds of some of the more popular routes."
 
-    video: "<iframe width='100%' height='400' src='https://www.youtube.com/embed/fiBoxFrdokw' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+    video: "<iframe width='100%' height='400' class='vid' src='https://www.youtube.com/embed/fiBoxFrdokw' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
    
     gears-list: "//assets/docs/trekking-gears-nepal.pdf"
 
@@ -289,7 +289,7 @@ yala-peak-trek:
 
     excerpt: "Manaslu Base Camp Trek is a magnificent trek that takes you through the remote regions of the Himalayas in Nepal."
 
-    video: "<iframe width='100%' height='400' src='https://www.youtube.com/embed/LoXRwMkp0YI' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+    video: "<iframe width='100%' height='400' class='vid' src='https://www.youtube.com/embed/LoXRwMkp0YI' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
 
     gears-list: "//assets/docs/trekking-gears-nepal.pdf"
 
@@ -362,7 +362,7 @@ gosai-kunda-trek:
     excerpt: ""
 
 
-    video: "<iframe width='100%' height='400' src='https://www.youtube.com/embed/V_57ry3suFQ' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+    video: "<iframe width='100%' height='400' class='vid' src='https://www.youtube.com/embed/V_57ry3suFQ' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
     
     gears-list: "//assets/docs/trekking-gears-nepal.pdf"
 
@@ -424,7 +424,7 @@ tamang-heritage-trail-trek:
 
     excerpt: ""
 
-    # video: "<iframe width='100%' height='400' src='https://www.youtube.com/embed/vYi0LrT5bWU' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+    # video: "<iframe width='100%' height='400' class='vid' src='https://www.youtube.com/embed/vYi0LrT5bWU' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
 
     gears-list: "//assets/docs/trekking-gears-nepal.pdf"
 
@@ -485,7 +485,7 @@ gokyo-chola-pass-trek:
 
     excerpt: "Manaslu Base Camp Trek is a magnificent trek that takes you through the remote regions of the Himalayas in Nepal. This trek is gaining popularity due to its stunning landscapes, diverse cultures and pristine natural beauty."
 
-    video: "<iframe width='100%' height='400' src='https://www.youtube.com/embed/pAIsk0WctXk' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+    video: "<iframe width='100%' height='400' class='vid' src='https://www.youtube.com/embed/pAIsk0WctXk' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
 
 
     overview:
@@ -580,7 +580,7 @@ three-pass-trek:
 
     excerpt: "Manaslu Base Camp Trek is a magnificent trek that takes you through the remote regions of the Himalayas in Nepal. This trek is gaining popularity due to its stunning landscapes, diverse cultures and pristine natural beauty."
 
-    # video: "<iframe width='100%' height='400' src='https://www.youtube.com/embed/vYi0LrT5bWU' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+    # video: "<iframe width='100%' height='400' class='vid' src='https://www.youtube.com/embed/vYi0LrT5bWU' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
 
     overview:
 
@@ -672,7 +672,7 @@ everest-base-camp-trek:
 
     excerpt: "The Everest Base Camp Trek is a bucket-list adventure that takes you through the stunning Khumbu region of Nepal, providing trekkers with the opportunity to experience the worlds highest mountain range up close. "
 
-    video: "<iframe width='100%' height='400' src='https://www.youtube.com/embed/edOuQIalVBU' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+    video: "<iframe width='100%' height='400' class='vid' src='https://www.youtube.com/embed/edOuQIalVBU' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
 
     gears-list: "//assets/docs/trekking-gears-nepal.pdf"
 
@@ -761,7 +761,7 @@ kanchenjunga-circuit-trek:
 
     excerpt: "Manaslu Base Camp Trek is a magnificent trek that takes you through the remote regions of the Himalayas in Nepal. This trek is gaining popularity due to its stunning landscapes, diverse cultures and pristine natural beauty."
 
-    # video: "<iframe width='100%' height='400' src='https://www.youtube.com/embed/vYi0LrT5bWU' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+    # video: "<iframe width='100%' height='400' class='vid' src='https://www.youtube.com/embed/vYi0LrT5bWU' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
     
     gears-list: "//assets/docs/trekking-gears-nepal.pdf"
 
@@ -874,7 +874,7 @@ makalu-sherpani-col-pass-trek:
 
     excerpt: "The Makalu Sherpani Col Pass Trek is one of the most challenging and adventurous treks in Nepal. This trek is known for its stunning natural beauty, diverse landscapes, and unique cultural experiences. It is an off-the-beaten-path trek that takes you through remote villages, high mountain passes, and lush forests."
 
-    # video: "<iframe width='100%' height='400' src='https://www.youtube.com/embed/vYi0LrT5bWU' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+    # video: "<iframe width='100%' height='400' class='vid' src='https://www.youtube.com/embed/vYi0LrT5bWU' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
     
     gears-list: "//assets/docs/trekking-gears-nepal.pdf"
 
@@ -1061,7 +1061,7 @@ dhaulagiri-circuit-trek:
 
     excerpt: ""
 
-    # video: "<iframe width='100%' height='400' src='https://www.youtube.com/embed/vYi0LrT5bWU' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+    # video: "<iframe width='100%' height='400'  class='vid' src='https://www.youtube.com/embed/vYi0LrT5bWU' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
 
     gears-list: "//assets/docs/trekking-gears-nepal.pdf"
 
@@ -1325,7 +1325,7 @@ mardi-himal-trek:
 
     excerpt: ""
 
-    video: "<iframe width='100%' height='400' src='https://www.youtube.com/embed/iMvgjOhdAl8' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+    video: "<iframe width='100%' height='400' class='vid' src='https://www.youtube.com/embed/iMvgjOhdAl8' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
 
     download: "//assets/docs/mardi.pdf"
 
@@ -1638,7 +1638,7 @@ panch-pokhari-trek:
 
     excerpt: ""
 
-    video: "<iframe width='100%' height='400' src='https://www.youtube.com/embed/ib5x2VcuDAk' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+    video: "<iframe width='100%' height='400'  class='vid' src='https://www.youtube.com/embed/ib5x2VcuDAk' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
   
     overview:
 

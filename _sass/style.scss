@@ -970,10 +970,10 @@ i {
     padding-bottom: 15px;
     position: relative;
     text-transform: uppercase;
-    line-height: 1.3em;
+    line-height: 1.9em;
     font-size: 1em;
     color: #444;
-    font-weight: bolder;
+    // font-weight: bolder;
 	font-family: sans-serif;
 }
 
@@ -992,14 +992,16 @@ i {
     width: 11px;
     top: 4px;
 }
-
+.vid{
+    border-radius: 8px !important;
+}
 .itinerary-subtitle:last-child {
     padding-bottom: 0;
      transform: translateY(4px);
 }
 
 .itinerary-detail{
-	padding-left: 30px;
+	padding-left: 15px;
     padding-bottom: 30px;
     font-family: open sans,sans-serif;
     text-transform: none;
@@ -1012,25 +1014,26 @@ i {
 }
 
 .accordion{
-    	border: 1px solid #ffce00;
-        letter-spacing: 0.2em;
-        text-transform: uppercase;
-        display: inline-block;
-        padding-bottom: 0.8em;
-        padding: 1em;
-        position: relative;
-        // font-weight: bold;
-        margin: 1em auto 0;
-        /* line-height: 1.5em; */
-        width: 100%;
-        background: #ffce00;
-        color: #000;
-        text-align: left;
-        font-size:1em;
-        font-family: 'ANTON',sans-serif;
-        outline: none;
-        cursor: pointer;
+    border: 0px solid #ffce00;
+    letter-spacing: 0.2em;
+    /* text-transform: uppercase; */
+    display: inline-block;
+    padding-bottom: 0.8em;
+    padding: 1em;
+    position: relative;
+    margin: 1em auto 0;
+    width: 100%;
+    background: #ffce00;
+    color: #000;
+    text-align: left;
+    font-size: 1em;
+    font-family: 'ANTON', sans-serif; 
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 8px;
 }
+
 
 .accordion-sign{float: right; display: inline;}
 .accordion-sign .VLine,
@@ -1050,7 +1053,7 @@ i {
 .panel {
 	text-align: left;
     padding: 0 1em;
-	border: 1px solid #cacaca;
+	// border: 1px solid #cacaca;
 	border-top: 0;
     max-height: 0;
     overflow: hidden;
@@ -1556,7 +1559,8 @@ button.close span{
 /*    font-weight: bold;*/
     margin-bottom: 1em;
     line-height: 1.5em;
-	font-family: 'ANTON',sans-serif;
+    text-transform: uppercase;
+	// font-family: 'ANTON',sans-serif;
 }
 .content__title,
 .content__sub-title_child{
@@ -1653,7 +1657,7 @@ p.content__pg:not(:last-child){
 	font-weight: normal;
     position: relative;
     text-align: left;
-    line-height: 2em;
+    line-height: 3em;
 /*    text-indent: 1.2em;*/
     padding-left: 2em;
     list-style: none;
@@ -2537,7 +2541,7 @@ p.content__pg:not(:last-child){
 	}
 	.headline--detail,.content--detail{
 	    font-size: 16px !important;
-    	line-height: 26px !important;
+    	line-height: 2em !important;
 	}
 
 
@@ -2657,7 +2661,7 @@ p.content__pg:not(:last-child){
         padding-top: 0;
     }
     .content__sub-title{
-        font-size: 1.8em;
+        font-size: 1.2em;
     }
 	.clearlist .content__title{
 		font-size: 1.85em;
@@ -4301,3 +4305,11 @@ li.image-holder{
     align-items: center;
   }
   
+
+
+  .highlight-link {
+    color: #2196f3;
+    font-weight: bold;
+    text-decoration: underline;
+    /* Add any other styles you need */
+  }
