@@ -229,88 +229,152 @@ layout: compress
     {{ content }}
 
     <!----------F-O-O-T-E-R---------->
-    <div class="row footer">
-		<span class="banner__overlay" style="background:rgba(6, 8, 11, 0.91); z-index: 0;"></span>
-        <div class="row container-wide" style="position: relative;">
-            <div class="col-wide">
-                <div class="col-medium footer__address row--padding-medium">
-                    <h2 class="footer__header">
-                        ADDRESS</h2>
+<div class="row footer">
+    <span
+        class="banner__overlay"
+        style="background:rgba(6, 8, 11, 0.91); z-index: 0;"></span>
+    
+    <div class="row container-wide" style="position: relative;">
+            
+                <div class="col-wide">
+                    <div class="col-medium footer__address row--padding-medium">
+                        <h2 class="footer__header">
+                            ADDRESS</h2>
                         <ul class="footer__content">
                             <li class="footer__content-item one__item">The ALPINE EXPEDITIONS</li>
                             <li class="footer__content-item one__item">Makalbari , Kathmandu</li>
                             <li class="footer__content-item one__item">Nepal &#40; Zip - 44600 &#41;</li>
                         </ul>
+                    </div>
+                    <div class="col-medium row--padding-medium">
+                        <h2 class="footer__header">
+                            ADVENTURE</h2>
+                        <ul class="footer__content no-select">
+                            <li class="footer__content-item">
+                                <a href="{% link _activities/trekking.html %}">Trekking</a>
+                            </li>
+                            <li class="footer__content-item">
+                                <a href="{% link _activities/peak-climbing.html %}">Peak Climbing</a>
+                            </li>
+                            <li class="footer__content-item">
+                                <a href="{% link _activities/rafting.html %}">White Water Rafting</a>
+                            </li>
+                            <!-- <li class="footer__content-item"><a href="{% link _activities/camping.html
+                            %}">Camping</a></li> -->
+                            <li class="footer__content-item">
+                                <a href="{% link _activities/rock-climbing.html %}">Rock Climbing</a>
+                            </li>
+                            <li class="footer__content-item">
+                                <a href="{% link _activities/bike-tours.html %}">Bike Tours</a>
+                            </li>
+                            <!-- <li class="footer__content-item"><a href="{% link
+                            _activities/4x4-trails.html %}">4x4 Trails</a></li> -->
+                        </ul>
+                    </div>
                 </div>
-                <div class="col-medium row--padding-medium">
+
+
+                <div class="col-narrow row--padding-medium">
                     <h2 class="footer__header">
-                        ADVENTURE</h2>
-                    <ul class="footer__content no-select">
-							<li class="footer__content-item"><a href="{% link _activities/trekking.html %}">Trekking</a></li>
-                           <li class="footer__content-item"><a href="{% link _activities/peak-climbing.html %}">Peak Climbing</a></li>
-                            <li class="footer__content-item"><a href="{% link _activities/rafting.html %}">White Water Rafting</a></li>
-                            <!-- <li class="footer__content-item"><a href="{% link _activities/camping.html %}">Camping</a></li> -->
-                            <li class="footer__content-item"><a href="{% link _activities/rock-climbing.html %}">Rock Climbing</a></li>
-                            <li class="footer__content-item"><a href="{% link _activities/bike-tours.html %}">Bike Tours</a></li>
-                            <!-- <li class="footer__content-item"><a href="{% link _activities/4x4-trails.html %}">4x4 Trails</a></li> -->
-                    </ul>
-                </div>
-            </div>
-            <div class="col-narrow row--padding-medium">
-                 <h2 class="footer__header">
                         CONTACT</h2>
                     <ul class="footer__content no-select">
-                            <li class="footer__content-item">
-                                <a href="mailto:thetrippyfrog@gmail.com">thealpineexpeditions@gmail.com</a>
-                            </li>
-                            <!-- <li class="footer__content-item" style="overflow: visible;">
-                                <a href="tel:+917018845141">+91-7018845141</a>
-                            </li> -->
-                            <li class="footer__content-item">
-                                <a href="tel:+9779813399084">+977-9813399084</a>
-                            </li>
-							<li class="footer__content-item">
-                                <a href="tel:+9779863683851">+977-9863683851 <span style="color:#08cc10;">Whatsapp<i class="fab fa-whatsapp"></i></span></a>
-                            </li>
-							<!-- <li class="footer__content-item">
-                                <a href="https://api.whatsapp.com/send?phone=+9779863683851">+977-9863683851-<span style="color:#08cc10;">Whatsapp<i class="fab fa-whatsapp"></i></span></a>
-                            </li> -->
+                        <li class="footer__content-item">
+                            <a href="mailto:thetrippyfrog@gmail.com">thealpineexpeditions@gmail.com</a>
+                        </li>
+                        <!-- <li class="footer__content-item" style="overflow: visible;"> <a
+                        href="tel:+917018845141">+91-7018845141</a> </li> -->
+                        <li class="footer__content-item">
+                            <a href="tel:+9779813399084">+977-9813399084</a>
+                        </li>
+                        <li class="footer__content-item">
+                            <a href="tel:+9779863683851">+977-9863683851
+                                <span style="color:#08cc10;">Whatsapp<i class="fab fa-whatsapp"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <!-- <li class="footer__content-item"> <a
+                        href="https://api.whatsapp.com/send?phone=+9779863683851">+977-9863683851-<span
+                        style="color:#08cc10;">Whatsapp<i class="fab fa-whatsapp"></i></span></a> </li>
+                        -->
                     </ul>
-            </div>
-            <div class="row copyright" style="border-top: 0px solid #cacaca;">
-				<div class="col-wide row--padding-medium legal" style="font-size: .8em; letter-spacing: .12em; line-height: 2em; padding-bottom: 0;">
-					<a href="{% link _legal/privacy.html %}"><span>Privacy Policy</span></a>
-					<span>&nbsp;|&nbsp;</span>
-					<a href="{% link _legal/toc.html %}"><span>Terms and Conditions</span></a>
-					<span>&nbsp;|&nbsp;</span>
-					<a href="{% link _legal/sitemap.html %}"><span>Sitemap</span></a>
-				</div>
-                <div class="col-narrow row--padding-medium" style="padding-top: 2.3em; padding-bottom: .5em">
-                    <a class="social-icon" href="https://www.facebook.com/profile.php?id=61561807583808" target="_blank" rel="noopener nofollow">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-                    <a class="social-icon" href="https://www.instagram.com/thealpineexpeditions/" target="_blank" rel="noopener nofollow">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                    <a class="social-icon" href="https://www.youtube.com/channel/UCFfl6EZyznZv47AKsm08B4g" target="_blank" rel="noopener nofollow">
-                        <i class="fab fa-youtube"></i>
-                    </a>
-                    <!-- <a class="social-icon" href="https://www.linkedin.com/company/thetrippyfrog/" target="_blank" rel="noopener nofollow">
-                        <i class="fab fa-linkedin"></i>
-                    </a> -->
-                    <br >
                 </div>
-				<div class="row" style="font-size: .8em; letter-spacing: .12em; line-height: 1.3em; padding-top: 1em; padding-right: 1em;color: #555; border-top: .5px solid #333;">
+
+                <div class="col-narrow row--padding-medium">
+               
+                    <ul class="footer__content no-select">
+                        
+                        <li class="footer__content-item">
+                            <h2 class="footer__header">We Accept</h2>
+                            <img src="/assets/css/images/payment-info.png" alt="Payment Types" class="aff-image">
+                        </li>
+
+                    <br /> <br />
+
+                        <li class="footer__content-item">
+                                   <h2 class="footer__header">Recommended By</h2> 
+                                   <img src="/assets/css/images/trip-advisor.png" alt="Payment Types" class="trip-advisor-image">
+                        </li>
+
+                    </ul>
+                </div>
+
+                 <div class="row copyright" style="border-top: 0px solid #cacaca;">
+            <div
+                class="col-wide row--padding-medium legal"
+                style="font-size: .8em; letter-spacing: .12em; line-height: 2em; padding-bottom: 0;">
+                <a href="{% link _legal/privacy.html %}">
+                    <span>Privacy Policy</span>
+                </a>
+                <span>&nbsp;|&nbsp;</span>
+                <a href="{% link _legal/toc.html %}">
+                    <span>Terms and Conditions</span>
+                </a>
+                <span>&nbsp;|&nbsp;</span>
+                <a href="{% link _legal/sitemap.html %}">
+                    <span>Sitemap</span>
+                </a>
+            </div>
+            <div
+                class="col-narrow row--padding-medium"
+                style="padding-top: 2.3em; padding-bottom: .5em">
+                <a
+                    class="social-icon"
+                    href="https://www.facebook.com/profile.php?id=61561807583808"
+                    target="_blank"
+                    rel="noopener nofollow">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a
+                    class="social-icon"
+                    href="https://www.instagram.com/thealpineexpeditions/"
+                    target="_blank"
+                    rel="noopener nofollow">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a
+                    class="social-icon"
+                    href="https://www.youtube.com/channel/UCFfl6EZyznZv47AKsm08B4g"
+                    target="_blank"
+                    rel="noopener nofollow">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                <!-- <a class="social-icon"
+                href="https://www.linkedin.com/company/thetrippyfrog/" target="_blank"
+                rel="noopener nofollow"> <i class="fab fa-linkedin"></i> </a> -->
+                <br ></div>
+                <div
+                    class="row"
+                    style="font-size: .8em; letter-spacing: .12em; line-height: 1.3em; padding-top: 1em; padding-right: 1em;color: #555; border-top: .5px solid #333;">
                     <span class="copyright__sign"></span>
                     <span id="copyright__year"></span>
                     <a href="{% link index.html %}">&nbsp;THE ALPINE EXPEDITIONS</a>&nbsp;|&nbsp;All Rights Reserved.
-					<span></span>
-					<br />
-					<br />
+                    <span></span>
+                    <br/>
+                    <br/>
 
                 </div>
-            </div>
-        </div>
+                 </div>
+    </div>
     </div>
     <!-- <a class="backToTop"></a> -->
   
