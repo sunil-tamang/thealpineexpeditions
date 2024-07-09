@@ -830,3 +830,27 @@ $(document).ready(function(){
 });
 
 
+
+
+function showSection(sectionId) {
+	var sections = document.querySelectorAll('.content-section');
+	sections.forEach(function(section) {
+		section.classList.remove('active');
+	});
+	
+	var buttons = document.querySelectorAll('.toggle-button');
+	buttons.forEach(function(button) {
+		button.classList.remove('active');
+	});
+	
+	document.getElementById(sectionId).classList.add('active');
+	document.querySelector('button[onclick="showSection(\'' + sectionId + '\')"]').classList.add('active');
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+	showSection('treks');
+});
+
+
+
+

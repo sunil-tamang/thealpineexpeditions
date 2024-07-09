@@ -4317,3 +4317,131 @@ li.image-holder{
     text-decoration: underline;
     /* Add any other styles you need */
   }
+
+
+
+
+
+
+
+  .banner {
+    position: relative;
+    overflow: hidden; /* Ensure overflow is hidden to contain the img */
+    height: 100vh; /* Adjust height as needed */
+  }
+  
+  .banner-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover; /* Ensures the image covers the entire container */
+  }
+  
+  .banner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust overlay color and opacity */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .banner-content {
+    text-align: center;
+    color: #fff; /* Text color */
+    padding: 20px; /* Adjust padding as needed */
+  }
+  
+  .banner-content h1 {
+    font-size: 3em; /* Adjust font size */
+    margin-bottom: 10px; /* Adjust spacing */
+  }
+  
+  .button-container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .content-section {
+    display: none;
+  }
+  
+  .content-section.active {
+    display: flex;
+  }
+  
+  .toggle-button {
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .toggle-button.active {
+    background-color: #0056b3;
+  }
+  
+  .tour-link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .tour-card {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin: 16px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 300px;
+  }
+  
+  .tour-photo {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4); /* Adjust overlay color and opacity */
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .tour-card:hover .overlay {
+    opacity: 1;
+  }
+  
+  .tour-info {
+    padding: 16px 0;
+    background: #fff;
+    text-align: left;
+  }
+  
+  .tour-info h2 {
+    margin: 0 0 8px;
+    font-size: 1rem;
+    line-height: initial;
+    font-weight: 800;
+  }
+  
+  .tour-info p {
+    margin: 4px 0;
+    font-size: 16px;
+  }/*# sourceMappingURL=index.css.map */
