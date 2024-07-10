@@ -4444,4 +4444,150 @@ li.image-holder{
   .tour-info p {
     margin: 4px 0;
     font-size: 16px;
-  }/*# sourceMappingURL=index.css.map */
+  }
+
+
+
+  #container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 4em;
+    padding: 0 20px; /* Add padding to prevent content from sticking to edges */
+}
+
+
+
+#hero {
+    position: relative;
+    flex: 1 1 100%;
+    min-width: 300px; /* Minimum width for responsiveness */
+    margin-bottom: 20px; /* Space between hero and how-it-works sections */
+    border-radius: 8px;
+}
+
+#hero img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 8px;
+}
+
+#overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* text-align: center; */
+    color: #fff;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: left;
+    border-radius: 8px;
+}
+
+#overlay h1 {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+
+#overlay p {
+    font-size: 1.2rem;
+}
+#how-it-works {
+    flex: 1 1 100%; /* Take full width on small screens, adjust as needed */
+    padding: 1em;
+    text-align: left;
+}
+
+#how-it-works h2 {
+    font-size: 3rem; /* Adjust font size for smaller screens */
+    margin-bottom: 15px;
+}
+
+#how-it-works li {
+    padding: 2em 0;
+    display: flex;
+    align-items: flex-start;
+    // align-items: center;
+    margin-bottom: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+}
+
+#how-it-works li .icon {
+    padding: 0.8em; /* Adjust icon padding */
+    background: #f5f7ff;
+    border-radius: 8px;
+    margin-right: 1em; /* Improve spacing between icon and text */
+}
+
+#how-it-works li i {
+    font-size: 1.5rem; /* Adjust icon size for smaller screens */
+}
+
+#how-it-works li .text {
+    flex: 1; /* Allow text to flexibly take up remaining space */
+}
+
+#how-it-works li h3 {
+    font-size: 1.3rem; /* Adjust font size for smaller screens */
+    margin-bottom: 5px;
+}
+
+#how-it-works li p {
+    line-height: 2em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    font-style: normal;
+    letter-spacing: .035em;
+    color: #b9bdcf;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    /* Adjustments for tablets and larger screens */
+    #container {
+        padding: 0; /* Reset padding added earlier */
+    }
+
+    #hero {
+        flex: 1 1 40%; /* Restore original width on larger screens if desired */
+        margin-bottom: 20px;
+    }
+
+    #how-it-works {
+        flex: 1 1 35%; /* Restore original width on larger screens if desired */
+        padding: 1em;
+    }
+
+    /* Additional adjustments as needed */
+}
+
+@media screen and (min-width: 1024px) {
+    /* Adjustments for desktop screens */
+    #container {
+        padding: 0 40px; /* Increase padding for wider layout */
+    }
+
+    #hero {
+        flex: 1 1 45%; /* Example: Adjust width proportionally */
+    }
+
+    #how-it-works {
+        flex: 1 1 40%; /* Example: Adjust width proportionally */
+    }
+
+    /* Additional adjustments as needed */
+}
