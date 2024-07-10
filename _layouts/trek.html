@@ -68,7 +68,7 @@ tags: "Everest Base Camp Trek, Annapurna Circuit Trek, Annapurna Base Camp Trek,
             <div class="form_wrapper">
 
                 <div class="text">
-                    <h2>Enter Your Email Below To Get 20% Off</h2>
+                    <h1>Enter Your Email Below To Get 20% Off</h1>
                     <p>Fill the form and get flat 20% Off on your {{ page.title }} + Beas River Rafting Trip.</p>
                 </div>
 
@@ -116,7 +116,7 @@ tags: "Everest Base Camp Trek, Annapurna Circuit Trek, Annapurna Base Camp Trek,
 {% endif %}
 		<span class="banner__overlay"></span>
 			<div class="banner__trek-overview">
-				<p class="trek-name" style="font-family:'ANTON',sans-serif !important;">{{ page.title }}</p>
+				<h1 class="trek-name" style="font-family:'ANTON',sans-serif !important;">{{ page.title }}</h1>
 				<p class="trek-time">
 					{% if trek.days %}
 					<span class="trek-time--part1">
@@ -160,7 +160,7 @@ tags: "Everest Base Camp Trek, Annapurna Circuit Trek, Annapurna Base Camp Trek,
 			<!-- TREK OVERVIEW -->
 			<div class="row container-wide" style="padding-bottom: 3em; text-align: left; " >
 
-				<!-- <h2 class="content__sub-title" style="padding-bottom: 0;"><i class="far fa-file-alt"></i>&nbsp;Highlights</h2>
+				<!-- <h1 class="content__sub-title" style="padding-bottom: 0;"><i class="far fa-file-alt"></i>&nbsp;Highlights</h1>
 				
 				{% for high in trek.highlights %}
 			  		
@@ -193,7 +193,7 @@ tags: "Everest Base Camp Trek, Annapurna Circuit Trek, Annapurna Base Camp Trek,
 				<br />
 				<br />
 
-				<h2 class="content__sub-title" style="padding-bottom: 0;"><i class="far fa-file-alt"></i>&nbsp;The Complete Guide to {{ trek.name }}</h2>
+				<h1 class="content__sub-title" style="padding-bottom: 0;"><i class="far fa-file-alt"></i>&nbsp;The Complete Guide to {{ trek.name }}</h1>
 				{% for overview in trek.overview %}
 					<p class="content--detail">
 						{{ overview.content }}
@@ -207,15 +207,15 @@ tags: "Everest Base Camp Trek, Annapurna Circuit Trek, Annapurna Base Camp Trek,
 
 			<!-- ITINERARY -->
 			<div class="trek--section" style="text-align: left;">
-				<h2 class="content__sub-title" style="padding-bottom: 0;"><i class="fas fa-map-marked-alt"></i>&nbsp;Itinerary</h2>
+				<h1 class="content__sub-title" style="padding-bottom: 0;"><i class="fas fa-map-marked-alt"></i>&nbsp;Itinerary</h1>
 
 				<ul class="trek-itinerary">
 
 					{% for i in trek.itinerary %}
 						<li>
-							<h3 class="itinerary-subtitle">
+							<h2 class="itinerary-subtitle">
 								{{ i.title }}
-							</h3>
+							</h2>
 							<p class="content--detail itinerary-detail">
 								{{ i.content }}
 							</p>
@@ -236,7 +236,7 @@ tags: "Everest Base Camp Trek, Annapurna Circuit Trek, Annapurna Base Camp Trek,
 			
 			
                 <div class="row row--padding-medium"style="text-align: left;">
-					<h2 class="content__sub-title">TREK GALLERY&nbsp;<i class="fas fa-camera"></i></h2>
+					<h1 class="content__sub-title">TREK GALLERY&nbsp;<i class="fas fa-camera"></i></h1>
 					<section class="img-gallery-magnific">
 
 					{% for i in (1..10) %}
@@ -258,14 +258,14 @@ tags: "Everest Base Camp Trek, Annapurna Circuit Trek, Annapurna Base Camp Trek,
 	
 					<!-- MAP -->
                     <div class="trek--section" style="text-align: left;">
-                        <h2 class="content__sub-title" style="padding-bottom: 0;"><i class="fas fa-tasks"></i>&nbsp;Map</h2>
+                        <h1 class="content__sub-title" style="padding-bottom: 0;"><i class="fas fa-tasks"></i>&nbsp;Map</h1>
                          {{ trek.image }}	
                     </div>
     
     
                     <!-- What We Provide -->
                     <div class="trek--section" style="text-align: left;">
-                        <h2 class="content__sub-title" style="padding-bottom: 0;"><i class="fas fa-tasks"></i>&nbsp;What's Included</h2>
+                        <h1 class="content__sub-title" style="padding-bottom: 0;"><i class="fas fa-tasks"></i>&nbsp;What's Included</h1>
                         <p class="content__list-item"><i class="fas fa-check-circle"></i>&nbsp;&nbsp; ACCOMMODATION IN KATHMANDU : sharing a twin bedroom at the hotel (3 Star category) in Kathmandu on a bed & breakfast basis  	<br /></p>
                         <p class="content__list-item"><i class="fas fa-check-circle"></i>&nbsp;&nbsp; AIRPORT PICK-UP & DROP : Airport - Hotel transfer – Airport (Pick Up and Drop).   	<br /></p>
                         <p class="content__list-item"><i class="fas fa-check-circle"></i>&nbsp;&nbsp; WELCOME DINNER : One Welcome Dinner in a tourist standard restaurant in Kathmandu with Office’s Staff.   	<br /></p>
@@ -288,7 +288,7 @@ tags: "Everest Base Camp Trek, Annapurna Circuit Trek, Annapurna Base Camp Trek,
     
                     <!-- What We Don't Provide -->
                     <div class="trek--section" style="text-align: left;">
-                        <h2 class="content__sub-title" style="padding-bottom: 0;"><i class="fas fa-times"></i>&nbsp;What's Not Included</h2>
+                        <h1 class="content__sub-title" style="padding-bottom: 0;"><i class="fas fa-times"></i>&nbsp;What's Not Included</h1>
                         <p class="content__list-item"><i class="fas fa-times-circle"></i>&nbsp;&nbsp;NEPAL VISA FEES : Nepali Visa fee is US$ 60 per person for 30 days (to be applied for 60 days (USD$ 120).<br /></p>
                         <p class="content__list-item"><i class="fas fa-times-circle"></i>&nbsp;&nbsp;LUNCH & DINNER :  Lunch & dinner during the stay in Kathmandu (also in case of early return from Trekking than the scheduled itinerary). <br /></p>
                         <p class="content__list-item"><i class="fas fa-times-circle"></i>&nbsp;&nbsp;EXTRA NIGHTS IN KATHMANDU :  Extra nights’ accommodation in Kathmandu. In case of early arrival or late departure, early return from Trekking (due to any reason) than the scheduled itinerary. <br /></p>
@@ -308,7 +308,7 @@ tags: "Everest Base Camp Trek, Annapurna Circuit Trek, Annapurna Base Camp Trek,
 
             <!-- Things To Pack -->
             <!-- <div class="trek--section list-light" style="text-align: left;">
-                <h2 class="content__sub-title" style="padding-bottom: 0;"><i class="fas fa-suitcase"></i>&nbsp;Things To Pack</h2>
+                <h1 class="content__sub-title" style="padding-bottom: 0;"><i class="fas fa-suitcase"></i>&nbsp;Things To Pack</h1>
 
                 <p class="content__list-item"><i class="fas fa-angle-right"></i>&nbsp;&nbsp;<span style="font-weight: bold;"> </span>Swimsuit or shorts<br /></p>
                 <p class="content__list-item"><i class="fas fa-angle-right"></i>&nbsp;&nbsp;<span style="font-weight: bold;"> </span>Extra T-shirts<br /></p>
@@ -326,7 +326,7 @@ tags: "Everest Base Camp Trek, Annapurna Circuit Trek, Annapurna Base Camp Trek,
 
 		<!-- Mandatory Documents -->
 		<div class="trek--section" style="text-align: left;">
-			<h2 class="content__sub-title" style="padding-bottom: 0;"><i class="far fa-file-alt"></i>&nbsp;Mandatory Documents</h2>
+			<h1 class="content__sub-title" style="padding-bottom: 0;"><i class="far fa-file-alt"></i>&nbsp;Mandatory Documents</h1>
 			<p class="content__list-item"><i class="far fa-list-alt"></i>&nbsp;&nbsp;Identification document<br /></p>
 			<!-- <p class="content__list-item"><i class="far fa-list-alt"></i>&nbsp;&nbsp;Driving Licence<br /></p> -->
 			<!-- <p class="content__list-item"><i class="far fa-list-alt"></i>&nbsp;&nbsp;Medical Certificate -->
@@ -337,7 +337,7 @@ tags: "Everest Base Camp Trek, Annapurna Circuit Trek, Annapurna Base Camp Trek,
 
         <!-- Cancellation Policy -->
         <div class="trek--section" style="text-align: left;">
-            <h2 class="content__sub-title" style="padding-bottom: 0;"><i class="far fa-file-alt"></i>&nbsp;Cancellation Policy</h2>
+            <h1 class="content__sub-title" style="padding-bottom: 0;"><i class="far fa-file-alt"></i>&nbsp;Cancellation Policy</h1>
             <p class="content__list-item"><i class="far fa-list-alt"></i>&nbsp;&nbsp;More than 30-days prior to departure - 50% refund.<br /></p>
             <p class="content__list-item"><i class="far fa-list-alt"></i>&nbsp;&nbsp;In Between 15-30-days prior to departure - 25% refund.<br /></p>
             <p class="content__list-item"><i class="far fa-list-alt"></i>&nbsp;&nbsp;Less than 15-days prior to departure - No Refund.<br /></p>
@@ -347,7 +347,7 @@ tags: "Everest Base Camp Trek, Annapurna Circuit Trek, Annapurna Base Camp Trek,
 		
 		<!-- Frequently Asked question-->
         <div class="trek--section list-light" style="text-align: left;">
-            <h2 class="content__sub-title" style="padding-bottom: 0;"><i class="fa fa-question-circle"></i>&nbsp;Frequently Asked question</h2>
+            <h1 class="content__sub-title" style="padding-bottom: 0;"><i class="fa fa-question-circle"></i>&nbsp;Frequently Asked question</h1>
 
         <!-- <div id='content' class="row row--padding-medium"> -->
 
@@ -453,7 +453,7 @@ tags: "Everest Base Camp Trek, Annapurna Circuit Trek, Annapurna Base Camp Trek,
 
     <!-- Mandatory Documents -->
     <!-- <div class="trek--section" style="text-align: left;">
-        <h2 class="content__sub-title" style="padding-bottom: 0;"><i class="far fa-file-alt"></i>&nbsp;Mandatory Documents</h2>
+        <h1 class="content__sub-title" style="padding-bottom: 0;"><i class="far fa-file-alt"></i>&nbsp;Mandatory Documents</h1>
         <p class="content__list-item"><i class="far fa-list-alt"></i>&nbsp;&nbsp;Identification document<br /></p>
         <p class="content__list-item"><i class="far fa-list-alt"></i>&nbsp;&nbsp;Trek Registration Form<br /></p>
         
@@ -479,7 +479,7 @@ tags: "Everest Base Camp Trek, Annapurna Circuit Trek, Annapurna Base Camp Trek,
     <!-- </p> -->
 				<!-- Mandatory Documents -->
 				<!-- <div class="trek--section" style="text-align: left;">
-					<h2 class="content__sub-title" style="padding-bottom: 0;"><i class="far fa-file-alt"></i>&nbsp;Mandatory Documents</h2>
+					<h1 class="content__sub-title" style="padding-bottom: 0;"><i class="far fa-file-alt"></i>&nbsp;Mandatory Documents</h1>
 					<p class="content__list-item"><i class="far fa-list-alt"></i>&nbsp;&nbsp;Identification document<br /></p>
 					<p class="content__list-item"><i class="far fa-list-alt"></i>&nbsp;&nbsp;Trek Registration Form<br /></p>
 					
@@ -602,7 +602,7 @@ tags: "Everest Base Camp Trek, Annapurna Circuit Trek, Annapurna Base Camp Trek,
 						
 							<form autocomplete="off" action="https://formspree.io/thetrippyfrog@gmail.com" method="POST" name="contact_form"  data-aos="fade-in">
 								<div class="text" style="color: #333 !important;">
-									<h2>{{ page.title }}</h2>
+									<h1>{{ page.title }}</h1>
 									<p>Thank you for your interest, please complete the form below and we will be back to you as soon as possible..</p>
 									
 									
@@ -673,7 +673,7 @@ tags: "Everest Base Camp Trek, Annapurna Circuit Trek, Annapurna Base Camp Trek,
 
 <!-- {% if page.disableRelTrek != 'yes]' %}
 <div class="row content">
-	<h2 class="content__sub-title content__title-white no-underline" style="margin-bottom: 0; color: #333;">Related Treks</h2>
+	<h1 class="content__sub-title content__title-white no-underline" style="margin-bottom: 0; color: #333;">Related Treks</h1>
 
 	<div class="slider-wrapper trek" style="">
 	  <button class="slide-center-prev"><span><i class="fas fa-chevron-left"></i></span></button>
@@ -704,7 +704,7 @@ tags: "Everest Base Camp Trek, Annapurna Circuit Trek, Annapurna Base Camp Trek,
 								<span class="meta-type"><i class="fa fa-tachometer-alt"></i> Grade</span>
 							</div>
 						</div>
-						<h2 class="trek-slide--title"> {{ trek.title }}</h2>
+						<h1 class="trek-slide--title"> {{ trek.title }}</h1>
 					</div>
 					</a>
 				</div>
