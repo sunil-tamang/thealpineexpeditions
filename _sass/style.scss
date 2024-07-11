@@ -3304,9 +3304,10 @@ p.content__pg:not(:last-child){
         font:600 2em 'ANTON', sans-serif;
      }
     .text p{
-	    font:300 1em 'ANTON', sans-serif;
-	    letter-spacing: 1px;
-	    text-transform: lowercase;
+	    // font:300 1em 'ANTON', sans-serif;
+        letter-spacing: 1px;
+        text-transform: lowercase;
+        margin-top: 1em;
     }
     /*
     @media screen and (max-width:50em) and (min-width:48em){ */
