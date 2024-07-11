@@ -28,7 +28,7 @@ trishuli-river-rafting:
     video: "<iframe width='100%' height='400' src='https://www.youtube.com/embed/ZHCL_qkrCGE' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
     
 
-    download: "//assets/docs/manaslu.pdf"
+    # download: "//assets/docs/manaslu.pdf"
     
     image: "<img class='map1'>"
 
@@ -135,7 +135,7 @@ bhote-koshi-river-rafting:
     video: "<iframe width='100%' height='400' src='https://www.youtube.com/embed/ZHCL_qkrCGE' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
     
 
-    download: "//assets/docs/manaslu.pdf"
+    # download: "//assets/docs/manaslu.pdf"
     
     image: "<img class='map1'>"
 
@@ -201,7 +201,7 @@ karnali-river-rafting:
     video: "<iframe width='100%' height='400' src='https://www.youtube.com/embed/ZHCL_qkrCGE' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
     
 
-    download: "//assets/docs/karnali-river-rafting.pdf"
+    # download: "//assets/docs/karnali-river-rafting.pdf"
     
     image: "<img class='map1'>"
 
@@ -270,7 +270,7 @@ kali-gandaki-river-rafting:
     video: "<iframe width='100%' height='400' src='https://www.youtube.com/embed/ZHCL_qkrCGE' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
     
 
-    download: "//assets/docs/manaslu.pdf"
+    # download: "//assets/docs/manaslu.pdf"
     
     image: "<img class='map1'>"
 
@@ -330,7 +330,7 @@ tamur-river-rafting:
     video: "<iframe width='100%' height='400' src='https://www.youtube.com/embed/ZHCL_qkrCGE' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
     
 
-    download: "//assets/docs/manaslu.pdf"
+    # download: "//assets/docs/manaslu.pdf"
     
     image: "<img class='map1'>"
 
@@ -409,7 +409,7 @@ seti-river-rafting:
 
     video: "<iframe width='100%' height='400' src='https://www.youtube.com/embed/ZHCL_qkrCGE' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
 
-    download: "//assets/docs/seti-river-rafting.pdf"
+    # download: "//assets/docs/seti-river-rafting.pdf"
     
     image: "<img class='map1'>"
 
@@ -475,7 +475,7 @@ marshyangdi-river-rafting:
     video: "<iframe width='100%' height='400' src='https://www.youtube.com/embed/ZHCL_qkrCGE' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
     
 
-    download: "//assets/docs/marshyangdi-river-rafting.pdf"
+    # download: "//assets/docs/marshyangdi-river-rafting.pdf"
     
     image: "<img class='map1'>"
 
@@ -528,7 +528,7 @@ bheri-river-rafting:
     video: "<iframe width='100%' height='400' src='https://www.youtube.com/embed/ZHCL_qkrCGE' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
     
 
-    download: "//assets/docs/manaslu.pdf"
+    # download: "//assets/docs/manaslu.pdf"
     
     image: "<img class='map1'>"
 
@@ -579,7 +579,7 @@ sun-koshi-river-rafting:
     video: "<iframe width='100%' height='400' src='https://www.youtube.com/embed/ZHCL_qkrCGE' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
     
 
-    download: "//assets/docs/marshyangdi-river-rafting.pdf"
+    # download: "//assets/docs/marshyangdi-river-rafting.pdf"
     
     image: "<img class='map1'>"
 
@@ -655,7 +655,7 @@ arun-river-rafting:
     video: "<iframe width='100%' height='400' src='https://www.youtube.com/embed/ZHCL_qkrCGE' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
     
 
-    download: "//assets/docs/marshyangdi-river-rafting.pdf"
+    # download: "//assets/docs/marshyangdi-river-rafting.pdf"
     
     image: "<img class='map1'>"
 

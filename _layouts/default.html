@@ -34,7 +34,9 @@ layout: compress
 	{% if page.no-index %}
 	<meta name="robots" content="noindex, follow">
 	{% endif %}
-    <title>{% if page.title %}{{ page.title }}  | {{ site.name }} {% else %} {{ site.title }} {% endif %}</title>
+    <title>{% if page.title %}{{ page.title }}  {% else %} {{ site.title }} {% endif %}</title>
+    <!-- <title>{% if page.title %}{{ page.title }}  | {{ site.name }} {% else %} {{ site.title }} {% endif %}</title> -->
+
 
     <link rel="icon" href="{{ 'favicon.png' | relative_url }}" sizes="32x32">
     

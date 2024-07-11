@@ -29,7 +29,7 @@ mera-peak:
 
     video: "<iframe width='100%' height='400' src='https://www.youtube.com/embed/BRV7xvWwUnQ?start=1326' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
 
-    download: "//assets/docs/mera-peak.pdf"
+    # download: "//assets/docs/mera-peak.pdf"
 
     image: "<img class='map1'>"
 
@@ -115,7 +115,7 @@ island-peak:
 
     video: "<iframe width='100%' height='400' src='https://www.youtube.com/embed/BRV7xvWwUnQ?start=1326' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
 
-    download: "//assets/docs/island-peak.pdf"
+    # download: "//assets/docs/island-peak.pdf"
 
     image: "<img class='map1'>"
 
@@ -208,7 +208,7 @@ lobuche-peak:
 
     video: "<iframe width='100%' height='400' src='https://www.youtube.com/embed/BRV7xvWwUnQ?start=1326' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
 
-    download: "//assets/docs/lobuche-peak.pdf"
+    # download: "//assets/docs/lobuche-peak.pdf"
 
     image: "<img class='map1'>"
 
@@ -296,7 +296,7 @@ pisang-peak:
 
     video: "<iframe width='100%' height='400' src='https://www.youtube.com/embed/BRV7xvWwUnQ?start=1326' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
 
-    download: "//assets/docs/pisang-peak.pdf"
+    # download: "//assets/docs/pisang-peak.pdf"
 
     image: "<img class='map1'>"
 
@@ -389,7 +389,7 @@ tharpu-peak:
 
     video: "<iframe width='100%' height='400' src='https://www.youtube.com/embed/BRV7xvWwUnQ?start=1326' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
 
-    download: "//assets/docs/tharpu-chuli.pdf"
+    # download: "//assets/docs/tharpu-chuli.pdf"
 
     image: "<img class='map1'>"
 
