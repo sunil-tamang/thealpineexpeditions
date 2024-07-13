@@ -1047,6 +1047,22 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 
 			{
 				id : 62,
+				name : 'Ama Dablam Peak Climbing',
+				img : 'assets/css/images/peak-climbing/ama-dablam/banner.jpg',
+				price : 36000.00,
+				prodType : 'peak-climbing',
+				descShort : "Ama Dablam, often referred to as the 'Matterhorn of the Himalayas,' is one of Nepal's most iconic peaks, standing majestically at 6,812 meters (22,349 feet). Located in the Khumbu region, near Mount Everest, Ama Dablam is renowned for its stunning beauty and technical climbing challenges. The name Ama Dablam means 'Mother's Necklace,' and it reflects the mountain's unique appearance, with its long ridges on each side resembling the arms of a mother protecting her child, and a hanging glacier (the 'Dablam') that resembles a sacred pendant worn by Sherpa women.",
+				descPartOne : "Ama Dablam, often referred to as the 'Matterhorn of the Himalayas,' is one of Nepal's most iconic peaks, standing majestically at 6,812 meters (22,349 feet). Located in the Khumbu region, near Mount Everest, Ama Dablam is renowned for its stunning beauty and technical climbing challenges. The name Ama Dablam means 'Mother's Necklace,' and it reflects the mountain's unique appearance, with its long ridges on each side resembling the arms of a mother protecting her child, and a hanging glacier (the 'Dablam') that resembles a sacred pendant worn by Sherpa women.",
+				descPartTwo : "Ama Dablam, often referred to as the 'Matterhorn of the Himalayas,' is one of Nepal's most iconic peaks, standing majestically at 6,812 meters (22,349 feet). Located in the Khumbu region, near Mount Everest, Ama Dablam is renowned for its stunning beauty and technical climbing challenges. The name Ama Dablam means 'Mother's Necklace,' and it reflects the mountain's unique appearance, with its long ridges on each side resembling the arms of a mother protecting her child, and a hanging glacier (the 'Dablam') that resembles a sacred pendant worn by Sherpa women.",
+				stock : 10,
+				days : 12,
+				nights: 11,
+				fixedDate: '15 September',
+				urlName : 'ama-dablam'
+			},
+
+			{
+				id : 63,
 				name : 'Island Peak Climbing',
 				img : 'assets/css/images/peak-climbing/island-peak/banner.jpg',
 				price : 36000.00,
@@ -1062,7 +1078,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			},
 
 			{
-				id : 63,
+				id : 64,
 				name : 'Lobuche Peak Climbing',
 				img : 'assets/css/images/peak-climbing/lobuche-peak/banner.jpg',
 				price : 36000.00,
@@ -1078,7 +1094,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			},
 
 			{
-				id : 64,
+				id : 65,
 				name : 'Pisang Peak Climbing',
 				img : 'assets/css/images/peak-climbing/pisang-peak/banner.jpg',
 				price : 36000.00,
@@ -1094,7 +1110,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			},
 
 			{
-				id : 65,
+				id : 66,
 				name : 'Tharpu Chuli Peak Climbing',
 				img : 'assets/css/images/bike-tours/leh-manali/banner1.jpg',
 				price : 36000.00,
@@ -1110,7 +1126,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			},
 
 			{
-				id : 66,
+				id : 67,
 				name : 'Chulu East Peak Climbing',
 				img : 'assets/css/images/bike-tours/leh-manali/banner1.jpg',
 				price : 36000.00,
@@ -1126,7 +1142,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			},
 		
 			{
-				id : 67,
+				id : 68,
 				name : 'Chulu West Peak Climbing',
 				img : 'assets/css/images/bike-tours/leh-manali/banner1.jpg',
 				price : 36000.00,
@@ -1141,7 +1157,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				urlName : 'chulu-west-peak'
 			},
 			{
-				id : 68,
+				id : 69,
 				name : 'Naya Kanga Peak Climbing',
 				img : 'assets/css/images/bike-tours/leh-manali/banner1.jpg',
 				price : 36000.00,
@@ -1157,7 +1173,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			},
 
 			{
-				id : 69,
+				id : 70,
 				name : 'Yala Peak Climbing',
 				img : 'assets/css/images/bike-tours/leh-manali/banner1.jpg',
 				price : 36000.00,
@@ -1213,7 +1229,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 		}
 		else if(productName=='peak-climbing'){
 			lowerLimit = 62
-			upperLimit = 65
+			upperLimit = 66
 		}
 		else{
 			lowerLimit = 68
@@ -1346,7 +1362,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				}
 			}
 			// PeakClimbing
-			else if((upperLimit >= 62)&&(upperLimit<=65)){
+			else if((upperLimit >= 62)&&(upperLimit<=66)){
 				if(products[i].stock > 0){
 						content+= '<div class="row row--padding-medium">'
 						content+= '<div class="wrapper col-medium" data-aos="zoom-in" data-aos-easing="ease-in-out-quad">'

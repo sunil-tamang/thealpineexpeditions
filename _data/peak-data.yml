@@ -27,7 +27,7 @@ mera-peak:
 
     excerpt: "Mera Peak (6,654m) stands as the highest among Nepal's trekking peaks, offering adventurers a true mountaineering experience. With stunning panoramic views of surrounding peaks, it promises an unforgettable journey through the Hinku Valley."
 
-    video: "<iframe width='100%' height='400' src='https://www.youtube.com/embed/BRV7xvWwUnQ?start=1326' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+    video: "<iframe width='100%' class='vid'  height='400' src='https://www.youtube.com/embed/BRV7xvWwUnQ?start=1326' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
 
     # download: "//assets/docs/mera-peak.pdf"
 
@@ -84,6 +84,89 @@ mera-peak:
       - title: "Day 18 - Departure from Nepal to destination country"
         content: ""
 
+ama-dablam:
+    name: "Ama Dablam Expedition"
+    days: "30"
+    nights: "29"
+    startPoint: "Kathmandu"
+    endPoint: "Kathmandu"
+    distance: "Varies"
+
+    difficulty: "Extreme"
+    altitude: "6,812m / 22,349ft"
+    skill: "Professional"
+    grade: "Technical"
+
+    walking: "5-8 hours"
+    accommodation: "Hotel + Lodge + Camping"
+
+    groupSize: "2-10 pax"
+    season: "Sep-Dec | Mar-May"
+    region: "Khumbu Region"
+
+    popular: "Y"
+    price: "4000"
+
+    bookLink: "https://www.instamojo.com/thetrippyfrog/ama-dablam-expedition/"
+
+    description: "Ama Dablam, standing at 6,812 meters, is one of Nepal's most iconic and beautiful peaks, often called the 'Matterhorn of the Himalayas.' Located in the Khumbu region near Everest, Ama Dablam offers a blend of high-altitude experience and technical rock, snow, and ice climbing. The standard South-West Ridge route, first ascended in 1961, is the most popular and requires excellent physical conditioning and technical skills. This expedition not only presents a climbing challenge but also offers cultural immersion as trekkers pass through picturesque Sherpa villages, ancient monasteries, and lush rhododendron forests. The panoramic views from the summit include Everest, Lhotse, and Makalu, making this a truly unforgettable adventure."
+
+    excerpt: "Ama Dablam, at 6,812 meters, is an iconic Himalayan peak offering a challenging and rewarding climbing experience. This expedition provides both technical climbing and cultural immersion in the Khumbu region."
+
+    video: "<iframe width='100%' class='vid'  height='400' src='https://www.youtube.com/embed/example_video' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+
+    download: "//assets/docs/ama-dablam.pdf"
+
+    image: "<img class='map1'>"
+
+    highlights: 
+      - content: "Stunning peak known as the 'Matterhorn of the Himalayas'"
+      - content: "Technical climbing on rock, snow, and ice"
+      - content: "Scenic trekking through Sherpa villages and rhododendron forests"
+      - content: "Panoramic views of Everest, Lhotse, and Makalu"
+      - content: "Expert guides ensuring safety and comfort throughout the expedition"
+      - content: "Cultural immersion in the Khumbu region with visits to ancient monasteries"
+
+    overview:
+      - content: "Ama Dablam, standing at 6,812 meters, is one of Nepal's most iconic peaks, known for its stunning beauty and technical climbing challenges."
+      - content: "The standard South-West Ridge route offers a combination of rock, snow, and ice climbing, requiring excellent physical conditioning and technical skills."
+      - content: "This expedition not only provides a significant climbing achievement but also cultural immersion, as the trek to Ama Dablam Base Camp passes through picturesque Sherpa villages, ancient monasteries, and lush rhododendron forests."
+      - content: "From the summit, climbers enjoy breathtaking panoramic views of Everest, Lhotse, Makalu, and the surrounding Himalayan peaks, making this a truly unforgettable adventure."
+
+    itinerary:
+      - title: "Day 1 - Pick up at the airport and transfer to Hotel"
+        content: ""
+      - title: "Day 2 - Guided tour around Kathmandu valley. Prepare for the expedition"
+        content: ""
+      - title: "Day 3 - Fly to Lukla and trek to Phakding (2,610m)"
+        content: ""
+      - title: "Day 4 - Trek to Namche Bazaar (3,440m)"
+        content: ""
+      - title: "Day 5 - Acclimatization day at Namche Bazaar, explore the local area"
+        content: ""
+      - title: "Day 6 - Trek to Tengboche (3,860m)"
+        content: ""
+      - title: "Day 7 - Trek to Dingboche (4,410m)"
+        content: ""
+      - title: "Day 8 - Acclimatization day at Dingboche"
+        content: ""
+      - title: "Day 9 - Trek to Ama Dablam Base Camp (4,570m)"
+        content: ""
+      - title: "Day 10-24 - Climbing period for Ama Dablam (6,812m)"
+        content: ""
+      - title: "Day 25 - Return to Pangboche (3,985m)"
+        content: ""
+      - title: "Day 26 - Trek to Namche Bazaar (3,440m)"
+        content: ""
+      - title: "Day 27 - Trek to Lukla (2,860m)"
+        content: ""
+      - title: "Day 28 - Fly back to Kathmandu"
+        content: ""
+      - title: "Day 29 - Leisure in Kathmandu"
+        content: ""
+      - title: "Day 30 - Departure from Nepal to destination country"
+        content: ""
+
 island-peak:
     name: "Island Peak Climbing"
     days: "19"
@@ -113,7 +196,7 @@ island-peak:
 
     excerpt: "Island Peak, also known as Imja Tse, is a popular trekking peak in the Khumbu region. Named in 1951 by Eric Shipton's team, it was first summited by a Swiss team in 1956 as training for Everest and Lhotse. Offering stunning views and an exhilarating climbing experience, it remains a top choice for adventurers."
 
-    video: "<iframe width='100%' height='400' src='https://www.youtube.com/embed/BRV7xvWwUnQ?start=1326' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+    video: "<iframe width='100%' class='vid'  height='400' src='https://www.youtube.com/embed/BRV7xvWwUnQ?start=1326' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
 
     # download: "//assets/docs/island-peak.pdf"
 
@@ -206,7 +289,7 @@ lobuche-peak:
 
     excerpt: "Lobuche East Peak (6,119m) is a challenging climb in the Khumbu region of Nepal, requiring professional mountaineering skills. The ascent involves steep rocky terraces, snow slopes, and a sharp snow ridge leading to a stunning summit view of surrounding peaks and the Rongbuk side of Tibet."
 
-    video: "<iframe width='100%' height='400' src='https://www.youtube.com/embed/BRV7xvWwUnQ?start=1326' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+    video: "<iframe width='100%' class='vid'  height='400' src='https://www.youtube.com/embed/BRV7xvWwUnQ?start=1326' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
 
     # download: "//assets/docs/lobuche-peak.pdf"
 
@@ -294,7 +377,7 @@ pisang-peak:
 
     excerpt: "Pisang Peak (6,091m) offers climbers a thrilling ascent with stunning views of the Annapurna range. Ideal for intermediate mountaineers, this trek combines challenging trails and breathtaking scenery in the heart of Nepal."
 
-    video: "<iframe width='100%' height='400' src='https://www.youtube.com/embed/BRV7xvWwUnQ?start=1326' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+    video: "<iframe width='100%' class='vid'  height='400' src='https://www.youtube.com/embed/BRV7xvWwUnQ?start=1326' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
 
     # download: "//assets/docs/pisang-peak.pdf"
 
@@ -387,7 +470,7 @@ tharpu-peak:
 
     excerpt: "Tharpu Chuli (Tent Peak) offers climbers an accessible ascent with breathtaking views of the Annapurna massif. Ideal for intermediate mountaineers, this trek combines challenging trails and stunning scenery in the heart of Nepal."
 
-    video: "<iframe width='100%' height='400' src='https://www.youtube.com/embed/BRV7xvWwUnQ?start=1326' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+    video: "<iframe width='100%' class='vid'  height='400' src='https://www.youtube.com/embed/BRV7xvWwUnQ?start=1326' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
 
     # download: "//assets/docs/tharpu-chuli.pdf"
 

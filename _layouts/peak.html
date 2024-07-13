@@ -238,7 +238,7 @@ tags: "Everest Base Camp Trek, Annapurna Circuit Trek, Annapurna Base Camp Trek,
 					<h1 class="content__sub-title"><i class="fas fa-camera"></i>&nbsp;GALLERY</h1>
 					<section class="img-gallery-magnific">
 
-					{% for i in (1..6) %}
+					{% for i in (1..10) %}
 						{% assign subPath = page.title | remove: "Trek" | slugify | append: "/" %}
 						{% assign path = 'assets/css/images/peak-climbing/' | append: subPath | relative_url %}
 						<div class="magnific-img">
