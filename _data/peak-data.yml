@@ -31,7 +31,7 @@ mera-peak:
 
     # download: "//assets/docs/mera-peak.pdf"
 
-    image: "<img class='map1'>"
+    # image: "<img class='map1'>"
 
     highlights: 
       - content: "Dramatic route offering a true mountaineering experience"
@@ -117,7 +117,7 @@ ama-dablam:
 
     download: "//assets/docs/ama-dablam.pdf"
 
-    image: "<img class='map1'>"
+    # image: "<img class='map1'>"
 
     highlights: 
       - content: "Stunning peak known as the 'Matterhorn of the Himalayas'"
@@ -200,7 +200,7 @@ island-peak:
 
     # download: "//assets/docs/island-peak.pdf"
 
-    image: "<img class='map1'>"
+    # image: "<img class='map1'>"
 
     highlights: 
       - content: "Staying in teahouses and guesthouses run by local families"
@@ -293,7 +293,7 @@ lobuche-peak:
 
     # download: "//assets/docs/lobuche-peak.pdf"
 
-    image: "<img class='map1'>"
+    # image: "<img class='map1'>"
 
     highlights: 
       - content: "Navigating steep rocky terraces and snow slopes"
@@ -381,7 +381,7 @@ pisang-peak:
 
     # download: "//assets/docs/pisang-peak.pdf"
 
-    image: "<img class='map1'>"
+    # image: "<img class='map1'>"
 
     highlights: 
       - content: "Navigating rocky trails and steep snow slopes"
@@ -474,7 +474,7 @@ tharpu-peak:
 
     # download: "//assets/docs/tharpu-chuli.pdf"
 
-    image: "<img class='map1'>"
+    # image: "<img class='map1'>"
 
     highlights: 
       - content: "Short walk through the stunning route to Annapurna Base Camp"

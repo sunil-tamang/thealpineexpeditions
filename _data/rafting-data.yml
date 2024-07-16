@@ -30,7 +30,7 @@ trishuli-river-rafting:
 
     # download: "//assets/docs/manaslu.pdf"
     
-    image: "<img class='map1'>"
+    # image: "<img class='map1'>"
 
     photoo: "assets/css/images/bg/rafting_booner.jpg"
 
@@ -137,7 +137,7 @@ bhote-koshi-river-rafting:
 
     # download: "//assets/docs/manaslu.pdf"
     
-    image: "<img class='map1'>"
+    # image: "<img class='map1'>"
 
 
     lights:
@@ -203,7 +203,7 @@ karnali-river-rafting:
 
     # download: "//assets/docs/karnali-river-rafting.pdf"
     
-    image: "<img class='map1'>"
+    # image: "<img class='map1'>"
 
 
     lights:
@@ -272,7 +272,7 @@ kali-gandaki-river-rafting:
 
     # download: "//assets/docs/manaslu.pdf"
     
-    image: "<img class='map1'>"
+    # image: "<img class='map1'>"
 
     lights:
       - list: "Thrilling rapids with varying difficulty levels to challenge all skill levels"
@@ -332,7 +332,7 @@ tamur-river-rafting:
 
     # download: "//assets/docs/manaslu.pdf"
     
-    image: "<img class='map1'>"
+    # image: "<img class='map1'>"
 
     lights:
 
@@ -411,7 +411,7 @@ seti-river-rafting:
 
     # download: "//assets/docs/seti-river-rafting.pdf"
     
-    image: "<img class='map1'>"
+    # image: "<img class='map1'>"
 
 
     lights:
@@ -477,7 +477,7 @@ marshyangdi-river-rafting:
 
     # download: "//assets/docs/marshyangdi-river-rafting.pdf"
     
-    image: "<img class='map1'>"
+    # image: "<img class='map1'>"
 
     lights:
       - list: "Non-stop adrenaline rush of class IV - V rapids in just 90 minutes"
@@ -530,7 +530,7 @@ bheri-river-rafting:
 
     # download: "//assets/docs/manaslu.pdf"
     
-    image: "<img class='map1'>"
+    # image: "<img class='map1'>"
 
 
     overview:
@@ -581,7 +581,7 @@ sun-koshi-river-rafting:
 
     # download: "//assets/docs/marshyangdi-river-rafting.pdf"
     
-    image: "<img class='map1'>"
+    # image: "<img class='map1'>"
 
     lights:
     - list: "Ride thrilling rapids with names like 'Meat Grinder' and 'Jaws' "
@@ -657,7 +657,7 @@ arun-river-rafting:
 
     # download: "//assets/docs/marshyangdi-river-rafting.pdf"
     
-    image: "<img class='map1'>"
+    # image: "<img class='map1'>"
 
     lights:
       - list: "Non-stop adrenaline rush of class IV - V rapids in just 90 minutes"

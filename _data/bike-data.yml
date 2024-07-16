@@ -87,7 +87,7 @@ kathmandu-valley-bike-tour:
 
     # download: "//assets/docs/manaslu.pdf"
     
-    image: "<img class='map1'>"
+    # image: "<img class='map1'>"
 
     highlights: 
 
@@ -175,7 +175,7 @@ annapurna-circuit-mtb-tour:
 
     # download: "//assets/docs/annapurna-circuit-mtb.pdf"
     
-    image: "<img class='map1'>"
+    # image: "<img class='map1'>"
 
 
     highlights: 
@@ -277,7 +277,7 @@ manaslu-circuit-mtb-tour:
 
     # download: "//assets/docs/manaslu.pdf"
     
-    image: "<img class='map1'>"
+    # image: "<img class='map1'>"
 
     highlights: 
     - content : "Staying in teahouses and guesthouses run by local families"
@@ -452,7 +452,7 @@ nagarkot-mtb-tour:
 
     # download: "//assets/docs/manaslu.pdf"
     
-    image: "<img class='map1'>"
+    # image: "<img class='map1'>"
 
 
     overview:
@@ -497,7 +497,7 @@ shivapuri-mtb-tour:
 
     # download: "//assets/docs/manaslu.pdf"
     
-    image: "<img class='map1'>"
+    # image: "<img class='map1'>"
 
 
     overview:
@@ -542,7 +542,7 @@ chitwan-safari-mtb-tour:
 
     # download: "//assets/docs/manaslu.pdf"
     
-    image: "<img class='map1'>"
+    # image: "<img class='map1'>"
 
 
     overview:

@@ -11,41 +11,6 @@ keywords: "trekking in nepal, nepal trekking, himalayan treks, alpine expedition
 
 ---
 
-
-<!-- <script type="application/ld+json">
-	{
-	  "@context": "https://schema.org",
-	  "@type": "TouristInformationCenter",
-	  "name": "The Alpine Expeditions",
-	  "image": "{{ site.url }}/assets/images/{{ page.custom_bg | default: site.img }}",
-	  "url": "{{ site.url }}{{ page.url }}",
-	  "telephone": "+977-9863683851",
-	  "priceRange": "$1000 - $10000",
-	  "address": {
-		"@type": "PostalAddress",
-		"streetAddress": "Makalbari",
-		"addressLocality": "Kathmandu",
-		"postalCode": "44600",
-		"addressCountry": "NP"
-	  },
-	  "geo": {
-		"@type": "GeoCoordinates",
-		"latitude": 27.7172,
-		"longitude": 85.3240
-	  },
-	  "hasMap": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13525.534262300927!2d85.3240!3d27.7172!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1c9c798dbeb6e498!2sTHE%20ALPINE%20EXPEDITIONS!5e0!3m2!1sen!2snp!4v1579107517725!5m2!1sen!2snp",
-	  "sameAs": [
-		"{{ site.url }}",
-		"https://www.facebook.com/thealpineexpeditions/",
-		"https://twitter.com/thealpineexpeditions",
-		"https://www.instagram.com/thealpineexpeditions/",
-		"https://www.linkedin.com/in/thealpineexpeditions/",
-		"https://www.pinterest.com/thealpineexpeditions/",
-		"{{ site.url }}/"
-	  ]
-	}
-	</script> -->
-	
 	<script type="application/ld+json">
 		{
 		  "@context": "https://schema.org",
@@ -97,8 +62,8 @@ keywords: "trekking in nepal, nepal trekking, himalayan treks, alpine expedition
 
 
 
-
-<!-- <div class="video-banner">
+<!-- 
+<div class="video-banner">
 	<video autoplay muted loop id="video-background">
 	  <source src="/assets/css/video/banner.mp4" type="video/mp4">
 	</video>
@@ -118,8 +83,28 @@ keywords: "trekking in nepal, nepal trekking, himalayan treks, alpine expedition
   </div> -->
 
 
+<div class="banner" style="background-image: url('assets/css/images/home.jpg');">
+	<span class="banner__overlay"></span>
+	<!-- <div class="banner_logo" style="position: absolute; left: 0; top:20%; width: 100%; text-align: center;">
+		<img class="banner_logo-img" src="{% link favicon.png%}" alt="The Trippy Frog Logo">
+	</div> -->
+	<div class="banner__tagline banner__home" style="opacity: 1;">
+		<p class="tagline" style="text-transform: none;"></p>
+		<br />
+		<p class="sub-tagline" style="display: inline;">
+			<!-- <span class="sub-tagline--part1">&nbsp;Travel More&nbsp;</span><span class="sub-tagline--part2">&nbsp;Live More&nbsp;</span><br /> -->
+		   <!-- <span class="sub-tagline--videoTrigger no-select" id="popupTrigger" data-src="https://www.youtube.com/embed/a6lQY393TNQ?rel=0&amp;showinfo=0;modestbranding=0">
+				<svg xmlns="http://www.w3.org/2000/svg" width="58" height="58" viewBox="0 0 48 48" fill="#fff"><path d="M24 4C12.95 4 4 12.95 4 24s8.95 20 20 20 20-8.95 20-20S35.05 4 24 4zm-4 29V15l12 9-12 9z"/></svg>
+			</span> -->
+		</p>
+	</div>
+	<span class="banner__skip">
+		<a class="banner__skip-trigger" href="#content"></a>
+	</span>
+</div>
+
 <!--- B-A-N-N-E-R -->
-<div class="slider-wrapper">
+<!-- <div class="slider-wrapper">
   <button class="slide-prev"><i class="fas fa-chevron-left"></i></button>
   <div class="slider bannerslider">
 
@@ -128,11 +113,11 @@ keywords: "trekking in nepal, nepal trekking, himalayan treks, alpine expedition
 		  <div class="slide-tagline">
 			  <span class="tagline-text">
 			   
-				  <!-- <h2 class="headline">Trek in the Himalayas</h2>
+				  <h2 class="headline">Trek in the Himalayas</h2>
 				  <p class="headline--detail"></p><br />
 				  <a rel='canonical' href="{% link _activities/trekking.html %}">
 					<button class="book_btn">Explore Trekking Routes</button>
-				  </a> -->
+				  </a>
 			  </span>
 		  
 			</div>
@@ -143,11 +128,11 @@ keywords: "trekking in nepal, nepal trekking, himalayan treks, alpine expedition
 		
 		  <div class="slide-tagline">
 			  <span class="tagline-text">
-				  <!-- <h2 class="headline">Mountain Bike Tours</h2>
+				  <h2 class="headline">Mountain Bike Tours</h2>
 				  <p class="headline--detail"></p><br />
 					<a rel='canonical' href="{% link _activities/bike-tours.html %}">
 						<button class="book_btn">Explore Mountain Bike Tours</button>
-					</a> -->
+					</a>
 			  </span>
 		  
 			</div>
@@ -159,11 +144,11 @@ keywords: "trekking in nepal, nepal trekking, himalayan treks, alpine expedition
       <div class="slide banner-slide slide2">
 		<div class="slide-tagline">
 			<span class="tagline-text">
-				<!-- <h2 class="headline">White Water Rafting</h2>
+				<h2 class="headline">White Water Rafting</h2>
 				<p class="headline--detail"></p><br />
 					<a rel='canonical' href="{% link _activities/rafting.html %}">
 						<button class="book_btn">Explore White Water Rafting Tours</button>
-					</a> -->
+					</a>
 					
 			</span>
 		
@@ -181,7 +166,7 @@ keywords: "trekking in nepal, nepal trekking, himalayan treks, alpine expedition
 	<span class="banner__skip">
             <a class="skipToContent-trigger" href="#content" style="padding: 1em 1.08em; background: rgba(0,0,0,.4); color:#39ff41; border-radius: 360px;"><i class="fas fa-leaf" style="transform: rotate(135deg); font-size: 1em;"></i></a>
 	</span>
-</div>
+</div> -->
 
 
 
@@ -225,67 +210,67 @@ keywords: "trekking in nepal, nepal trekking, himalayan treks, alpine expedition
 	
 
 <!---------Why Us? -------->
-		<div
-			class="row row--padding-medium content"
-			style="padding-left:0; padding-right: 0; ">
+	<div
+		class="row row--padding-medium content"
+		style="padding-left:0; padding-right: 0; ">
 
-			<div id="container">
-				
-				<div id="hero">
-					<img src="/assets/css/images/why.jpg" alt="Hero Image">
-					<div id="overlay">
-						<h1>Embark on a journey to find your dream destination</h1>
-						<p>Where adventure and relaxation await, creating unforgettable memories along the way</p>
-					</div>
+		<div id="container">
+			
+			<div id="hero">
+				<img src="/assets/css/images/why.jpg" alt="Hero Image">
+				<div id="overlay">
+					<h1>Embark on a journey to find your dream destination</h1>
+					<p>Where adventure and relaxation await, creating unforgettable memories along the way</p>
 				</div>
-			
-				<section id="how-it-works">
-					<p>How it works</p>
-					<h1>One click for you</h1>
-					<ul>
-						<li>
-							<div class="icon">
-								<i class="fas fa-map-marker-alt"></i>
-							</div>
-							<div class="text">
-								<h3>Find your destination</h3>
-								<p>Embark on a journey to discover your dram destination where adventure and relaxation awaits</p>
-							</div>
-						</li>
-						<li>
-							<div class="icon">
-								<i class="fas fa-ticket-alt"></i>
-							</div>
-							<div class="text">
-								<h3>Book a ticket</h3>
-								<p>Ensure a smooth travel experience by booking tickets to your preferred destination via our booking platform</p>
-							</div>
-						</li>
-						<li>
-							<div class="icon">
-								<i class="fas fa-credit-card"></i>
-							</div>
-							<div class="text">
-								<h3>Make payment</h3>
-								<p>We offer a Variety of payment options to meet you preferences ans ensure a hassle free transaction process</p>
-							</div>
-						</li>
-						<li>
-							<div class="icon">
-								<i class="fas fa-passport"></i>
-							</div>
-							<div class="text">
-								<h3>Explore destination</h3>
-								<p>You'll be Immerse in captivating tapestry of sights, sounds and tastes, as you wind your way through the ancient streets</p>
-							</div>
-						</li>
-					</ul>
-				</section>
-				
 			</div>
-			
+		
+			<section id="how-it-works">
+				<p>How it works</p>
+				<h1>One click for you</h1>
+				<ul>
+					<li>
+						<div class="icon">
+							<i class="fas fa-map-marker-alt"></i>
+						</div>
+						<div class="text">
+							<h3>Find your destination</h3>
+							<p>Embark on a journey to discover your dram destination where adventure and relaxation awaits</p>
+						</div>
+					</li>
+					<li>
+						<div class="icon">
+							<i class="fas fa-ticket-alt"></i>
+						</div>
+						<div class="text">
+							<h3>Book a ticket</h3>
+							<p>Ensure a smooth travel experience by booking tickets to your preferred destination via our booking platform</p>
+						</div>
+					</li>
+					<li>
+						<div class="icon">
+							<i class="fas fa-credit-card"></i>
+						</div>
+						<div class="text">
+							<h3>Make payment</h3>
+							<p>We offer a Variety of payment options to meet you preferences ans ensure a hassle free transaction process</p>
+						</div>
+					</li>
+					<li>
+						<div class="icon">
+							<i class="fas fa-passport"></i>
+						</div>
+						<div class="text">
+							<h3>Explore destination</h3>
+							<p>You'll be Immerse in captivating tapestry of sights, sounds and tastes, as you wind your way through the ancient streets</p>
+						</div>
+					</li>
+				</ul>
+			</section>
 			
 		</div>
+		
+		
+	</div>
 
 
 
@@ -299,26 +284,8 @@ keywords: "trekking in nepal, nepal trekking, himalayan treks, alpine expedition
 	</div> -->
 
 
-<!-- 	
-    <div class="banner" style="background-image: url('assets/css/images/main_bg.jpg');">
-        <span class="banner__overlay"></span>
-		<div class="banner_logo" style="position: absolute; left: 0; top:20%; width: 100%; text-align: center;">
-			<img class="banner_logo-img" src="{% link favicon.png%}" alt="The Trippy Frog Logo">
-		</div>
-        <div class="banner__tagline banner__home" style="opacity: 1;">
-            <p class="tagline" style="text-transform: none;"></p>
-			<br />
-            <p class="sub-tagline" style="display: inline;">
-				<span class="sub-tagline--part1">&nbsp;Travel More&nbsp;</span><span class="sub-tagline--part2">&nbsp;Live More&nbsp;</span><br />
-               <span class="sub-tagline--videoTrigger no-select" id="popupTrigger" data-src="https://www.youtube.com/embed/a6lQY393TNQ?rel=0&amp;showinfo=0;modestbranding=0">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="58" height="58" viewBox="0 0 48 48" fill="#fff"><path d="M24 4C12.95 4 4 12.95 4 24s8.95 20 20 20 20-8.95 20-20S35.05 4 24 4zm-4 29V15l12 9-12 9z"/></svg>
-                </span>
-			</p>
-        </div>
-        <span class="banner__skip">
-            <a class="banner__skip-trigger" href="#content"></a>
-        </span>
-    </div> -->
+	
+
 
     <!----------------------P-O-P--U-P---Y-O-U-T-U-B-E---------------------->
 
@@ -851,6 +818,7 @@ keywords: "trekking in nepal, nepal trekking, himalayan treks, alpine expedition
 									<div class="blogpost-read">
 									<a href="{{post.url}}" style="">
 										<button class="book_btn more-trippy_btn">
+											Read More
 											<!-- <span class="trippy_btn-left"></span>READ -->
 											<!-- <span class="trippy_btn-right"></span> -->
 										</button>

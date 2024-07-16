@@ -193,7 +193,7 @@ tags: "Everest Base Camp Trek, Annapurna Circuit Trek, Annapurna Base Camp Trek,
 				<br />
 				<br />
 
-				<h1 class="content__sub-title" style="padding-bottom: 0;"><i class="far fa-file-alt"></i>&nbsp;The Complete Guide to {{ trek.name }}</h1>
+				<h1 class="content__sub-title" style="padding-bottom: 0;"><i class="far fa-file-alt"></i>&nbsp;Complete Guide to {{ trek.name }}</h1>
 				{% for overview in trek.overview %}
 					<p class="content--detail">
 						{{ overview.content }}
@@ -258,8 +258,8 @@ tags: "Everest Base Camp Trek, Annapurna Circuit Trek, Annapurna Base Camp Trek,
 	
 					<!-- MAP -->
                     <div class="trek--section" style="text-align: left;">
-                        <h1 class="content__sub-title" style="padding-bottom: 0;"><i class="fas fa-tasks"></i>&nbsp;Map</h1>
-                         {{ trek.image }}	
+                        <h1 class="content__sub-title" style="padding-bottom: 0;"><i class="fas fa-tasks"></i>&nbsp;{{ trek.name }} Map</h1>
+                       <img  class="map1" src="{{ trek.map }}" alt=""> 
                     </div>
     
     
@@ -345,111 +345,104 @@ tags: "Everest Base Camp Trek, Annapurna Circuit Trek, Annapurna Base Camp Trek,
         </div>
 			
 		
-		<!-- Frequently Asked question-->
-        <div class="trek--section list-light" style="text-align: left;">
-            <h1 class="content__sub-title" style="padding-bottom: 0;"><i class="fa fa-question-circle"></i>&nbsp;Frequently Asked question</h1>
+		<!-- Frequently Asked Questions -->
+		<div class="trek--section list-light" style="text-align: left;">
+			<h1 class="content__sub-title" style="padding-bottom: 0;">
+				<i class="fa fa-question-circle"></i>&nbsp;Frequently Asked Questions
+			</h1>
 
-        <!-- <div id='content' class="row row--padding-medium"> -->
+			<!-- Itinerary -->
+			<button class="accordion">
+				<h1 class="content__sub-title_faq">Can I Book on My Own?</h1>
+				<span class="accordion-sign"><span class="VLine"></span><span class="HLine"></span></span>
+			</button>
+			<div class="panel">
+				<div style="padding: 1em 0;">
+					<p>Absolutely! Whether you're a solo trekker or with a group, you can easily book your trek through our website or by contacting our Kathmandu office directly. We can even pair solo trekkers with groups, if desired.<br /></p>
+				</div>
+			</div>
 
-            <!--Itinerary-->
-            <button class="accordion">Can i Book on My Own ?
-                <span class="accordion-sign"><span class="VLine"></span><span class="HLine"></span></span>
-            </button>
-            <div class="panel">
-                <div style="padding: 1em 0;">
-                    <p> Absolutely! Whether you're a solo trekker or with a group, you can easily book your trek through our website or by contacting our Kathmandu office directly. We can even pair solo trekkers with groups, if desired.<br /></p>
+			<button class="accordion">
+				<h1 class="content__sub-title_faq">What Is Food Like At Trek?</h1>
+				<span class="accordion-sign"><span class="VLine"></span><span class="HLine"></span></span>
+			</button>
+			<div class="panel">
+				<div style="padding: 1em 0;">
+					<p>On our treks, you'll enjoy a blend of traditional Nepali meals like 'dal bhat' (lentil soup with rice) and other international cuisines. We ensure our food is nutritious and energy-packed for the trekking journey. Dietary restrictions can be accommodated with prior notice.<br /></p>
+				</div>
+			</div>
 
-                </div>
-            </div>
-            <button class="accordion">What Is Food Like At Trek ?
-                <span class="accordion-sign"><span class="VLine"></span><span class="HLine"></span></span>
-            </button>
-            <div class="panel">
-                <div style="padding: 1em 0;">
-                    <p> On our treks, you'll enjoy a blend of traditional Nepali meals like 'dal bhat' (lentil soup with rice) and other international cuisines. We ensure our food is nutritious and energy-packed for the trekking journey. Dietary restrictions can be accommodated with prior notice.<br /></p>
+			<button class="accordion">
+				<h1 class="content__sub-title_faq">Can I Store my Luggage Somewhere?</h1>
+				<span class="accordion-sign"><span class="VLine"></span><span class="HLine"></span></span>
+			</button>
+			<div class="panel">
+				<div style="padding: 1em 0;">
+					<p>Yes, we offer secure luggage storage at our office in Kathmandu. You can leave behind non-essential items and pick them up once you return from your trek.<br /></p>
+				</div>
+			</div>
 
-                </div>
-            </div>
-            <button class="accordion">Can I Store my Luggage Somewhere ?
-                <span class="accordion-sign"><span class="VLine"></span><span class="HLine"></span></span>
-            </button>
-            <div class="panel">
-                <div style="padding: 1em 0;">
-                    <p>  Yes, we offer secure luggage storage at our office in Kathmandu. You can leave behind non-essential items and pick them up once you return from your trek.<br /></p>
-                </div>
-            </div>
-           
-			<!-- <button class="accordion">What travel insuarance do you recommend ?
-                <span class="accordion-sign"><span class="VLine"></span><span class="HLine"></span></span>
-            </button>
-            <div class="panel">
-                <div style="padding: 1em 0;">
-                    <p>  We’ve teamed up with the guys at World Nomads to offer insurance designed for adventurous travellers across 140 countries that includes overseas medical,
-                         evacuation, baggage and a range of adventure sports and activities. To get yours sorted, click here. We suggest that you book travel insurance as soon as
-                         you book the trip, just to cover you for any last minute life changes. We know you’re an active lot and injuries do happen!<br /></p>
-                </div>
-            </div> -->
+			<button class="accordion">
+				<h1 class="content__sub-title_faq">Do I Need Trekking Permits for {{ trek.name }}?</h1>
+				<span class="accordion-sign"><span class="VLine"></span><span class="HLine"></span></span>
+			</button>
+			<div class="panel">
+				<div style="padding: 1em 0;">
+					<p>Yes, depending on your trek's region, you'll need permits like the TIMS (Trekkers' Information Management Systems) card and regional conservation or national park permits. Our team takes care of all the necessary paperwork and permits for you.<br /></p>
+				</div>
+			</div>
 
-			<button class="accordion">Do I need trekking permits in Nepal ?
-                <span class="accordion-sign"><span class="VLine"></span><span class="HLine"></span></span>
-            </button>
-            <div class="panel">
-                <div style="padding: 1em 0;">
-                    <p> Yes, depending on your trek's region, you'll need permits like the TIMS (Trekkers' Information Management Systems) card and regional conservation or national park permits. Our team takes care of all the necessary paperwork and permits for you. <br /></p>
-                </div>
-            </div>
+			<button class="accordion">
+				<h1 class="content__sub-title_faq">Is It Possible to Customize My Trek?</h1>
+				<span class="accordion-sign"><span class="VLine"></span><span class="HLine"></span></span>
+			</button>
+			<div class="panel">
+				<div style="padding: 1em 0;">
+					<p>Absolutely! We offer both fixed-departure and tailor-made treks. If you have specific preferences, routes, or places you'd like to visit, just let our team know, and we'll help design a trek that meets your desires.<br /></p>
+				</div>
+			</div>
 
+			<button class="accordion">
+				<h1 class="content__sub-title_faq">How Do I Deal with Altitude Sickness?</h1>
+				<span class="accordion-sign"><span class="VLine"></span><span class="HLine"></span></span>
+			</button>
+			<div class="panel">
+				<div style="padding: 1em 0;">
+					<p>Altitude sickness is a concern in the Himalayan treks. Our itineraries are designed to allow gradual acclimatization. It's essential to communicate any discomfort to our guides, who are trained to assist in such situations.<br /></p>
+				</div>
+			</div>
 
-			<button class="accordion">Is it possible to customize my trek ?
-                <span class="accordion-sign"><span class="VLine"></span><span class="HLine"></span></span>
-            </button>
-            <div class="panel">
-                <div style="padding: 1em 0;">
-                    <p> Absolutely! We offer both fixed-departure and tailor-made treks. If you have specific preferences, routes, or places you'd like to visit, just let our team know, and we'll help design a trek that meets your desires. <br /></p>
-                </div>
-            </div>
+			<button class="accordion">
+				<h1 class="content__sub-title_faq">Can I Rent Trekking Equipment in Nepal?</h1>
+				<span class="accordion-sign"><span class="VLine"></span><span class="HLine"></span></span>
+			</button>
+			<div class="panel">
+				<div style="padding: 1em 0;">
+					<p>Yes, Kathmandu offers several rental shops where you can rent or buy trekking gear. If you're missing something, it's likely you'll find it here. However, for personal comfort, we recommend bringing specialized items like hiking boots from home.<br /></p>
+				</div>
+			</div>
 
-			<button class="accordion">How do I deal with altitude sickness?
-                <span class="accordion-sign"><span class="VLine"></span><span class="HLine"></span></span>
-            </button>
-            <div class="panel">
-                <div style="padding: 1em 0;">
-                    <p> Altitude sickness is a concern in the Himalayan treks. Our itineraries are designed to allow gradual acclimatization. It's essential to communicate any discomfort to our guides, who are trained to assist in such situations.<br /></p>
-                </div>
-            </div>
+			<button class="accordion">
+				<h1 class="content__sub-title_faq">What Kind of Accommodation Can I Expect on {{ trek.name }}?</h1>
+				<span class="accordion-sign"><span class="VLine"></span><span class="HLine"></span></span>
+			</button>
+			<div class="panel">
+				<div style="padding: 1em 0;">
+					<p>Accommodation varies depending on the trek's route. In popular trails like the Everest Base Camp or Annapurna Circuit, you'll find well-maintained teahouses offering basic amenities. However, in remote areas, the facilities might be more basic. Camping may also be part of certain trekking routes.<br /></p>
+				</div>
+			</div>
 
-			<button class="accordion">Can I rent trekking equipment in Nepal?
-                <span class="accordion-sign"><span class="VLine"></span><span class="HLine"></span></span>
-            </button>
-            <div class="panel">
-                <div style="padding: 1em 0;">
-                    <p>  Yes, Kathmandu offers several rental shops where you can rent or buy trekking gear. If you're missing something, it's likely you'll find it here. However, for personal comfort, we recommend bringing specialized items like hiking boots from home.<br /></p>
-                </div>
-            </div>
-			
-			<button class="accordion">What kind of accommodation can I expect on the trek?
-                <span class="accordion-sign"><span class="VLine"></span><span class="HLine"></span></span>
-            </button>
-            <div class="panel">
-                <div style="padding: 1em 0;">
-                    <p> Accommodation varies depending on the trek's route. In popular trails like the Everest Base Camp or Annapurna Circuit, you'll find well-maintained teahouses offering basic amenities. However, in remote areas, the facilities might be more basic. Camping may also be part of certain trekking routes.<br /></p>
-                </div>
-            </div>
+			<button class="accordion">
+				<h1 class="content__sub-title_faq">How Are Emergency Situations Handled in Remote Areas?</h1>
+				<span class="accordion-sign"><span class="VLine"></span><span class="HLine"></span></span>
+			</button>
+			<div class="panel">
+				<div style="padding: 1em 0;">
+					<p>Our guides carry communication devices and have contacts with local agencies to ensure swift action during emergencies. In extreme cases, helicopter evacuations can be arranged, given that the trekker has suitable insurance coverage.<br /></p>
+				</div>
+			</div>
+		</div>
 
-			<button class="accordion">How are emergency situations handled, in remote areas?
-                <span class="accordion-sign"><span class="VLine"></span><span class="HLine"></span></span>
-            </button>
-            <div class="panel">
-                <div style="padding: 1em 0;">
-                    <p> Our guides carry communication devices and have contacts with local agencies to ensure swift action during emergencies. In extreme cases, helicopter evacuations can be arranged, given that the trekker has suitable insurance coverage.<br /></p>
-                </div>
-            </div>
-
-
-
-        <!-- </div> -->
-
-   		</div>
 
     <!-- Mandatory Documents -->
     <!-- <div class="trek--section" style="text-align: left;">
@@ -533,7 +526,7 @@ tags: "Everest Base Camp Trek, Annapurna Circuit Trek, Annapurna Base Camp Trek,
 
 				<div class="">
 					<p class="trek-overview">
-						<i class="fas fa-campground"></i>&nbsp;<span class="holo">Difficulty :</span>  {{ trek.dificulty }}
+						<i class="fas fa-campground"></i>&nbsp;<span class="holo">Difficulty :</span>  {{ trek.grade }}
 					</p>
 				</div>
 
