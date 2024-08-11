@@ -1,4 +1,19 @@
 # Climbing Guide 
+
+- name: Gelmo Sherpa
+  role: Climbing Guide
+  photos: "assets/css/images/team/2.jpg"
+  description: Gelmo Sherpa is a distinguished climber from Nepal, renowned for her remarkable achievements in the world of mountaineering. With a career spanning numerous peaks and mountain ranges, Gelmu has made her mark as one of the most accomplished climbers in the region. Her extensive experience and unwavering dedication have solidified her reputation as a leading guide and mountaineering expert.
+  mountains:
+    - name: Mera Peak
+      summited: 1
+      years: [2019]
+    - name: Ama Dablam
+      summited: 1
+      years: [2018]
+  slug: gelmu-sherpa
+
+
 - name: Gelu Sherpa
   role: Climbing Guide
   photos: "assets/css/images/team/01.jpg"
@@ -6,9 +21,9 @@
   email: "john.doe@email.com"
   facebook: "https://facebook.com/johndoe"
   instagram: "https://instagram.com/johndoe"
-  description: Gelu Sherpa
+  description: Gelu Sherpa is a seasoned climber from Nepal with a unique and inspiring background. Before dedicating his life to the mountains, Gelu was a monk at a monastery, where he cultivated a deep sense of discipline, spirituality, and inner strength. However, his love for the majestic peaks of the Himalayas drew him away from the monastic life and onto the challenging trails that lead to the world’s highest summits. <br /> <br/>  Gelu’s journey from the serene environment of the monastery to the rugged and demanding world of mountaineering has shaped him into a climber with exceptional resilience and a profound respect for nature. His spiritual background brings a unique perspective to his expeditions, allowing him to navigate the mountains with a calm and focused mind, even in the most trying conditions. <br /> <br /> As a member of The Alpine Expeditions team, Gelu’s experience as both a monk and a mountaineer makes him a valuable guide. He has led numerous successful expeditions, where his combination of physical endurance and mental clarity has earned him the trust and admiration of climbers from around the world. <br/> 
   mountains:
-    - name: Ama Dablam
+    - name: Lobuche
       summited: 1
       years: [2020]
     - name: Island Peak
@@ -41,94 +56,49 @@
 
   slug: sensai-pema-waiba
 
-- name: Gelmu Sherpa
-  role: Climbing Guide
-  photos: "assets/css/images/team/2.jpg"
-  description: Sensai Pema Waiba (born 12 February 1975, Mustang, Nepal) is an esteemed mountaineer affiliated with Trippy Frog Adventures as their Chief Expedition Leader. This illustrious climber etched his name into the annals of mountaineering history by successfully summiting Mt. Everest on 25 May 2023. With an unmatched passion for the peaks and a spirit as indomitable as the mountains he conquers, Sensai's achievements extend beyond the towering heights of Everest. His dedication to pushing the limits of human endurance and exploring the vast wilderness makes him a revered figure in the world of alpine adventures
-  mountains:
-    - name: Mount Everest
-      summited: 3
-      years: [2019, 2020, 2021]
-    - name: K2
-      summited: 2
-      years: [2018, 2020]
-  slug: gelmu-sherpa
-
+ 
 - name: Lakpa Tenjen Sherpa
   role: Climbing Guide
   photos: "assets/css/images/team/11.jpg"
-  description: Ashish Gurung (born 22 March 1985, Pokhara, Nepal) is the trailblazing mountaineer with 'The Trippy Frog '. By 2023, he's scaled Mt. Everest 20 times, setting a new record with each ascent. With 35 summits of mountains above 8000m, including Annapurna and Makalu, Ashish's name echoes as a mountaineering legend in the Himalayan corridors.
+  description: 
   mountains:
-    - name: Annapurna
-      summited: 5
-      years: [1996, 1998, 2000, 2001, 2003]
-    - name: Dhaulagiri
-      summited: 5
-      years: [2007, 2009, 2011, 2013, 2018]
     - name: Makalu
-      summited: 3
-      years: [2014, 2015, 2019]
-    - name: Kangchenjunga
-      summited: 4
-      years: [2002, 2004, 2010, 2013]
-    - name: Broad Peak
-      summited: 2
-      years: [2014, 2021]
-    - name: Gasherbrum II
       summited: 1
-      years: [2017]
+      years: [2024]
   slug: lakpa-tenjen-sherpa
 
 
 - name: Prem Mamba
   role: Climbing Guide
   photos: "assets/css/images/team/4.jpg"
-  description: Prem Mamba (born 12 April 1972, Darjeeling, India) is a distinguished mountaineer associated with Trippy Frog Expeditions as their Chief Alpine Specialist. As of June 2023, he holds the distinction for his numerous summits of some of the world's most daunting peaks. Most notably, he conquered Mt. Everest for the 18th time on 6 June 2022, surpassing his previous record set on 9 June 2021. Alongside Everest, Prem's achievements include summiting Cho Oyu 6 times and a memorable ascent of Lhotse. His unwavering commitment to mountaineering and leadership qualities make him a vital pillar of the Trippy Frog team.
+  description: 
   mountains:
     - name: Mount Everest
-      summited: 3
-      years: [2019, 2020, 2021]
-    - name: K2
-      summited: 2
-      years: [2018, 2020]
+      summited: 1
+      years: [2024]
+    - name: Lhotse
+      summited: 1
+      years: [2023]
   slug: prem-mamba
 
 - name: Sunil Ghalan
   role: Climbing Guide
   photos: "assets/css/images/team/7.jpg"
-  description: Sunil Ghalan, born on [15 July 1985], hailing from [Kathmandu, Nepal], is a distinguished mountaineer and Senior Climbing Guide associated with the renowned "The Trippy Frog ." As of October 2023, he has etched his name in the annals of history with an impressive 18 ascents of the formidable Mt. Everest. Just last year, on [5 June 2022], he outdid his previous year's record, marking an epoch in his adventurous journey. Beyond Everest, Sunil's exemplary alpinism is reflected in his 32 summits of peaks soaring above 8000m. 
+  description:
   mountains:
-    - name: Mount Everest
-      summited: 3
-      years: [2019, 2020, 2021]
-    - name: K2
-      summited: 2
-      years: [2018, 2020]
+    - name: Lobuche
+      summited: 1
+      years: [2023]
   slug: sunil-ghalan
 
 - name: Pema Sherpa
   role: Climbing Guide
   photos: "assets/css/images/team/8.jpg"
-  description: Ashish Gurung (born 22 March 1985, Pokhara, Nepal) is the trailblazing mountaineer with 'The Trippy Frog '. By 2023, he's scaled Mt. Everest 20 times, setting a new record with each ascent. With 35 summits of mountains above 8000m, including Annapurna and Makalu, Ashish's name echoes as a mountaineering legend in the Himalayan corridors.
+  description: 
   mountains:
-    - name: Annapurna
-      summited: 5
-      years: [1996, 1998, 2000, 2001, 2003]
-    - name: Dhaulagiri
-      summited: 5
-      years: [2007, 2009, 2011, 2013, 2018]
-    - name: Makalu
-      summited: 3
-      years: [2014, 2015, 2019]
-    - name: Kangchenjunga
-      summited: 4
-      years: [2002, 2004, 2010, 2013]
-    - name: Broad Peak
-      summited: 2
-      years: [2014, 2021]
-    - name: Gasherbrum II
+    - name: Lobuche Peak
       summited: 1
-      years: [2017]
+      years: [2023]
   slug: pema-sherpa
 
 
@@ -153,23 +123,18 @@
   role: Support Climbers
   photos: "assets/css/images/team/5.jpg"
   mountains:
-    - name: Mount Everest
-      summited: 3
-      years: [2019, 2020, 2021]
-    - name: K2
-      summited: 2
-      years: [2018, 2020]
+    - name: 
+      summited: 
+      years: []
 
 - name: Charlotte Grey
   role: Support Climbers
   photos: "assets/css/images/team/9.jpg"
   mountains:
-    - name: Mount Everest
-      summited: 3
-      years: [2019, 2020, 2021]
-    - name: K2
-      summited: 2
-      years: [2018, 2020]
+    - name: 
+      summited: 
+      years: []
+
 
 
 

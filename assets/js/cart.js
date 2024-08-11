@@ -360,18 +360,19 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			},
 			{
 				id : 19,
-				name : 'Yala Peak Trek',
-				img : 'assets/css/images/treks/yala_peak_min.jpg',
+				name : 'Annapurna Circuit Trek',
+				img : 'assets/css/images/treks/annapurna_circuit_min.jpg',
 				price : 12000.00,
-				prodType : 'trekking',
-				descShort : 'Yala Peak Trek is a popular trekking destination located in the Langtang region of Nepal. The trek takes you through some of the most breathtaking scenery in the world, including stunning views of the Himalayan Mountains and its surrounding valleys.',
-				descPartOne : 'Yala Peak Trek is a popular trekking destination located in the Langtang region of Nepal. The trek takes you through some of the most breathtaking scenery in the world, including stunning views of the Himalayan Mountains and its surrounding valleys.',
-				descPartTwo : 'Yala Peak Trek is a popular trekking destination located in the Langtang region of Nepal. The trek takes you through some of the most breathtaking scenery in the world, including stunning views of the Himalayan Mountains and its surrounding valleys.',
+				prodType :    'trekking',
+				descShort :   'The Annapurna Circuit Trek is one of the most popular and iconic treks in Nepal, renowned for its stunning natural beauty and cultural diversity. This 15 to 20-day trek takes you through the picturesque landscapes of the Annapurna region, offering breathtaking views of snow-capped peaks, crystal-clear lakes, pristine forests, and lush green valleys. ...',
+				descPartOne : 'The Annapurna Circuit Trek is one of the most popular and iconic treks in Nepal, renowned for its stunning natural beauty and cultural diversity. This 15 to 20-day trek takes you through the picturesque landscapes of the Annapurna region, offering breathtaking views of snow-capped peaks, crystal-clear lakes, pristine forests, and lush green valleys ...',
+				descPartTwo : 'The Annapurna Circuit Trek is one of the most popular and iconic treks in Nepal, renowned for its stunning natural beauty and cultural diversity. This 15 to 20-day trek takes you through the picturesque landscapes of the Annapurna region, offering breathtaking views of snow-capped peaks, crystal-clear lakes, pristine forests, and lush green valleys ...',
 				stock : 1,
-				days : 13,
-				nights: 12,
-				urlName : 'yala-peak-trek'
+				days : 16,
+				nights: 15,
+				urlName : 'annapurna-circuit-trek'
 			},
+
 			{
 				id : 20,
 				name : 'Gosai Kund Trek',
@@ -386,37 +387,11 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				nights: 8,
 				urlName : 'gosai-kunda-trek'
 			},
+
+
 			{
 				id : 21,
-				name : 'Tamang Heritage Trail',
-				img : 'assets/css/images/treks/gosai_kunda_min.jpg',
-				price : 12000.00,
-				prodType : 'trekking',
-				descShort : 'The Tamang Heritage Trail Trek is a unique journey through the heart of the Langtang region of Nepal. This trek takes you through small Tamang villages, allowing you to experience the rich culture and traditions of the Tamang people. ',
-				descPartOne : 'The Tamang Heritage Trail Trek is a unique journey through the heart of the Langtang region of Nepal. This trek takes you through small Tamang villages, allowing you to experience the rich culture and traditions of the Tamang people.',
-				descPartTwo : 'The Tamang Heritage Trail Trek is a unique journey through the heart of the Langtang region of Nepal. This trek takes you through small Tamang villages, allowing you to experience the rich culture and traditions of the Tamang people. ',
-				stock : 1,
-				days : 9,
-				nights: 8,
-				urlName : 'tamang-heritage-trail-trek'
-			},
-			{
-				id : 22,
-				name : 'Gokyo Chola Pass Trek',
-				img : 'assets/css/images/treks/chola_min.jpg',
-				price : 12000.00,
-				prodType :    'trekking',
-				descShort :   'Chola Pass Trek is one of the most popular trekking routes in Nepal that offers a combination of breathtaking scenery and challenging trails. The trek is situated in the Sagarmatha National Park, which is a UNESCO World Heritage Site and is home to some of the highest peaks in the world, including Mt. Everest...',
-				descPartOne : 'Chola Pass Trek is one of the most popular trekking routes in Nepal that offers a combination of breathtaking scenery and challenging trails. The trek is situated in the Sagarmatha National Park, which is a UNESCO World Heritage Site and is home to some of the highest peaks in the world, including Mt. Everest...',
-				descPartTwo : 'Chola Pass Trek is one of the most popular trekking routes in Nepal that offers a combination of breathtaking scenery and challenging trails. The trek is situated in the Sagarmatha National Park, which is a UNESCO World Heritage Site and is home to some of the highest peaks in the world, including Mt. Everest...',
-				stock : 1,
-				days : 16,
-				nights: 15,
-				urlName : 'gokyo-chola-pass-trek'
-			},
-			{
-				id : 23,
-				name : 'The Three Passes Trek',
+				name : 'Three Passes Trek',
 				img : 'assets/css/images/treks/three_passes_min.jpg',
 				price : 12000.00,
 				prodType :    'trekking',
@@ -429,7 +404,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				urlName : 'three-pass-trek'
 			},
 			{
-				id : 24,
+				id : 22,
 				name : 'Kanchenjunga Circuit Trek',
 				img : 'assets/css/images/treks/kanchenjunga_circuit_min.jpg',
 				price : 12000.00,
@@ -443,7 +418,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				urlName : 'kanchenjunga-circuit-trek'
 			},
 			{
-				id : 25,
+				id : 23,
 				name : 'Makalu sherpani Col Pass Trek',
 				img : 'assets/css/images/treks/makalu_sherpani_min.jpg',
 				price : 12000.00,
@@ -456,6 +431,37 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				nights: 21,
 				urlName : 'makalu-sherpani-col-pass-trek'
 			},
+
+			{
+				id : 24 ,
+				name : 'Panch Pokhari Trek',
+				img : 'assets/css/images/treks/panch_min.jpg',
+				price : 12000.00,
+				prodType :    'trekking',
+				descShort :   ' Nestled in the heart of the Annapurna region lies a trek that is as diverse in its scenery as it is in its cultural experiences. The Annapurna Base Camp Trek from North is a journey that takes you through charming villages, lush forests, and towering mountains that have captivated adventurers for generations ...',
+				descPartOne : ' .Nestled in the heart of the Annapurna region lies a trek that is as diverse in its scenery as it is in its cultural experiences. The Annapurna Base Camp Trek from North is a journey that takes you through charming villages, lush forests, and towering mountains that have captivated adventurers for generations...',
+				descPartTwo : ' Nestled in the heart of the Annapurna region lies a trek that is as diverse in its scenery as it is in its cultural experiences. The Annapurna Base Camp Trek from North is a journey that takes you through charming villages, lush forests, and towering mountains that have captivated adventurers for generations...',
+				stock : 1,
+				days : 5,
+				nights: 4,
+				urlName : 'panch-pokhari-trek'
+			},
+	
+			{
+				id : 25,
+				name : 'Tamang Heritage Trail',
+				img : 'assets/css/images/treks/gosai_kunda_min.jpg',
+				price : 12000.00,
+				prodType : 'trekking',
+				descShort : 'The Tamang Heritage Trail Trek is a unique journey through the heart of the Langtang region of Nepal. This trek takes you through small Tamang villages, allowing you to experience the rich culture and traditions of the Tamang people. ',
+				descPartOne : 'The Tamang Heritage Trail Trek is a unique journey through the heart of the Langtang region of Nepal. This trek takes you through small Tamang villages, allowing you to experience the rich culture and traditions of the Tamang people.',
+				descPartTwo : 'The Tamang Heritage Trail Trek is a unique journey through the heart of the Langtang region of Nepal. This trek takes you through small Tamang villages, allowing you to experience the rich culture and traditions of the Tamang people. ',
+				stock : 1,
+				days : 9,
+				nights: 8,
+				urlName : 'tamang-heritage-trail-trek'
+			},
+			
 			
 			{
 				id : 26,
@@ -486,49 +492,50 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				urlName : 'tashi-lapcha-pass-trek'
 			},
 			
-	{
-			id : 28,
-			name : 'Annapurna Circuit Trek',
-			img : 'assets/css/images/treks/annapurna_circuit_min.jpg',
-			price : 12000.00,
-			prodType :    'trekking',
-			descShort :   'The Annapurna Circuit Trek is one of the most popular and iconic treks in Nepal, renowned for its stunning natural beauty and cultural diversity. This 15 to 20-day trek takes you through the picturesque landscapes of the Annapurna region, offering breathtaking views of snow-capped peaks, crystal-clear lakes, pristine forests, and lush green valleys. ...',
-			descPartOne : 'The Annapurna Circuit Trek is one of the most popular and iconic treks in Nepal, renowned for its stunning natural beauty and cultural diversity. This 15 to 20-day trek takes you through the picturesque landscapes of the Annapurna region, offering breathtaking views of snow-capped peaks, crystal-clear lakes, pristine forests, and lush green valleys ...',
-			descPartTwo : 'The Annapurna Circuit Trek is one of the most popular and iconic treks in Nepal, renowned for its stunning natural beauty and cultural diversity. This 15 to 20-day trek takes you through the picturesque landscapes of the Annapurna region, offering breathtaking views of snow-capped peaks, crystal-clear lakes, pristine forests, and lush green valleys ...',
-			stock : 1,
-			days : 16,
-			nights: 15,
-			urlName : 'annapurna-circuit-trek'
-	},
-		{
-			id : 29,
-			name : 'Annapurna Base Camp Trek North',
-			img : 'assets/css/images/treks/dhaulagiri_circuit_min.jpg',
-			price : 12000.00,
-			prodType :    'trekking',
-			descShort :   ' Nestled in the heart of the Annapurna region lies a trek that is as diverse in its scenery as it is in its cultural experiences. The Annapurna Base Camp Trek from North is a journey that takes you through charming villages, lush forests, and towering mountains that have captivated adventurers for generations ...',
-			descPartOne : ' .Nestled in the heart of the Annapurna region lies a trek that is as diverse in its scenery as it is in its cultural experiences. The Annapurna Base Camp Trek from North is a journey that takes you through charming villages, lush forests, and towering mountains that have captivated adventurers for generations...',
-			descPartTwo : ' Nestled in the heart of the Annapurna region lies a trek that is as diverse in its scenery as it is in its cultural experiences. The Annapurna Base Camp Trek from North is a journey that takes you through charming villages, lush forests, and towering mountains that have captivated adventurers for generations...',
-			stock : 1,
-			days : 14,
-			nights: 13,
-			urlName : 'annapurna-base-camp-north-trek'
-	},
+						{
+				id : 28,
+				name : 'Yala Peak Trek',
+				img : 'assets/css/images/treks/yala_peak_min.jpg',
+				price : 12000.00,
+				prodType : 'trekking',
+				descShort : 'Yala Peak Trek is a popular trekking destination located in the Langtang region of Nepal. The trek takes you through some of the most breathtaking scenery in the world, including stunning views of the Himalayan Mountains and its surrounding valleys.',
+				descPartOne : 'Yala Peak Trek is a popular trekking destination located in the Langtang region of Nepal. The trek takes you through some of the most breathtaking scenery in the world, including stunning views of the Himalayan Mountains and its surrounding valleys.',
+				descPartTwo : 'Yala Peak Trek is a popular trekking destination located in the Langtang region of Nepal. The trek takes you through some of the most breathtaking scenery in the world, including stunning views of the Himalayan Mountains and its surrounding valleys.',
+				stock : 1,
+				days : 13,
+				nights: 12,
+				urlName : 'yala-peak-trek'
+			},
+						{
+				id : 29,
+				name : 'Gokyo Chola Pass Trek',
+				img : 'assets/css/images/treks/chola_min.jpg',
+				price : 12000.00,
+				prodType :    'trekking',
+				descShort :   'Chola Pass Trek is one of the most popular trekking routes in Nepal that offers a combination of breathtaking scenery and challenging trails. The trek is situated in the Sagarmatha National Park, which is a UNESCO World Heritage Site and is home to some of the highest peaks in the world, including Mt. Everest...',
+				descPartOne : 'Chola Pass Trek is one of the most popular trekking routes in Nepal that offers a combination of breathtaking scenery and challenging trails. The trek is situated in the Sagarmatha National Park, which is a UNESCO World Heritage Site and is home to some of the highest peaks in the world, including Mt. Everest...',
+				descPartTwo : 'Chola Pass Trek is one of the most popular trekking routes in Nepal that offers a combination of breathtaking scenery and challenging trails. The trek is situated in the Sagarmatha National Park, which is a UNESCO World Heritage Site and is home to some of the highest peaks in the world, including Mt. Everest...',
+				stock : 1,
+				days : 16,
+				nights: 15,
+				urlName : 'gokyo-chola-pass-trek'
+			},
 
-		{
-			id : 30 ,
-			name : 'Panch Pokhari Trek',
-			img : 'assets/css/images/treks/panch_min.jpg',
-			price : 12000.00,
-			prodType :    'trekking',
-			descShort :   ' Nestled in the heart of the Annapurna region lies a trek that is as diverse in its scenery as it is in its cultural experiences. The Annapurna Base Camp Trek from North is a journey that takes you through charming villages, lush forests, and towering mountains that have captivated adventurers for generations ...',
-			descPartOne : ' .Nestled in the heart of the Annapurna region lies a trek that is as diverse in its scenery as it is in its cultural experiences. The Annapurna Base Camp Trek from North is a journey that takes you through charming villages, lush forests, and towering mountains that have captivated adventurers for generations...',
-			descPartTwo : ' Nestled in the heart of the Annapurna region lies a trek that is as diverse in its scenery as it is in its cultural experiences. The Annapurna Base Camp Trek from North is a journey that takes you through charming villages, lush forests, and towering mountains that have captivated adventurers for generations...',
-			stock : 1,
-			days : 5,
-			nights: 4,
-			urlName : 'panch-pokhari-trek'
-	},
+			{
+				id : 30,
+				name : 'Annapurna Base Camp Trek North',
+				img : 'assets/css/images/treks/dhaulagiri_circuit_min.jpg',
+				price : 12000.00,
+				prodType :    'trekking',
+				descShort :   ' Nestled in the heart of the Annapurna region lies a trek that is as diverse in its scenery as it is in its cultural experiences. The Annapurna Base Camp Trek from North is a journey that takes you through charming villages, lush forests, and towering mountains that have captivated adventurers for generations ...',
+				descPartOne : ' .Nestled in the heart of the Annapurna region lies a trek that is as diverse in its scenery as it is in its cultural experiences. The Annapurna Base Camp Trek from North is a journey that takes you through charming villages, lush forests, and towering mountains that have captivated adventurers for generations...',
+				descPartTwo : ' Nestled in the heart of the Annapurna region lies a trek that is as diverse in its scenery as it is in its cultural experiences. The Annapurna Base Camp Trek from North is a journey that takes you through charming villages, lush forests, and towering mountains that have captivated adventurers for generations...',
+				stock : 1,
+				days : 14,
+				nights: 13,
+				urlName : 'annapurna-base-camp-north-trek'
+			},
+
 
 			{
 				id : 31,
@@ -589,60 +596,60 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			},
 
 			{
-					id : 35,
-					name : 'Pin Parvati Trek',
-					img : 'assets/css/images/treks/pin_parvati_min.jpg',
-					price : 35000.00,
-					prodType : 'trekking',
-					descShort : 'Pin Paravati Pass Is The Mountain Pass Connect The Parvati Valley With Pin Valley Of Spiti. It Is Located At Altitude Of 17,500 Ft...',
-					descPartOne : 'Pin Paravati Pass Is The Mountain Pass Connect The Parvati Valley With Pin Valley Of Spiti. It Is Located At Altitude Of 17,500 Ft...',
-					descPartTwo : 'Pin Paravati Pass Is The Mountain Pass Connect The Parvati Valley With Pin Valley Of Spiti. It Is Located At Altitude Of 17,500 Ft..',
-					stock : 1,
-					days : 9,
-					nights: 8,
-					urlName : 'pin-parvati-trek'
-				},
-				{
-					id : 36,
-					name : 'Fungni Top Trek',
-					img : 'assets/css/images/treks/fungni_min.jpg',
-					price : 6000.00,
-					prodType : 'trekking',
-					descShort : 'Fungni Top Is One Of The Most beautiful virgin Trek Only Few have explored. Locals Have Named This Mountain After Goddess Fungani who They Believe Resides At The Top Of This Mountain.',
-					descPartOne : 'Fungni Top Is One Of The Most beautiful virgin Trek Only Few have explored. Locals Have Named This Mountain After Goddess Fungani who They Believe Resides At The Top Of This Mountain.',
-					descPartTwo : 'Fungni Top Is One Of The Most beautiful virgin Trek Only Few have explored. Locals Have Named This Mountain After Goddess Fungani who They Believe Resides At The Top Of This Mountain.',
-					stock : 1,
-					days : 3,
-					nights: 2,
-					urlName : 'fungni-top-trek'
-				},
-				{
-					id : 37,
-					name : 'Kais Dhar Trek',
-					img : 'assets/css/images/treks/kais_dhar_min.jpg',
-					price : 7500.00,
-					prodType : 'trekking',
-					descShort : ' Kais Dhar An Extremly Beautiful Place, With Grassy Meadows And Densely Forested Mountains Just 10 Km From Kullu Town . It is One Of The Most Beautiful And Virgin Place In Kullu Manali Only Visited By Locals For Grazing Thier Cattles ...',
-					descPartOne : ' Kais Dhar An Extremly Beautiful Place, With Grassy Meadows And Densely Forested Mountains Just 10 Km From Kullu Town . It is One Of The Most Beautiful And Virgin Place In Kullu Manali Only Visited By Locals For Grazing Thier Cattles ...',
-					descPartTwo : ' Kais Dhar An Extremly Beautiful Place, With Grassy Meadows And Densely Forested Mountains Just 10 Km From Kullu Town . It is One Of The Most Beautiful And Virgin Place In Kullu Manali Only Visited By Locals For Grazing Thier Cattles ...',
-					stock : 1,
-					days : 3,
-					nights: 2,
-					urlName : 'kais-dhar-trek'
-				},
-				{
-					id : 38,
-					name : 'Malana Village Trek',
-					img : 'assets/css/images/treks/malana_min.jpg',
-					price : 6500.00,
-					prodType : 'trekking',
-					descShort : 'Malana - The mysterious and beautiful ancient village located in the mountains of Parvati Valley, is famous for its unique culture and...',
-					descPartOne : 'Malana - The mysterious and beautiful ancient village located in the mountains of Parvati Valley, is famous for its unique culture and the Marijuana it produces, popularly known as the  Malana Cream. Marijuana (or weed) can be used for medical purposes and can treat a number of different conditions such as posttraumatic stress disorder (PTSD, Nausea, Anorexia, Pain. It can also cure one of the deadly disease - Cancer. The purity of Marijuana it produces, has made it famous in all around the world.',
-					descPartTwo : 'The villager&#39;s Of Malana are said to be the descendants of <a style="color:#40c279;font-weight: bold;" href="https://en.wikipedia.org/wiki/Alexander_the_Great" target="_blank">Alexander the Great</a>. The valley of Malana is over-shadowed by the <a style="color:#40c279;font-weight: bold;" href="{% link _treks/chandrakhani-pass.html %}">Chandrakhani Pass</a> And <a style="color:#40c279;font-weight: bold;" href="{% link _treks/deo-tibba-base-camp.html %}">Deo Tibba</a> Peaks.',
-					stock : 1,
-					days : 4,
-					nights: 3,
-					urlName : 'malana-village-trek'
+				id : 35,
+				name : 'Pin Parvati Trek',
+				img : 'assets/css/images/treks/pin_parvati_min.jpg',
+				price : 35000.00,
+				prodType : 'trekking',
+				descShort : 'Pin Paravati Pass Is The Mountain Pass Connect The Parvati Valley With Pin Valley Of Spiti. It Is Located At Altitude Of 17,500 Ft...',
+				descPartOne : 'Pin Paravati Pass Is The Mountain Pass Connect The Parvati Valley With Pin Valley Of Spiti. It Is Located At Altitude Of 17,500 Ft...',
+				descPartTwo : 'Pin Paravati Pass Is The Mountain Pass Connect The Parvati Valley With Pin Valley Of Spiti. It Is Located At Altitude Of 17,500 Ft..',
+				stock : 1,
+				days : 9,
+				nights: 8,
+				urlName : 'pin-parvati-trek'
+			},
+			{
+				id : 36,
+				name : 'Fungni Top Trek',
+				img : 'assets/css/images/treks/fungni_min.jpg',
+				price : 6000.00,
+				prodType : 'trekking',
+				descShort : 'Fungni Top Is One Of The Most beautiful virgin Trek Only Few have explored. Locals Have Named This Mountain After Goddess Fungani who They Believe Resides At The Top Of This Mountain.',
+				descPartOne : 'Fungni Top Is One Of The Most beautiful virgin Trek Only Few have explored. Locals Have Named This Mountain After Goddess Fungani who They Believe Resides At The Top Of This Mountain.',
+				descPartTwo : 'Fungni Top Is One Of The Most beautiful virgin Trek Only Few have explored. Locals Have Named This Mountain After Goddess Fungani who They Believe Resides At The Top Of This Mountain.',
+				stock : 1,
+				days : 3,
+				nights: 2,
+				urlName : 'fungni-top-trek'
+			},
+			{
+				id : 37,
+				name : 'Kais Dhar Trek',
+				img : 'assets/css/images/treks/kais_dhar_min.jpg',
+				price : 7500.00,
+				prodType : 'trekking',
+				descShort : ' Kais Dhar An Extremly Beautiful Place, With Grassy Meadows And Densely Forested Mountains Just 10 Km From Kullu Town . It is One Of The Most Beautiful And Virgin Place In Kullu Manali Only Visited By Locals For Grazing Thier Cattles ...',
+				descPartOne : ' Kais Dhar An Extremly Beautiful Place, With Grassy Meadows And Densely Forested Mountains Just 10 Km From Kullu Town . It is One Of The Most Beautiful And Virgin Place In Kullu Manali Only Visited By Locals For Grazing Thier Cattles ...',
+				descPartTwo : ' Kais Dhar An Extremly Beautiful Place, With Grassy Meadows And Densely Forested Mountains Just 10 Km From Kullu Town . It is One Of The Most Beautiful And Virgin Place In Kullu Manali Only Visited By Locals For Grazing Thier Cattles ...',
+				stock : 1,
+				days : 3,
+				nights: 2,
+				urlName : 'kais-dhar-trek'
+			},
+			{
+				id : 38,
+				name : 'Malana Village Trek',
+				img : 'assets/css/images/treks/malana_min.jpg',
+				price : 6500.00,
+				prodType : 'trekking',
+				descShort : 'Malana - The mysterious and beautiful ancient village located in the mountains of Parvati Valley, is famous for its unique culture and...',
+				descPartOne : 'Malana - The mysterious and beautiful ancient village located in the mountains of Parvati Valley, is famous for its unique culture and the Marijuana it produces, popularly known as the  Malana Cream. Marijuana (or weed) can be used for medical purposes and can treat a number of different conditions such as posttraumatic stress disorder (PTSD, Nausea, Anorexia, Pain. It can also cure one of the deadly disease - Cancer. The purity of Marijuana it produces, has made it famous in all around the world.',
+				descPartTwo : 'The villager&#39;s Of Malana are said to be the descendants of <a style="color:#40c279;font-weight: bold;" href="https://en.wikipedia.org/wiki/Alexander_the_Great" target="_blank">Alexander the Great</a>. The valley of Malana is over-shadowed by the <a style="color:#40c279;font-weight: bold;" href="{% link _treks/chandrakhani-pass.html %}">Chandrakhani Pass</a> And <a style="color:#40c279;font-weight: bold;" href="{% link _treks/deo-tibba-base-camp.html %}">Deo Tibba</a> Peaks.',
+				stock : 1,
+				days : 4,
+				nights: 3,
+				urlName : 'malana-village-trek'
 			},
 			{
 				id : 39,
@@ -1205,7 +1212,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 		}
 		else if(productName=='trekking'){
 			lowerLimit = 10
-			upperLimit = 29
+			upperLimit = 23
 		}
 		else if(productName=='camping'){
 			lowerLimit = 43
@@ -1400,7 +1407,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			}
 
 			// Treks
-			else if((upperLimit >= 10)&&(upperLimit<=29)){
+			else if((upperLimit >= 10)&&(upperLimit<=23)){
 				if(products[i].stock > 0){
 					content+= '<div class="row row--padding-medium">'
 					content+= '<div class="wrapper col-medium" data-aos="zoom-in" data-aos-easing="ease-in-out-quad">'
