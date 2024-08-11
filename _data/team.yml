@@ -37,24 +37,23 @@
 
 
 # Climbing Guide 
-- name: Sensai Pema Waiba
-  role: Climbing Guide 
-  photos: "assets/css/images/team/sensai.jpg"
-  phone: "123-456-7890"
-  email: "john.doe@email.com"
-  facebook: "https://facebook.com/johndoe"
-  instagram: "https://instagram.com/johndoe"
-  description: Sensai Pema Waiba
-  mountains:
-    - name: Everest 
-      summited: 2
-      years: [2023,2024]
-    - name: Lobuche Peak
-      summited: 1
-      years: [2023,2024]
+# - name: Sensai Pema Waiba
+#   role: Climbing Guide 
+#   photos: "assets/css/images/team/sensai.jpg"
+#   phone: "123-456-7890"
+#   email: "john.doe@email.com"
+#   facebook: "https://facebook.com/johndoe"
+#   instagram: "https://instagram.com/johndoe"
+#   description: Sensai Pema Waiba
+#   mountains:
+#     - name: Everest 
+#       summited: 2
+#       years: [2023,2024]
+#     - name: Lobuche Peak
+#       summited: 1
+#       years: [2023,2024]
 
-
-  slug: sensai-pema-waiba
+#   slug: sensai-pema-waiba
 
  
 - name: Lakpa Tenjen Sherpa
@@ -91,15 +90,15 @@
       years: [2023]
   slug: sunil-ghalan
 
-- name: Pema Sherpa
-  role: Climbing Guide
-  photos: "assets/css/images/team/8.jpg"
-  description: 
-  mountains:
-    - name: Lobuche Peak
-      summited: 1
-      years: [2023]
-  slug: pema-sherpa
+# - name: Pema Sherpa
+#   role: Climbing Guide
+#   photos: "assets/css/images/team/8.jpg"
+#   description: 
+#   mountains:
+#     - name: Lobuche Peak
+#       summited: 1
+#       years: [2023]
+#   slug: pema-sherpa
 
 
 
@@ -168,17 +167,17 @@
   slug: alice-brown
 
 
-- name: Baju Ram Gurung
-  role: Trekking Guide
-  photos: "assets/css/images/team/14.jpg"
-  mountains:
-    - name: Mount Everest
-      summited: 3
-      years: [2019, 2020, 2021]
-    - name: K2
-      summited: 2
-      years: [2018, 2020]
-  slug: alice-brown
+# - name: Baju Ram Gurung
+#   role: Trekking Guide
+#   photos: "assets/css/images/team/14.jpg"
+#   mountains:
+#     - name: Mount Everest
+#       summited: 3
+#       years: [2019, 2020, 2021]
+#     - name: K2
+#       summited: 2
+#       years: [2018, 2020]
+#   slug: alice-brown
 
 # High Altitude Cook
 - name: Michael Red
