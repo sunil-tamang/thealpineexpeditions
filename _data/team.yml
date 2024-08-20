@@ -6,8 +6,8 @@
   description: Gelmo Sherpa is a distinguished climber from Nepal, renowned for her remarkable achievements in the world of mountaineering. With a career spanning numerous peaks and mountain ranges, Gelmu has made her mark as one of the most accomplished climbers in the region. Her extensive experience and unwavering dedication have solidified her reputation as a leading guide and mountaineering expert.
   mountains:
     - name: Mera Peak
-      summited: 1
-      years: [2019]
+      summited: 4
+      years: [2019, 2020, 2021, 2022]
     - name: Ama Dablam
       summited: 1
       years: [2018]
