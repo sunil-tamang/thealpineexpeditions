@@ -4386,7 +4386,7 @@ li.image-holder{
   .content-section.active {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px; /* Space between the cards */
+    gap: 1rem; /* Space between the cards */
     // padding: 20px;
   }
   
@@ -4430,6 +4430,7 @@ li.image-holder{
   }
 
 
+  
   @media(min-width:48em) {
 
     .content-section.active {
