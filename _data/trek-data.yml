@@ -269,6 +269,54 @@ langtang-valley-trek:
       content: " After an eventful trip, it's time to bid farewell to Nepal as we transfer you to Tribhuvan International Airport for your onward journey."
 
 
+
+pikey-peak-trek:
+    name: "Pikey Peak Trek"
+    days: "18"
+    nights: "17"
+    altitude: "12,467"
+    grade: "Moderate"
+    walking: "5-7 hours"
+    accomodation: "Hotel + Lodge"
+    groupSize: "2-15 pax"
+    season: "Spring/Autumn"
+    region: "Manaslu"
+    popular: "Y"
+    price: "1787"
+    photos: "assets/css/images/treks/everest_base_min.jpg"
+    photoo: "assets/css/images/treks/manasalu_min.jpg"
+    url: ""
+    
+    bookLink: "https://www.instamojo.com/thetrippyfrog/beas-kund-trek-ab0ba/"
+
+    description: "The Manaslu Base Camp Trek is a true gem for adventure seekers and nature lovers alike. The trek takes you through the pristine Manaslu Conservation Area, home to some of the rarest flora and fauna in the world. Along the way, you'll get to experience the warm hospitality of local communities, steeped in ancient traditions and customs that have remained unchanged for centuries."
+
+    excerpt: "The Manaslu Base Camp Trek is a true gem for adventure seekers and nature lovers alike. The trek takes you through the pristine Manaslu Conservation Area, home to some of the rarest flora and fauna in the world. Along the way, you'll get to experience the warm hospitality of local communities, steeped in ancient traditions and customs that have remained unchanged for centuries."
+
+    video: "<iframe width='100%' class='vid' height='400' src='https://www.youtube.com/embed/I1Sx_DdHaUE' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+    
+
+    # download: "//assets/docs/manaslu.pdf"
+    gears-list: "//assets/docs/trekking-gears-nepal.pdf"
+
+    
+    # image: "<img class='map1'>"
+
+
+
+    overview:
+
+    - content: "<a class='highlight-link' href='/activities/trekking/manaslu-base-camp-trek/'>Manaslu Base Camp Trek</a> is a remarkable journey for adventure enthusiasts and nature lovers alike. This trek takes you through the unspoiled Manaslu Conservation Area, home to some of the world’s rarest flora and fauna. Along the way, you'll experience the genuine hospitality of local communities, deeply rooted in traditions that have stood the test of time."
+    - content: "As you ascend to the base camp of Manaslu, the eighth highest mountain in the world, you'll be treated to stunning panoramic views of the surrounding peaks, including the iconic Mt. Everest. You'll also have the opportunity to explore the famous Larkya La Pass, a high-altitude crossing that offers breathtaking views of the Himalayan range."
+    - content: "The Manaslu Base Camp Trek is an experience that will stay with you forever. Whether you're an experienced hiker or a first-time trekker, this journey is sure to challenge and inspire you in equal measure. So why wait? Book your trek today and discover the magic of the Manaslu region for yourself!"
+   
+    itinerary:
+
+    
+    - title: "DAY 1 - Arrival in Kathmandu, Nepal"
+      content: "Welcome to the vibrant city of Kathmandu, where ancient architecture, rich culture, and warm hospitality await you. Upon arrival at the airport, our representative will greet you with a traditional garland of marigolds and transfer you to your hotel. After settling in, you can explore the city on your own or relax and prepare for your upcoming adventure."
+
+
 yala-peak-trek:
     name: "Yala Peak Trek"
     days: "13"

@@ -419,18 +419,33 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			},
 			{
 				id : 23,
-				name : 'Makalu sherpani Col Pass Trek',
+				name : 'Pikey Peak Trek',
 				img : 'assets/css/images/treks/makalu_sherpani_min.jpg',
 				price : 12000.00,
 				prodType :    'trekking',
-				descShort :   '  The Makalu Sherpani Col Pass Trek is one of the most challenging and adventurous treks in Nepal. This trek is known for its stunning natural beauty, diverse landscapes, and unique cultural experiences. It is an off-the-beaten-path trek that takes you through remote villages, high mountain passes, and lush forests...',
-				descPartOne : '  The Makalu Sherpani Col Pass Trek is one of the most challenging and adventurous treks in Nepal. This trek is known for its stunning natural beauty, diverse landscapes, and unique cultural experiences. It is an off-the-beaten-path trek that takes you through remote villages, high mountain passes, and lush forests...',
-				descPartTwo : '  The Makalu Sherpani Col Pass Trek is one of the most challenging and adventurous treks in Nepal. This trek is known for its stunning natural beauty, diverse landscapes, and unique cultural experiences. It is an off-the-beaten-path trek that takes you through remote villages, high mountain passes, and lush forests...',
+				descShort :   '  ',
+				descPartOne : '  ',
+				descPartTwo : '  ',
 				stock : 1,
 				days : 22,
 				nights: 21,
-				urlName : 'makalu-sherpani-col-pass-trek'
+				urlName : 'pikey-peak-trek'
 			},
+
+			// {
+			// 	id : 23,
+			// 	name : 'Makalu sherpani Col Pass Trek',
+			// 	img : 'assets/css/images/treks/makalu_sherpani_min.jpg',
+			// 	price : 12000.00,
+			// 	prodType :    'trekking',
+			// 	descShort :   '  The Makalu Sherpani Col Pass Trek is one of the most challenging and adventurous treks in Nepal. This trek is known for its stunning natural beauty, diverse landscapes, and unique cultural experiences. It is an off-the-beaten-path trek that takes you through remote villages, high mountain passes, and lush forests...',
+			// 	descPartOne : '  The Makalu Sherpani Col Pass Trek is one of the most challenging and adventurous treks in Nepal. This trek is known for its stunning natural beauty, diverse landscapes, and unique cultural experiences. It is an off-the-beaten-path trek that takes you through remote villages, high mountain passes, and lush forests...',
+			// 	descPartTwo : '  The Makalu Sherpani Col Pass Trek is one of the most challenging and adventurous treks in Nepal. This trek is known for its stunning natural beauty, diverse landscapes, and unique cultural experiences. It is an off-the-beaten-path trek that takes you through remote villages, high mountain passes, and lush forests...',
+			// 	stock : 1,
+			// 	days : 22,
+			// 	nights: 21,
+			// 	urlName : 'makalu-sherpani-col-pass-trek'
+			// },
 
 			{
 				id : 24 ,

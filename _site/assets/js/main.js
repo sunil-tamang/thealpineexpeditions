@@ -482,7 +482,7 @@ function checkScrollTop(){
 	else {
 		hideCallNowRemove();
 		if($('body').hasClass('mobile')){
-			// $('.header').css('background','rgba(0,0,0,0.9)');
+			$('.header').css('background','rgba(0,0,0,0)');
 		}
 		else{
 			$('.header').css({
@@ -505,10 +505,10 @@ function menuWideOrMobile(){
         $('#nav, #trigger__wrapper').removeClass('wide');
 		// parallaxIsOff();
 		if($('body').hasClass('mobile')){
-			$('.header').css('background','rgba(0,0,0,0.9)');
+			$('.header').css('background','rgba(0,0,0,0)');
 		}
 		else{
-			$('.header').css('background','rgba(0,0,0,0.05)');
+			$('.header').css('background','rgba(0,0,0,0.9)');
 		}
 	}
 	//It's Not Mobile
