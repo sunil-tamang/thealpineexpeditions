@@ -1,4 +1,93 @@
 # Sorted trek by Alphabetic Order
+everest-base-camp-trek:
+    name: "Everest Base Camp Trek"
+    days: "15"
+    nights: "14"
+    altitude: "12,467"
+    grade: "Moderate"
+    distance: "130 KM"
+    walking: "5-6 hours"
+    accomodation: "Hotel + Lodge"
+    groupSize: "2-8 pax"
+    season: "Spring/Autumn"
+    region: "Everest"
+    popular: "Y"
+    price: "8500"
+    photos: "assets/css/images/treks/everest_base_min.jpg"
+
+    
+    bookLink: "https://imojo.in/STuatw/"
+
+    description: "The Everest Base Camp Trek is a bucket-list adventure that takes you through the stunning Khumbu region of Nepal, providing trekkers with the opportunity to experience the worlds highest mountain range up close. "
+
+    excerpt: "The Everest Base Camp Trek is a bucket-list adventure that takes you through the stunning Khumbu region of Nepal, providing trekkers with the opportunity to experience the worlds highest mountain range up close. "
+
+    video: "<iframe width='100%' height='400' class='vid' src='https://www.youtube.com/embed/edOuQIalVBU' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+
+    gears-list: "//assets/docs/trekking-gears-nepal.pdf"
+
+    download: "//assets/docs/manaslu.pdf"
+    
+    # image: "<img class=' map2'>"
+    map: "/assets/css/images/treks/ebc-trek.jpg"
+
+
+ 
+    overview:
+
+    - content: "The Everest Base Camp Trek is a bucket-list adventure that takes you through the stunning Khumbu region of Nepal, providing trekkers with the opportunity to experience the world's highest mountain range up close. The trek begins in Lukla, a small mountain town, and passes through charming Sherpa villages, where trekkers can experience the unique culture and way of life of the local people. At an altitude of 5,364 meters, reaching the Everest Base Camp is one of the most significant achievements of the trek. Standing at the foot of Mount Everest, trekkers can feel the awe-inspiring power of the mountain, which has captivated adventurers for generations. The base camp is surrounded by towering peaks and glaciers, providing trekkers with breathtaking views of their surroundings. Moreover, the trek also includes a hike up to Kala Patthar, a vantage point that offers stunning panoramic views of the Himalayan Mountains."
+
+    # - content: "The Everest Base Camp Trek is not only a physical challenge but also a cultural and spiritual journey. The trek provides a unique opportunity for trekkers to immerse themselves in the local culture, which is deeply rooted in the Sherpa tradition. Trekkers can witness traditional Sherpa dances and songs, sample local cuisine, and visit monasteries and other religious sites, providing an insight into the spiritual beliefs of the region."
+    
+    itinerary:
+  
+
+    - title: "DAY 1 - Arrival in Kathmandu (1400m) & Transfer to Hotel"
+      content: "Welcome to Nepal! Upon your arrival at Tribhuvan International Airport in Kathmandu, our friendly representative will greet you and provide a seamless transfer to your hotel. Take this day to relax, recover from your journey, and explore the vibrant streets of Kathmandu. Discover local cuisine and shop for souvenirs as you prepare for your thrilling Everest Base Camp trek."
+
+    - title: "DAY 2 - Fly from Kathmandu to Lukla and Trek to Phakding (2,800m)"
+      content: "Your adventure truly begins today with an exhilarating early morning flight from Kathmandu to Lukla, the gateway to the majestic Everest region. Upon landing, you will meet your dedicated trekking crew and embark on a scenic trek to Phakding, a charming village situated at an altitude of 2,800m. Enjoy stunning views of the surrounding mountains as you traverse lush landscapes."
+
+    - title: "DAY 3 - Trek from Phakding to Namche Bazaar (3,440m)"
+      content: "On this exciting day, follow the picturesque trail alongside the Dudh Koshi River. Experience the thrill of crossing suspension bridges while ascending gradually through enchanting forests. Finally, you will reach the bustling Sherpa town of Namche Bazaar, renowned for its vibrant market and hospitality, located at 3,440m."
+
+    - title: "DAY 4 - Acclimatization Day in Namche Bazaar with Hike to Everest View Hotel"
+      content: "To ensure a safe ascent, today is dedicated to acclimatization in Namche Bazaar. Explore the town and hike to the Everest View Hotel, where breathtaking panoramic views of <a class='highlight-link' href='/activities/trekking/everest-base-camp-trek/'> Mount Everest </a>, Lhotse, Nuptse, and  <a class='highlight-link' href='/activities/peak-climbing/ama-dablam/'>Ama Dablam </a> await you. This day is crucial for adjusting to the high altitude while enjoying the stunning scenery."
+
+    - title: "DAY 5 - Trek from Namche Bazaar to Deboche (3,870m)"
+      content: "Today, you will follow a scenic trail adorned with rhododendron forests, crossing multiple suspension bridges as you make your way to Deboche, located at an altitude of 3,870m. Experience the tranquility of this village as you continue your journey toward Everest Base Camp."
+
+    - title: "DAY 6 - Trek from Deboche to Dingboche (4,243m)"
+      content: "The trek today takes you through lush forests of birch and rhododendron. Cross the Imja Khola river and arrive at Dingboche, situated at 4,243m. This village serves as an ideal stop for acclimatization and offers stunning views of the surrounding peaks."
+
+    - title: "DAY 7 - Acclimatization Day in Dingboche"
+      content: "Spend another day acclimatizing in Dingboche. Take the opportunity to explore the village or embark on a short hike to Nagarjun Hill for awe-inspiring views of the majestic Himalayan landscape. This day is essential for ensuring your body adjusts to the altitude."
+
+    - title: "DAY 8 - Trek from Dingboche to Lobuche (4,940m)"
+      content: "Continue your trek through the iconic Khumbu Valley as you ascend to Lobuche, situated at an altitude of 4,940m. Enjoy breathtaking vistas of towering peaks as you move closer to your ultimate destination: Everest Base Camp."
+
+    - title: "DAY 9 - Trek from Lobuche to Everest Base Camp and Return to Gorak Shep (5,170m)"
+      content: "Today is a highlight of your Everest Base Camp trek as you finally reach Everest Base Camp at 5,364m. Stand in awe of the world's highest mountain as you soak in the atmosphere before retracing your steps back to Gorak Shep, a quaint village at 5,170m."
+
+    - title: "DAY 10 - Trek from Gorak Shep to Kala Patthar (5,545m) and Back to Pheriche (4,371m)"
+      content: "Rise early for an unforgettable hike to Kala Patthar, renowned for its stunning views of Mount Everest, Nuptse, and Pumori. Capture breathtaking photographs and create lasting memories before descending back to Pheriche, situated at 4,371m."
+
+    - title: "DAY 11 - Trek from Pheriche to Namche Bazaar"
+      content: "Retrace your steps back to Namche Bazaar, passing through several picturesque villages and scenic forests. Reflect on your incredible journey as you make your way through the breathtaking landscapes of the Khumbu region."
+
+    - title: "DAY 12 - Trek from Namche Bazaar to Lukla"
+      content: "As you continue your descent, trek back to Lukla, where you will spend the night celebrating the successful completion of your Everest Base Camp trek with your fellow adventurers."
+
+    - title: "DAY 13 - Fly from Lukla to Kathmandu and Transfer to Hotel"
+      content: "Take an early morning flight from Lukla back to Kathmandu. Upon arrival, transfer to your hotel and enjoy the rest of the day at your leisure. Take this opportunity to relax or explore the rich culture and history of Kathmandu."
+
+    - title: "DAY 14 - Sightseeing Around Kathmandu Valley"
+      content: "Dedicate today to exploring the cultural and historical treasures of the Kathmandu Valley. Visit UNESCO World Heritage Sites such as  <a class='highlight-link' href='/news/Swayambhunath-Stupa-Discover-the-Spiritual-Hub-of-Nepal/'> Swayambhunath Stupa </a> (Monkey Temple), Pashupatinath Temple, and Kathmandu Durbar Square. Immerse yourself in the vibrant culture as you discover the history of these iconic landmarks."
+
+    - title: "DAY 15 - Transfer to International Airport for Final Departure"
+      content: "On the last day of your incredible Everest Base Camp journey, check out from your hotel and transfer to Tribhuvan International Airport for your departure flight. Our team will assist you with airport formalities, bidding you farewell as you carry unforgettable memories of your extraordinary trek."
+
+
 
 manaslu-base-camp-trek:
     name: "Manaslu Base Camp Trek"
@@ -11,7 +100,7 @@ manaslu-base-camp-trek:
     groupSize: "2-15 pax"
     season: "Spring/Autumn"
     region: "Manaslu"
-    popular: "Y"
+    # popular: "Y"
     price: "1787"
     photos: "assets/css/images/treks/everest_base_min.jpg"
     photoo: "assets/css/images/treks/manasalu_min.jpg"
@@ -700,94 +789,6 @@ three-pass-trek:
 
 
 
-everest-base-camp-trek:
-    name: "Everest Base Camp Trek"
-    days: "15"
-    nights: "14"
-    altitude: "12,467"
-    grade: "Moderate"
-    distance: "130 KM"
-    walking: "5-6 hours"
-    accomodation: "Hotel + Lodge"
-    groupSize: "2-8 pax"
-    season: "Spring/Autumn"
-    region: "Everest"
-    popular: "Y"
-    price: "8500"
-    photos: "assets/css/images/treks/everest_base_min.jpg"
-
-    
-    bookLink: "https://imojo.in/STuatw/"
-
-    description: "The Everest Base Camp Trek is a bucket-list adventure that takes you through the stunning Khumbu region of Nepal, providing trekkers with the opportunity to experience the worlds highest mountain range up close. "
-
-    excerpt: "The Everest Base Camp Trek is a bucket-list adventure that takes you through the stunning Khumbu region of Nepal, providing trekkers with the opportunity to experience the worlds highest mountain range up close. "
-
-    video: "<iframe width='100%' height='400' class='vid' src='https://www.youtube.com/embed/edOuQIalVBU' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
-
-    gears-list: "//assets/docs/trekking-gears-nepal.pdf"
-
-    download: "//assets/docs/manaslu.pdf"
-    
-    # image: "<img class=' map2'>"
-    map: "/assets/css/images/treks/ebc-trek.jpg"
-
-
- 
-    overview:
-
-    - content: "The Everest Base Camp Trek is a bucket-list adventure that takes you through the stunning Khumbu region of Nepal, providing trekkers with the opportunity to experience the world's highest mountain range up close. The trek begins in Lukla, a small mountain town, and passes through charming Sherpa villages, where trekkers can experience the unique culture and way of life of the local people. At an altitude of 5,364 meters, reaching the Everest Base Camp is one of the most significant achievements of the trek. Standing at the foot of Mount Everest, trekkers can feel the awe-inspiring power of the mountain, which has captivated adventurers for generations. The base camp is surrounded by towering peaks and glaciers, providing trekkers with breathtaking views of their surroundings. Moreover, the trek also includes a hike up to Kala Patthar, a vantage point that offers stunning panoramic views of the Himalayan Mountains."
-
-    # - content: "The Everest Base Camp Trek is not only a physical challenge but also a cultural and spiritual journey. The trek provides a unique opportunity for trekkers to immerse themselves in the local culture, which is deeply rooted in the Sherpa tradition. Trekkers can witness traditional Sherpa dances and songs, sample local cuisine, and visit monasteries and other religious sites, providing an insight into the spiritual beliefs of the region."
-    
-    itinerary:
-  
-
-    - title: "DAY 1 - Arrival in Kathmandu (1400m) & Transfer to Hotel"
-      content: "Welcome to Nepal! Upon your arrival at Tribhuvan International Airport in Kathmandu, our friendly representative will greet you and provide a seamless transfer to your hotel. Take this day to relax, recover from your journey, and explore the vibrant streets of Kathmandu. Discover local cuisine and shop for souvenirs as you prepare for your thrilling Everest Base Camp trek."
-
-    - title: "DAY 2 - Fly from Kathmandu to Lukla and Trek to Phakding (2,800m)"
-      content: "Your adventure truly begins today with an exhilarating early morning flight from Kathmandu to Lukla, the gateway to the majestic Everest region. Upon landing, you will meet your dedicated trekking crew and embark on a scenic trek to Phakding, a charming village situated at an altitude of 2,800m. Enjoy stunning views of the surrounding mountains as you traverse lush landscapes."
-
-    - title: "DAY 3 - Trek from Phakding to Namche Bazaar (3,440m)"
-      content: "On this exciting day, follow the picturesque trail alongside the Dudh Koshi River. Experience the thrill of crossing suspension bridges while ascending gradually through enchanting forests. Finally, you will reach the bustling Sherpa town of Namche Bazaar, renowned for its vibrant market and hospitality, located at 3,440m."
-
-    - title: "DAY 4 - Acclimatization Day in Namche Bazaar with Hike to Everest View Hotel"
-      content: "To ensure a safe ascent, today is dedicated to acclimatization in Namche Bazaar. Explore the town and hike to the Everest View Hotel, where breathtaking panoramic views of <a class='highlight-link' href='/activities/trekking/everest-base-camp-trek/'> Mount Everest </a>, Lhotse, Nuptse, and  <a class='highlight-link' href='/activities/peak-climbing/ama-dablam/'>Ama Dablam </a> await you. This day is crucial for adjusting to the high altitude while enjoying the stunning scenery."
-
-    - title: "DAY 5 - Trek from Namche Bazaar to Deboche (3,870m)"
-      content: "Today, you will follow a scenic trail adorned with rhododendron forests, crossing multiple suspension bridges as you make your way to Deboche, located at an altitude of 3,870m. Experience the tranquility of this village as you continue your journey toward Everest Base Camp."
-
-    - title: "DAY 6 - Trek from Deboche to Dingboche (4,243m)"
-      content: "The trek today takes you through lush forests of birch and rhododendron. Cross the Imja Khola river and arrive at Dingboche, situated at 4,243m. This village serves as an ideal stop for acclimatization and offers stunning views of the surrounding peaks."
-
-    - title: "DAY 7 - Acclimatization Day in Dingboche"
-      content: "Spend another day acclimatizing in Dingboche. Take the opportunity to explore the village or embark on a short hike to Nagarjun Hill for awe-inspiring views of the majestic Himalayan landscape. This day is essential for ensuring your body adjusts to the altitude."
-
-    - title: "DAY 8 - Trek from Dingboche to Lobuche (4,940m)"
-      content: "Continue your trek through the iconic Khumbu Valley as you ascend to Lobuche, situated at an altitude of 4,940m. Enjoy breathtaking vistas of towering peaks as you move closer to your ultimate destination: Everest Base Camp."
-
-    - title: "DAY 9 - Trek from Lobuche to Everest Base Camp and Return to Gorak Shep (5,170m)"
-      content: "Today is a highlight of your Everest Base Camp trek as you finally reach Everest Base Camp at 5,364m. Stand in awe of the world's highest mountain as you soak in the atmosphere before retracing your steps back to Gorak Shep, a quaint village at 5,170m."
-
-    - title: "DAY 10 - Trek from Gorak Shep to Kala Patthar (5,545m) and Back to Pheriche (4,371m)"
-      content: "Rise early for an unforgettable hike to Kala Patthar, renowned for its stunning views of Mount Everest, Nuptse, and Pumori. Capture breathtaking photographs and create lasting memories before descending back to Pheriche, situated at 4,371m."
-
-    - title: "DAY 11 - Trek from Pheriche to Namche Bazaar"
-      content: "Retrace your steps back to Namche Bazaar, passing through several picturesque villages and scenic forests. Reflect on your incredible journey as you make your way through the breathtaking landscapes of the Khumbu region."
-
-    - title: "DAY 12 - Trek from Namche Bazaar to Lukla"
-      content: "As you continue your descent, trek back to Lukla, where you will spend the night celebrating the successful completion of your Everest Base Camp trek with your fellow adventurers."
-
-    - title: "DAY 13 - Fly from Lukla to Kathmandu and Transfer to Hotel"
-      content: "Take an early morning flight from Lukla back to Kathmandu. Upon arrival, transfer to your hotel and enjoy the rest of the day at your leisure. Take this opportunity to relax or explore the rich culture and history of Kathmandu."
-
-    - title: "DAY 14 - Sightseeing Around Kathmandu Valley"
-      content: "Dedicate today to exploring the cultural and historical treasures of the Kathmandu Valley. Visit UNESCO World Heritage Sites such as  <a class='highlight-link' href='/news/Swayambhunath-Stupa-Discover-the-Spiritual-Hub-of-Nepal/'> Swayambhunath Stupa </a> (Monkey Temple), Pashupatinath Temple, and Kathmandu Durbar Square. Immerse yourself in the vibrant culture as you discover the history of these iconic landmarks."
-
-    - title: "DAY 15 - Transfer to International Airport for Final Departure"
-      content: "On the last day of your incredible Everest Base Camp journey, check out from your hotel and transfer to Tribhuvan International Airport for your departure flight. Our team will assist you with airport formalities, bidding you farewell as you carry unforgettable memories of your extraordinary trek."
-
 
 kanchenjunga-circuit-trek:
     name: "Kanchenjunga Circuit Trek"
@@ -1184,7 +1185,7 @@ upper-mustang-trek:
     groupSize: "2-15 pax"
     season: "Spring/Autumn"
     region: "Mustang"
-    popular: "Y"
+    # popular: "Y"
     price: "8500"
     photos: "assets/css/images/treks/dhaulagiri_circuit_min.jpg"
 
@@ -1677,7 +1678,7 @@ panch-pokhari-trek:
     groupSize: "2-15 pax"
     season: "Spring/Autumn"
     region: "Sindhupalchowk"
-    # popular: "Y"
+    popular: "Y"
     price: "8500"
     photos: "assets/css/images/treks/panch_min.jpg"
 

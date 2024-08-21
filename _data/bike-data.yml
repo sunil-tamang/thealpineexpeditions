@@ -12,7 +12,7 @@ pokhara-valley-bike-tour:
     groupSize: "2-15 pax"
     season: "Spring/Autumn"
     region: "Manaslu"
-    popular: "Y"
+    # popular: "Y"
     price: "1787"
     
     bookLink: "https://www.instamojo.com/thetrippyfrog/beas-kund-trek-ab0ba/"
@@ -26,7 +26,8 @@ pokhara-valley-bike-tour:
     # download: "//assets/docs/manaslu.pdf"
     
     # image: "<img class='map1'>"
-    image: "assets/css/images/bg/rafting_booner.jpg"
+   
+
     
     highlights: 
 
@@ -73,7 +74,7 @@ kathmandu-valley-bike-tour:
     season: "Sep-Dec | Mar-May"
     region: "Kathmandu"
     
-    popular: "Y"
+    # popular: "Y"
     price: "1300"
     
     bookLink: "https://www.instamojo.com/thetrippyfrog/beas-kund-trek-ab0ba/"
@@ -163,6 +164,8 @@ annapurna-circuit-mtb-tour:
     
     popular: "Y"
     price: "2000"
+
+    photos: "assets/css/images/bike-tours/annapurna-circuit-mtb-tour/banner.jpg"
     
     bookLink: "https://www.instamojo.com/thetrippyfrog/beas-kund-trek-ab0ba/"
 
@@ -263,6 +266,8 @@ manaslu-circuit-mtb-tour:
     season: "Sep-Dec | Mar-May"
     region: "Annapurna"
     
+    photos: "assets/css/images/bike-tours/manaslu-circuit-mtb-tour/banner01.jpg"
+
     popular: "Y"
     price: "3000"
     
@@ -350,7 +355,7 @@ upper-mustang-mtb-tour:
     season: "Sep-Dec | Mar-May"
     region: "Upper Mustang"
     
-    image: "assets/css/images/bike-tours/upper-mustang-mtb-tour/banner2.jpg"
+    photos: "assets/css/images/bike-tours/upper-mustang-mtb-tour/banner2.jpg"
     popular: "Y"
     price: "3000"
     
@@ -438,7 +443,7 @@ nagarkot-mtb-tour:
     groupSize: "2-15 pax"
     season: "Spring/Autumn"
     region: "Manaslu"
-    popular: "Y"
+    # popular: "Y"
     price: "1787"
     
     bookLink: "https://www.instamojo.com/thetrippyfrog/beas-kund-trek-ab0ba/"
@@ -483,7 +488,7 @@ shivapuri-mtb-tour:
     groupSize: "2-15 pax"
     season: "Spring/Autumn"
     region: "Manaslu"
-    popular: "Y"
+    # popular: "Y"
     price: "1787"
     
     bookLink: "https://www.instamojo.com/thetrippyfrog/beas-kund-trek-ab0ba/"
@@ -528,7 +533,7 @@ chitwan-safari-mtb-tour:
     groupSize: "2-15 pax"
     season: "Spring/Autumn"
     region: "Manaslu"
-    popular: "Y"
+    # popular: "Y"
     price: "1787"
     
     bookLink: "https://www.instamojo.com/thetrippyfrog/beas-kund-trek-ab0ba/"

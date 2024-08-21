@@ -17,7 +17,7 @@ mera-peak:
     groupSize: "2-15 pax"
     season: "Sep-Dec | Mar-May"
     region: "Hinku Valley"
-    photos: "assets/css/images/why.jpg"
+    photos: "assets/css/images/peak-climbing/mera-peak/banner.jpg"
 
     popular: "Y"
     price: "2500"
@@ -107,6 +107,7 @@ ama-dablam:
 
     popular: "Y"
     price: "4000"
+    photos: "assets/css/images/peak-climbing/ama-dablam/banner.jpg"
 
     bookLink: "https://www.instamojo.com/thetrippyfrog/ama-dablam-expedition/"
 
@@ -187,6 +188,8 @@ island-peak:
     groupSize: "2-15 pax"
     season: "Sep-Dec | Mar-May"
     region: "Khumbu"
+
+    photos: "assets/css/images/peak-climbing/island-peak/banner.jpg"
 
     popular: "Y"
     price: "2000"
@@ -281,6 +284,7 @@ lobuche-peak:
     season: "Sep-Dec | Mar-May"
     region: "Khumbu"
 
+    photos: "assets/css/images/peak-climbing/lobuche-peak/banner.jpg"
     popular: "Y"
     price: "2500"
 
@@ -368,7 +372,7 @@ pisang-peak:
     groupSize: "2-15 pax"
     season: "Sep-Dec | Mar-May"
     region: "Annapurna"
-
+    photos: "assets/css/images/peak-climbing/pisang-peak/banner.jpg"
     popular: "Y"
     price: "2200"
 
@@ -462,7 +466,7 @@ tharpu-peak:
     season: "Sep-Dec | Mar-May"
     region: "Annapurna"
 
-    popular: "Y"
+    # popular: "Y"
     price: "2200"
 
     bookLink: "https://www.instamojo.com/thetrippyfrog/beas-kund-trek-ab0ba/"
