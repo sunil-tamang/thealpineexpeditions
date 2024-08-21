@@ -719,8 +719,7 @@ i {
 
 
 .banner{
-    height: 80%;
-    padding:1em;
+    height: 60vh;
 /*    background-image: linear-gradient(0deg,#92257f,#5227bf);*/
     background-image: url(images/banner_bg.jpeg);
     background-position: center;
@@ -730,6 +729,8 @@ i {
     color: #da2525;
     overflow: hidden;
     position: relative;
+    border-radius: 8px;
+    margin-top: 7em;
 }
 
 /* Why Us */
@@ -1193,14 +1194,14 @@ i {
 }
 .header{
     position: fixed;
-    top:0;
+    top:0%;
     left: 0;
     width: 100%;
     z-index: 4;
     // background: rgba(0, 0, 0, 0.9);
     transition: all 0.4s ease;
     padding: 2em 0;
-    display:flex;
+    display: inline-block;
 }
 .headerBlack{
 	background: rgba(0, 0, 0, 0.9) !important;
@@ -1241,7 +1242,8 @@ i {
     padding: 1.2em;
     background: transparent;
     padding-left: 0;
-	color:#fbfbfb;
+	// color:#fbfbfb;
+    color:#000;
     cursor: pointer;
 }
 .nav__li .dropdown__trigger span {
@@ -1351,7 +1353,7 @@ li.nav__dropdown--item.item--open{
     padding: 24px 24px;
     position: absolute;
     transition: all 0.2s cubic-bezier(0.65, 0.05, 0.36, 1);
-    top: -4px;
+    // top: -4px;
     left: -4px;
     z-index: 5;
     cursor: pointer;
@@ -2505,7 +2507,7 @@ p.content__pg:not(:last-child){
 	.header__nav{
         display: block;
         width: auto;
-        float: right;
+        // float: right;
         max-height: inherit;
     }
     .nav__dropdown{
@@ -2527,8 +2529,8 @@ p.content__pg:not(:last-child){
 {
 	.header__logo{
 		font-size: 1.5em;
-        display: flex;
-        justify-content: center;
+        // display: flex;
+        // justify-content: center;
 	}
 	.greeting{
 		transform: translateY(-1.2em)  !important;
@@ -4319,11 +4321,11 @@ li.image-holder{
 
 
 
-  .banner {
-    position: relative;
-    overflow: hidden; /* Ensure overflow is hidden to contain the img */
-    height: 100vh; /* Adjust height as needed */
-  }
+// .banner {
+//     position: relative;
+//     overflow: hidden; /* Ensure overflow is hidden to contain the img */
+//     height: 60vh; /* Adjust height as needed */
+//   }
   
   .banner-image {
     position: absolute;
@@ -4331,8 +4333,9 @@ li.image-holder{
     left: 0;
     width: 100%;
     height: 100%;
+    border-radius: 5px;
     -o-object-fit: cover;
-       object-fit: cover; /* Ensures the image covers the entire container */
+    object-fit: cover; /* Ensures the image covers the entire container */
   }
   
   .banner-overlay {
@@ -4345,6 +4348,8 @@ li.image-holder{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 5px;
+
   }
   
   .banner-content {
@@ -4358,9 +4363,20 @@ li.image-holder{
     margin-bottom: 10px; /* Adjust spacing */
   }
   
+
+
+
+
+
+
+
+
+
+
   .button-container {
     display: flex;
     flex-direction: row;
+    gap: 1em;
   }
   
   .content-section {
@@ -4369,20 +4385,27 @@ li.image-holder{
   
   .content-section.active {
     display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
   }
   
   .toggle-button {
-    cursor: pointer;
-    padding: 10px 20px;
-    margin: 10px;
-    background-color: #007bff;
-    color: white;
-    border: none;
+    color: #444;
+    background: #ffce00;
+    border: 2px solid #ffce00;
     border-radius: 5px;
-  }
+    padding: 0.5em 1em;
+    // font-size: 1.1em;
+    outline: 0;
+    transition: all .2s ease;
+    cursor: pointer;
+    font-family: 'Anton', sans-serif;
+    font-weight: lighter;
+    letter-spacing: .1em;
+}
   
   .toggle-button.active {
-    background-color: #0056b3;
+    background-color: #fff;
   }
   
   .tour-link {
@@ -4394,15 +4417,29 @@ li.image-holder{
     display: flex;
     flex-direction: column;
     overflow: hidden;
-    margin: 16px;
+    margin: 1em 0;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    width: 300px;
+    width: 160px;
+    height: 300px;
+    // padding:1em;
+    background-color:#f9efef;
+    border-radius: 8px;
+    
+  }
+
+
+  @media(min-width:48em) {
+
+    .tour-card {
+        width: 300px;
+      }
+
   }
   
   .tour-photo {
     position: relative;
     width: 100%;
-    height: 200px;
+    height: 100%;
     background-size: cover;
     background-position: center;
     border-radius: 5px;
@@ -4414,32 +4451,38 @@ li.image-holder{
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.4); /* Adjust overlay color and opacity */
-    opacity: 0;
+    background: rgba(0, 0, 0, 0.3); /* Adjust overlay color and opacity */
+    // opacity: 0;
     transition: opacity 0.3s ease;
   }
   
-  .tour-card:hover .overlay {
-    opacity: 1;
-  }
+//   .tour-card:hover .overlay {
+//     opacity: 1;
+//   }
   
   .tour-info {
-    padding: 16px 0;
-    background: #fff;
+    // padding: 16px 0;
+    // background: #ececec;
     text-align: left;
+    padding: 1em;
   }
   
   .tour-info h2 {
-    margin: 0 0 8px;
+    // margin: 0 0 8px;
     font-size: 1rem;
-    line-height: initial;
-    font-weight: 800;
+    // line-height: initial;
+    // font-weight: 800;
   }
   
   .tour-info p {
-    margin: 4px 0;
+    // margin: 4px 0;
     font-size: 16px;
   }
+
+
+
+
+
 
 
 

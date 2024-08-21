@@ -17,6 +17,7 @@ mera-peak:
     groupSize: "2-15 pax"
     season: "Sep-Dec | Mar-May"
     region: "Hinku Valley"
+    photos: "assets/css/images/why.jpg"
 
     popular: "Y"
     price: "2500"

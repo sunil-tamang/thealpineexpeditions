@@ -281,7 +281,7 @@ pikey-peak-trek:
     groupSize: "2-15 pax"
     season: "Spring/Autumn"
     region: "Manaslu"
-    popular: "Y"
+    # popular: "Y"
     price: "1787"
     photos: "assets/css/images/treks/everest_base_min.jpg"
     photoo: "assets/css/images/treks/manasalu_min.jpg"
@@ -328,7 +328,7 @@ yala-peak-trek:
     groupSize: "2-15 pax"
     season: "Spring/Autumn"
     region: "Langtang"
-    popular: "Y"
+    # popular: "Y"
     price: "8500"
     photos: "assets/css/images/treks/yala_peak_min.jpg"
 
@@ -401,7 +401,7 @@ gosai-kunda-trek:
     groupSize: "2-15 pax"
     season: "Spring/Autumn"
     region: "Langtang"
-    popular: "Y"
+    # popular: "Y"
     price: "8500"
     photos: "assets/css/images/treks/gosai_kunda_min.jpg"
 
@@ -464,7 +464,7 @@ tamang-heritage-trail-trek:
     groupSize: "2-15 pax"
     season: "Spring/Autumn"
     region: "Manaslu"
-    popular: "Y"
+    # popular: "Y"
     price: "8500"
     photos: "assets/css/images/treks/gosai_kunda_min.jpg"
     
@@ -524,7 +524,7 @@ gokyo-chola-pass-trek:
     groupSize: "2-15 pax"
     season: "Spring/Autumn"
     region: "Manaslu"
-    popular: "Y"
+    # popular: "Y"
     price: "8500"
     photos: "assets/css/images/treks/chola_min.jpg"
 
@@ -620,7 +620,7 @@ three-pass-trek:
     groupSize: "2-15 pax"
     season: "Spring/Autumn"
     region: "Everest"
-    popular: "Y"
+    # popular: "Y"
     price: "8500"
     photos: "assets/css/images/treks/three_passes_min.jpg"
     
@@ -800,7 +800,7 @@ kanchenjunga-circuit-trek:
     groupSize: "2-15 pax"
     season: "Spring/Autumn"
     region: "Kanchenjunga"
-    popular: "Y"
+    # popular: "Y"
     price: "8500"
     photos: "assets/css/images/treks/kanchenjunga_circuit_min.jpg"
 
@@ -913,7 +913,7 @@ makalu-sherpani-col-pass-trek:
     groupSize: "2-15 pax"
     season: "Spring/Autumn"
     region: "Makalu"
-    popular: "Y"
+    # popular: "Y"
     price: "8500"
     photos: "assets/css/images/treks/makalu_sherpani_min.jpg"
 
@@ -1016,7 +1016,7 @@ makalu-base-camp-trek:
     groupSize: "2-15 pax"
     season: "Spring/Autumn"
     region: "Makalu"
-    popular: "Y"
+    # popular: "Y"
     price: "8500"
     photos: "assets/css/images/treks/makalu_base_camp_min.jpg"
 
@@ -1100,7 +1100,7 @@ dhaulagiri-circuit-trek:
     groupSize: "2-15 pax"
     season: "Spring/Autumn"
     region: "Dhaulagiri"
-    popular: "Y"
+    # popular: "Y"
     price: "8500"
     photos: "assets/css/images/treks/dhaulagiri_circuit_min.jpg"
 
@@ -1278,7 +1278,7 @@ tashi-lapcha-pass-trek:
     groupSize: "2-15 pax"
     season: "Spring/Autumn"
     region: "Rolwaling"
-    popular: "Y"
+    # popular: "Y"
     price: "8500"
     photos: "assets/css/images/treks/tashi_lapcha_min.jpg"
 
@@ -1362,7 +1362,7 @@ mardi-himal-trek:
     groupSize: "2-15 pax"
     season: "Spring/Autumn"
     region: "Annapurna"
-    popular: "Y"
+    # popular: "Y"
     price: "8500"
     photos: "assets/css/images/treks/mardi_himal_min.jpg"
     photoos: "assets/css/images/treks/mardi_himal_min.jpg"
@@ -1437,7 +1437,7 @@ annapurna-base-camp-trek:
     groupSize: "2-15 pax"
     season: "Spring/Autumn"
     region: "Annapurna"
-    popular: "Y"
+    # popular: "Y"
     price: "8500"
     photos: "assets/css/images/treks/annapurna_base_camp_min.jpg"
 
@@ -1597,7 +1597,7 @@ annapurna-base-camp-north-trek:
     groupSize: "2-15 pax"
     season: "Spring/Autumn"
     region: "Annapurna"
-    popular: "Y"
+    # popular: "Y"
     price: "8500"
     photos: "assets/css/images/treks/dhaulagiri_circuit_min.jpg"
 
@@ -1677,7 +1677,7 @@ panch-pokhari-trek:
     groupSize: "2-15 pax"
     season: "Spring/Autumn"
     region: "Sindhupalchowk"
-    popular: "Y"
+    # popular: "Y"
     price: "8500"
     photos: "assets/css/images/treks/panch_min.jpg"
 

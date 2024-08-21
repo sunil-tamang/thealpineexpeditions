@@ -81,28 +81,25 @@ keywords: "trekking in nepal, nepal trekking, himalayan treks, alpine expedition
 		  </div>
 	</div>
   </div> -->
+<div class="container-wide row--padding-wide">
 
-
-<div class="banner" style="background-image: url('assets/css/images/home.jpg');">
-	<span class="banner__overlay"></span>
-	<!-- <div class="banner_logo" style="position: absolute; left: 0; top:20%; width: 100%; text-align: center;">
-		<img class="banner_logo-img" src="{% link favicon.png%}" alt="The Trippy Frog Logo">
-	</div> -->
-	<div class="banner__tagline banner__home" style="opacity: 1;">
-		<p class="tagline" style="text-transform: none;"></p>
-		<br />
-		<p class="sub-tagline" style="display: inline;">
-			<!-- <span class="sub-tagline--part1">&nbsp;Travel More&nbsp;</span><span class="sub-tagline--part2">&nbsp;Live More&nbsp;</span><br /> -->
-		   <!-- <span class="sub-tagline--videoTrigger no-select" id="popupTrigger" data-src="https://www.youtube.com/embed/a6lQY393TNQ?rel=0&amp;showinfo=0;modestbranding=0">
-				<svg xmlns="http://www.w3.org/2000/svg" width="58" height="58" viewBox="0 0 48 48" fill="#fff"><path d="M24 4C12.95 4 4 12.95 4 24s8.95 20 20 20 20-8.95 20-20S35.05 4 24 4zm-4 29V15l12 9-12 9z"/></svg>
+		<div class="banner" style="background-image: url('assets/css/images/home.jpg');">
+			<span class="banner__overlay"></span>
+			
+			<div class="banner__tagline banner__home" style="opacity: 1;">
+				<p class="tagline" style="text-transform: none;"></p>
+				<br />
+				<p class="sub-tagline" style="display: inline;">
+				
+				</p>
+			</div>
+			<!-- <span class="banner__skip">
+				<a class="banner__skip-trigger" href="#content"></a>
 			</span> -->
-		</p>
-	</div>
-	<span class="banner__skip">
-		<a class="banner__skip-trigger" href="#content"></a>
-	</span>
-</div>
+		</div>
 
+
+</div>
 <!--- B-A-N-N-E-R -->
 <!-- <div class="slider-wrapper">
   <button class="slide-prev"><i class="fas fa-chevron-left"></i></button>
@@ -210,7 +207,7 @@ keywords: "trekking in nepal, nepal trekking, himalayan treks, alpine expedition
 	
 
 <!---------Why Us? -------->
-	<div
+	<!-- <div
 		class="row row--padding-medium content"
 		style="padding-left:0; padding-right: 0; ">
 
@@ -270,8 +267,106 @@ keywords: "trekking in nepal, nepal trekking, himalayan treks, alpine expedition
 		</div>
 		
 		
-	</div>
+	</div> -->
 
+
+
+
+
+
+<div class="container-wide ">
+
+	
+
+
+			<div class="">
+				
+				<div style="text-align: left;"
+				class="row--padding-medium">
+					<h2> where to go </h2>
+					<h1>Popular Destinations</h1>
+				</div>
+
+			
+				<div class="button-container ">
+					<button class="toggle-button" onclick="showSection('treks')">Treks</button>
+					<button class="toggle-button" onclick="showSection('peaks')">Peak Climbing</button>
+					<button class="toggle-button" onclick="showSection('tours')">Tours</button>
+				</div>
+
+				<div id="treks" class="content-section active">
+					{% for trek in site.data.trek-data %}
+						{% if trek[1].popular == "Y" %}
+						<a href="{{ site.baseurl }}/activities/trekking/{{ trek[0] }}" class="tour-link">
+							<div class="tour-card">
+								
+								<div class="tour-photo" style="background-image: url('{{ site.baseurl }}/{{ trek[1].photos }}');">
+									<div class="overlay">
+
+									
+
+									</div>
+								</div>
+
+						
+								<div class="tour-info">
+									
+									<h2 class="__title"> {{ trek[1].name }}</h2>
+									
+									<p class="_sub-title">
+										{{ trek[1].region }}
+									</p>
+			
+									<p class="__sub-title"> Starts at</strong> ${{ trek[1].price }}</p>
+								</div>
+
+							</div>
+						</a>
+						{% endif %}
+					{% endfor %}
+				</div>
+
+				<div id="peaks" class="content-section">
+					{% for peak in site.data.peak-data %}
+						{% if peak[1].popular == "Y" %}
+						<a href="{{ site.baseurl }}/activities/peak-climbing/{{ peak[0] }}" class="tour-link">
+							<div class="tour-card">
+								<div class="tour-photo" style="background-image: url('{{ site.baseurl }}/{{ peak[1].photos }}');">
+									<div class="overlay"></div>
+								</div>
+								<div class="tour-info">
+									<h2>{{ peak[1].name }}</h2>
+									<p><strong>Location:</strong> {{ peak[1].region }}</p>
+									<p><strong>Price:</strong> ${{ peak[1].price }}</p>
+								</div>
+							</div>
+						</a>
+						{% endif %}
+					{% endfor %}
+				</div>
+
+				<div id="tours" class="content-section">
+					{% for tour in site.data.bike-data %}
+						{% if tour[1].popular == "Y" %}
+						<a href="{{ site.baseurl }}/activities/bike-tours/{{ tour[0] }}" class="tour-link">
+							<div class="tour-card">
+								<div class="tour-photo" style="background-image: url('{{ site.baseurl }}/{{ tour[1].photos }}');">
+									<div class="overlay"></div>
+								</div>
+								<div class="tour-info">
+									<h2>{{ tour[1].name }}</h2>
+									<p><strong>Location:</strong> {{ tour[1].region }}</p>
+									<p><strong>Price:</strong> ${{ tour[1].price }}</p>
+								</div>
+							</div>
+						</a>
+						{% endif %}
+					{% endfor %}
+				</div>
+			</div>
+
+
+</div>
 
 
 
@@ -366,7 +461,7 @@ keywords: "trekking in nepal, nepal trekking, himalayan treks, alpine expedition
 <!---------Choose Your Trek-------->
 
 
-<div style="background: url(assets/css/images/bg/trekbg.jpg) center no-repeat; padding: 0; background-size: cover; background-attachment: fixed;">
+<div style="display: none; background: url(assets/css/images/bg/trekbg.jpg) center no-repeat; padding: 0; background-size: cover; background-attachment: fixed;">
 <div id='content' class="row row--padding-wide content" style="padding-left:0; padding-right: 0; background-color: rgba(42, 43, 47, 0.50);">
 	
 	<h2 class="content__title content__title-white no-underline" style="color:#fff; padding: 0; margin: 0;">
@@ -590,82 +685,6 @@ keywords: "trekking in nepal, nepal trekking, himalayan treks, alpine expedition
 
 
 
-<!-- <div class="row--padding-medium container-wide">
-    <h1>Adventure Tours</h1>
- 
-    <div class="button-container">
-        <button class="toggle-button" onclick="showSection('treks')">Treks</button>
-        <button class="toggle-button" onclick="showSection('peaks')">Peak Climbing</button>
-        <button class="toggle-button" onclick="showSection('tours')">Tours</button>
-    </div>
-
-    <div id="treks" class="content-section active">
-        {% for trek in site.data.trek-data %}
-            {% if trek[1].popular == "Y" %}
-            <a href="{{ site.baseurl }}/activities/trekking/{{ trek[0] }}" class="tour-link">
-                <div class="tour-card">
-                    
-                    <div class="tour-photo" style="background-image: url('{{ site.baseurl }}/{{ trek[1].photos }}');">
-                        <div class="overlay"></div>
-                    </div>
-
-                    <div class="tour-info">
-                        <h2 class="content__title"> {{ trek[1].name }}</h2>
-                        
-                        <p class="content__sub-title"><strong>
-                            <svg style="width:1rem; height:1rem;" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg></strong>
-                            {{ trek[1].region }}</p>
-                        <p class="content__sub-title"> <strong>Starts at</strong> ${{ trek[1].price }}</p>
-                    </div>
-                </div>
-            </a>
-            {% endif %}
-        {% endfor %}
-    </div>
-
-    <div id="peaks" class="content-section">
-        {% for peak in site.data.peak-data %}
-            {% if peak[1].popular == "Y" %}
-            <a href="{{ site.baseurl }}/activities/peak-climbing/{{ peak[0] }}" class="tour-link">
-                <div class="tour-card">
-                    <div class="tour-photo" style="background-image: url('{{ site.baseurl }}/{{ peak[1].photos }}');">
-                        <div class="overlay"></div>
-                    </div>
-                    <div class="tour-info">
-                        <h2>{{ peak[1].name }}</h2>
-                        <p><strong>Location:</strong> {{ peak[1].region }}</p>
-                        <p><strong>Price:</strong> ${{ peak[1].price }}</p>
-                    </div>
-                </div>
-            </a>
-            {% endif %}
-        {% endfor %}
-    </div>
-
-    <div id="tours" class="content-section">
-        {% for tour in site.data.bike-data %}
-            {% if tour[1].popular == "Y" %}
-            <a href="{{ site.baseurl }}/activities/bike-tours/{{ tour[0] }}" class="tour-link">
-                <div class="tour-card">
-                    <div class="tour-photo" style="background-image: url('{{ site.baseurl }}/{{ tour[1].photos }}');">
-                        <div class="overlay"></div>
-                    </div>
-                    <div class="tour-info">
-                        <h2>{{ tour[1].name }}</h2>
-                        <p><strong>Location:</strong> {{ tour[1].region }}</p>
-                        <p><strong>Price:</strong> ${{ tour[1].price }}</p>
-                    </div>
-                </div>
-            </a>
-            {% endif %}
-        {% endfor %}
-    </div>
-</div> -->
-
-
-
-
-
 
 <!---------Featured -------->
 <div style="background:#06080b; padding: 0;">
@@ -773,13 +792,13 @@ keywords: "trekking in nepal, nepal trekking, himalayan treks, alpine expedition
 
 
 <!---------Q-U-O-T-E---------->
-
+<!-- 
 <div class="banner banner_quote" style="background-image: url('assets/css/images/ourstorybg.jpeg'); background-attachment: fixed;">
     <span class="banner__overlay"></span>
     <div class="row row--padding-wide container-wide">
         <h1 class="quote content__title-white" data-aos="fade-right" style="font-size: 3em;">&quot;Into The Himalayas&quot;</h1>
     </div>
-</div>
+</div> -->
 
 
 

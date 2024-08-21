@@ -474,9 +474,9 @@ function checkScrollTop(){
 	{
 		stickElement();
 	}
-    if ($(window).scrollTop() > 400) {
+    if ($(window).scrollTop() > 100) {
 		hideCallNowAdd();
-		$('.header').css('background','rgba(0,0,0,0.9)');
+		$('.header').css('background','#ffb100');
 		$('.header').css('top','0px');
 	}
 	else {
@@ -486,8 +486,8 @@ function checkScrollTop(){
 		}
 		else{
 			$('.header').css({
-						   'background' : 'rgba(0,0,0,.07)',
-						   'box-shadow' : 'rgba(0, 0, 0, .08) 0px 0px 40px 40px'
+						   'background' : 'rgba(0,0,0,0)',
+						//    'box-shadow' : 'rgba(0, 0, 0, .08) 0px 0px 40px 40px'
 						});
 
 		}
