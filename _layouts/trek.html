@@ -103,12 +103,12 @@ tags: "Everest Base Camp Trek, Annapurna Circuit Trek, Annapurna Base Camp Trek,
     </div> -->
 
 
-	
+	<div class="container-wide row--padding-wide">
 
 {% if page.custom_bg %}
     {% for img in page.custom_bg %}
         {% assign path = 'assets/css/images/' | append: img | relative_url%}
-        <div class="banner__trek parallax" style="background-image:url('{{ path }}');">
+        <div class=" banner__trek parallax" style="background-image:url('{{ path }}');">
     {% endfor %}
 {% else %}
     {% assign path = 'assets/css/images/welcome.jpeg' | relative_url%}
@@ -148,6 +148,7 @@ tags: "Everest Base Camp Trek, Annapurna Circuit Trek, Annapurna Base Camp Trek,
 					<a class="skipToContent-trigger" href="#content" style="padding: 1em 1.08em; background: rgba(0,0,0,.4); color:#39ff41; border-radius: 360px;"><i class="fas fa-leaf" style="transform: rotate(135deg); font-size: 1em;"></i></a>
 			</span>
 		</div>
+
 
 
 <!-- Trek related content here -->
@@ -763,7 +764,7 @@ tags: "Everest Base Camp Trek, Annapurna Circuit Trek, Annapurna Base Camp Trek,
     	
 		</div>
 
-	</div>
+		</div>
 
 
 
