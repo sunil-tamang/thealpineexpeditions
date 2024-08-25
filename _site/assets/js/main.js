@@ -848,7 +848,7 @@ function showSection(sectionId) {
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-	showSection('treks');
+	showSection('peaks');
 });
 
 

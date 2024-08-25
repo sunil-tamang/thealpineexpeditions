@@ -306,6 +306,7 @@ langtang-valley-trek:
     popular: "Y"
     price: "2000"
     photos: "assets/css/images/treks/langtang_valley_min.jpg"
+    card: assets/css/images/treks/langtang-card.jpg"
     
     bookLink: "https://www.instamojo.com/thetrippyfrog/beas-kund-trek-ab0ba/"
 

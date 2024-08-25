@@ -274,7 +274,7 @@ keywords: "trekking in nepal, nepal trekking, himalayan treks, alpine expedition
 
 
 
-<div class="container-wide ">
+<div class="container-wide row--padding-wide ">
 
 	
 
@@ -289,54 +289,58 @@ keywords: "trekking in nepal, nepal trekking, himalayan treks, alpine expedition
 
 			
 				<div class="button-container ">
-					<button class="toggle-button" onclick="showSection('treks')">Treks</button>
 					<button class="toggle-button" onclick="showSection('peaks')">Peak Climbing</button>
+					<button class="toggle-button" onclick="showSection('treks')">Treks</button>
 					<button class="toggle-button" onclick="showSection('tours')">MTB Tours</button>
 				</div>
+			
+				<br/>
 
-				<div id="treks" class="content-section active">
+				<div id="treks" class="content-section">
 					{% for trek in site.data.trek-data %}
 						{% if trek[1].popular == "Y" %}
 						<a href="{{ site.baseurl }}/activities/trekking/{{ trek[0] }}" class="tour-link">
 							<div class="tour-card">
 								
 								<div class="tour-photo" style="background-image: url('{{ site.baseurl }}/{{ trek[1].photos }}');">
-									<div class="overlay">
-
+									<div class="tour-card-overlay">
+										<div class="tour-info">
+									
+											<h2 class="__title"> {{ trek[1].name }}</h2>
+											
+											<p class="_sub-title"> <strong>Location:</strong>  {{ trek[1].region }} </p>
+					
+											<p class="__sub-title"> <strong>Price:</strong> Starts at ${{ trek[1].price }}</p>
+										</div>
+		
 									</div>
 								</div>
 
 						
-								<div class="tour-info">
-									
-									<h1 class="__title"> {{ trek[1].name }}</h1>
-									
-									<p class="_sub-title">
-										{{ trek[1].region }}
-									</p>
-			
-									<p class="__sub-title"> Starts at  <br/> ${{ trek[1].price }}</p>
-								</div>
-
+								
 							</div>
 						</a>
 						{% endif %}
 					{% endfor %}
 				</div>
 
-				<div id="peaks" class="content-section">
+				<div id="peaks" class="content-section active">
 					{% for peak in site.data.peak-data %}
 						{% if peak[1].popular == "Y" %}
 						<a href="{{ site.baseurl }}/activities/peak-climbing/{{ peak[0] }}" class="tour-link">
 							<div class="tour-card">
 								<div class="tour-photo" style="background-image: url('{{ site.baseurl }}/{{ peak[1].photos }}');">
-									<div class="overlay"></div>
+									<div class="tour-card-overlay">
+
+										<div class="tour-info">
+											<h2>{{ peak[1].name }}</h2>
+											<p><strong>Location:</strong> {{ peak[1].region }}</p>
+											<p><strong>Price:</strong> ${{ peak[1].price }}</p>
+										</div>
+
+									</div>
 								</div>
-								<div class="tour-info">
-									<h2>{{ peak[1].name }}</h2>
-									<p><strong>Location:</strong> {{ peak[1].region }}</p>
-									<p><strong>Price:</strong> ${{ peak[1].price }}</p>
-								</div>
+								
 							</div>
 						</a>
 						{% endif %}
@@ -349,13 +353,16 @@ keywords: "trekking in nepal, nepal trekking, himalayan treks, alpine expedition
 						<a href="{{ site.baseurl }}/activities/bike-tours/{{ tour[0] }}" class="tour-link">
 							<div class="tour-card">
 								<div class="tour-photo" style="background-image: url('{{ site.baseurl }}/{{ tour[1].photos }}');">
-									<div class="overlay"></div>
+									<div class="tour-card-overlay">
+										<div class="tour-info">
+											<h2>{{ tour[1].name }}</h2>
+											<p><strong>Location:</strong> {{ tour[1].region }}</p>
+											<p><strong>Price:</strong> ${{ tour[1].price }}</p>
+										</div>
+
+									</div>
 								</div>
-								<div class="tour-info">
-									<h2>{{ tour[1].name }}</h2>
-									<p><strong>Location:</strong> {{ tour[1].region }}</p>
-									<p><strong>Price:</strong> ${{ tour[1].price }}</p>
-								</div>
+								
 							</div>
 						</a>
 						{% endif %}
