@@ -12,7 +12,7 @@ everest-base-camp-trek:
     season: "Spring/Autumn"
     region: "Everest"
     popular: "Y"
-    price: "8500"
+    price: "2500"
     photos: "assets/css/images/treks/everest_base_min.jpg"
 
     
@@ -304,7 +304,7 @@ langtang-valley-trek:
     season: "Spring/Autumn"
     region: "Langtang"
     popular: "Y"
-    price: "8500"
+    price: "2000"
     photos: "assets/css/images/treks/langtang_valley_min.jpg"
     
     bookLink: "https://www.instamojo.com/thetrippyfrog/beas-kund-trek-ab0ba/"
@@ -1679,7 +1679,7 @@ panch-pokhari-trek:
     season: "Spring/Autumn"
     region: "Sindhupalchowk"
     popular: "Y"
-    price: "8500"
+    price: "500"
     photos: "assets/css/images/treks/panch_min.jpg"
 
     

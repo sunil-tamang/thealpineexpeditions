@@ -36,24 +36,23 @@
   slug: gelu-sherpa
 
 
-# Climbing Guide 
-# - name: Sensai Pema Waiba
-#   role: Climbing Guide 
-#   photos: "assets/css/images/team/sensai.jpg"
-#   phone: "123-456-7890"
-#   email: "john.doe@email.com"
-#   facebook: "https://facebook.com/johndoe"
-#   instagram: "https://instagram.com/johndoe"
-#   description: Sensai Pema Waiba
-#   mountains:
-#     - name: Everest 
-#       summited: 2
-#       years: [2023,2024]
-#     - name: Lobuche Peak
-#       summited: 1
-#       years: [2023,2024]
+- name: Sensai Pema Waiba
+  role: Climbing Guide 
+  photos: "assets/css/images/team/sensai.jpg"
+  phone: "123-456-7890"
+  email: "john.doe@email.com"
+  facebook: "https://facebook.com/johndoe"
+  instagram: "https://instagram.com/johndoe"
+  description: Sensai Pema Waiba
+  mountains:
+    - name: Everest 
+      summited: 2
+      years: [2023,2024]
+    - name: Lobuche Peak
+      summited: 1
+      years: [2023,2024]
 
-#   slug: sensai-pema-waiba
+  slug: sensai-pema-waiba
 
  
 - name: Lakpa Tenjen Sherpa

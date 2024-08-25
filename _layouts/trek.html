@@ -49,7 +49,7 @@ tags: "Everest Base Camp Trek, Annapurna Circuit Trek, Annapurna Base Camp Trek,
 <!-- VARIABLES -->
 {% assign trek = site.data.trek-data[page.title-slug] %}
 
-    <!-- <div class="popup_form_wrapper">
+    <div class="popup_form_wrapper">
         <div class="popup_form">
 
 
@@ -68,8 +68,8 @@ tags: "Everest Base Camp Trek, Annapurna Circuit Trek, Annapurna Base Camp Trek,
             <div class="form_wrapper">
 
                 <div class="text">
-                    <h1>Enter Your Email Below To Get 20% Off</h1>
-                    <p>Fill the form and get flat 20% Off on your {{ page.title }} + Beas River Rafting Trip.</p>
+                    <h1 class="content__sub-title">Enter Your Email Below To Get 20% Off</h1>
+                    <p>Fill the form and get flat 20% Off on {{ page.title }}.</p>
                 </div>
 
                 <form  action="https://formspree.io/thetrippyfrog@gmail.com" method="POST" name="contact_form">
@@ -84,10 +84,12 @@ tags: "Everest Base Camp Trek, Annapurna Circuit Trek, Annapurna Base Camp Trek,
                     <input class="input_box"  type="text" placeholder="Phone Number" autocomplete="off" name="phone" required>
                 </div>
 
+				<br/> 
+				<br/> 
                 <div class="textfield_wrapper">
-                    <button class="trippy_btn" type="submit" name=""> SEND </button>
+                    <button class="book_btn" type="submit" name=""> SEND </button>
                 </div>
-
+ 
               <br/>  <div class="text">
                     <p>Don't Worry, We won't spam you..</p>
                 </div>
@@ -100,7 +102,7 @@ tags: "Everest Base Camp Trek, Annapurna Circuit Trek, Annapurna Base Camp Trek,
 
     </div>
 
-    </div> -->
+    </div>
 
 
 	<div class="container-wide row--padding-wide">
@@ -155,6 +157,7 @@ tags: "Everest Base Camp Trek, Annapurna Circuit Trek, Annapurna Base Camp Trek,
 <div class="two-col-layout" id="twoCol">
 	
 	<div class="row row--padding-medium content container--white content__left" id="content">
+		
 	<span style="position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: url('{{ 'assets/css/images/static.gif' | absolute_url }}') repeat center; opacity: .05; z-index: -1;"></span>
 
 		<div style="max-width: 50em; margin: auto;">
@@ -647,7 +650,7 @@ tags: "Everest Base Camp Trek, Annapurna Circuit Trek, Annapurna Base Camp Trek,
 									<span class="ar-form-btn-span">
 										<input type="hidden" name="_next" value="https://thealpineexpeditions.com/thanks" />
 										<input type="hidden" name="_subject" value="New Submission from The Alpine Expeditions" />
-										<button class="trippy_btn" type="submit" name="sendMsg"><span class="trippy_btn-left"></span>SEND<span class=""></span></button><br />
+										<button class="book_btn" type="submit" name="sendMsg"><span class="trippy_btn-left"></span>SEND<span class=""></span></button><br />
 									</span>
 								</fieldset>
 

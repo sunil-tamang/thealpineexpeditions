@@ -94,7 +94,7 @@ keywords: "trekking guides Nepal, expedition leaders, adventure team, experience
           <div class="team-members">
             {% for member in site.data.team %}
             <!-- <a href="{{ site.baseurl }}{{ member.link }}" data-role="{{ member.role }}"> -->
-            <a href="{{ site.baseurl }}{{ member.slug }}" data-role="{{ member.role }}">
+            <a class="team-members_link" href="{{ site.baseurl }}{{ member.slug }}" data-role="{{ member.role }}">
                 <div class="team-member" data-role="{{ member.role }}" style="background-image: url('{{ site.baseurl }}/{{ member.photos }}');">
                 <div class="member-content">
                     <h3>{{ member.name }}</h3>
