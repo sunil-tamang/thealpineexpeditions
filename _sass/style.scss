@@ -909,9 +909,11 @@ i {
 .trek-time--part1,
 .trek-time--part2{
 	display: inline-block;
-    width: 5em;
-    height: 5em;
-    margin: 0 0.6em;
+    // width: 5em;
+    // height: 5em;
+    padding: .6em;
+    margin-top: .5em;
+    // margin: 0 0.6em;
     border-radius: 0;
     border: 2px solid #cacaca;
 	background-color: rgba(0, 0, 0, 0.64);
