@@ -420,15 +420,15 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			{
 				id : 23,
 				name : 'Pikey Peak Trek',
-				img : 'assets/css/images/treks/makalu_sherpani_min.jpg',
-				price : 12000.00,
+				img : 'assets/css/images/treks/pikey-peak.jpg',
+				price : 1100.00,
 				prodType :    'trekking',
 				descShort :   '  ',
 				descPartOne : '  ',
 				descPartTwo : '  ',
 				stock : 1,
-				days : 22,
-				nights: 21,
+				days : 8,
+				nights: 7,
 				urlName : 'pikey-peak-trek'
 			},
 

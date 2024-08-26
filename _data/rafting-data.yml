@@ -15,7 +15,7 @@ trishuli-river-rafting:
     rating: 'Class III - IV'
     region: "Manaslu"
 
-    popular: "Y"
+    # popular: "Y"
     price: "100"
     
     bookLink: "https://www.instamojo.com/thetrippyfrog/beas-kund-trek-ab0ba/"
@@ -33,6 +33,8 @@ trishuli-river-rafting:
     # image: "<img class='map1'>"
 
     photoo: "assets/css/images/bg/rafting_booner.jpg"
+    photos: "assets/css/images/rafting/trishuli-river-rafting/banner.jpg"
+
 
 
     lights:
@@ -125,6 +127,7 @@ bhote-koshi-river-rafting:
     price: "200"
     
     
+    photos: "assets/css/images/rafting/trishuli-river-rafting/banner1.jpg"
     
     bookLink: "https://www.instamojo.com/thetrippyfrog/beas-kund-trek-ab0ba/"
 
@@ -188,8 +191,10 @@ karnali-river-rafting:
     rating: 'Class IV - V'
     region: "Manaslu"
 
-    popular: "Y"
+    # popular: "Y"
     price: "1400"
+ 
+    photos: "assets/css/images/rafting/trishuli-river-rafting/banner.jpg"
 
     
     bookLink: "https://www.instamojo.com/thetrippyfrog/beas-kund-trek-ab0ba/"
@@ -261,6 +266,8 @@ kali-gandaki-river-rafting:
     popular: "Y"
     price: "450"
     
+    photos: "assets/css/images/rafting/kali-gandaki-river-rafting/banner3.jpg"
+
     bookLink: "https://www.instamojo.com/thetrippyfrog/beas-kund-trek-ab0ba/"
 
     description: "The Manaslu Base Camp Trek is a true gem for adventure seekers and nature lovers alike. The trek takes you through the pristine Manaslu Conservation Area, home to some of the rarest flora and fauna in the world. Along the way, you'll get to experience the warm hospitality of local communities, steeped in ancient traditions and customs that have remained unchanged for centuries."
@@ -320,6 +327,7 @@ tamur-river-rafting:
     popular: "Y"
     price: "1600"
     
+    photos: "assets/css/images/rafting/tamur-river-rafting/banner01.jpg"
     
     bookLink: "https://www.instamojo.com/thetrippyfrog/beas-kund-trek-ab0ba/"
 
@@ -398,8 +406,10 @@ seti-river-rafting:
     rating: 'Class III - IV'
     region: "Manaslu"
 
-    popular: "Y"
+    # popular: "Y"
     price: "100"
+    
+    photos: "assets/css/images/rafting/trishuli-river-rafting/banner.jpg"
     
     bookLink: "https://www.instamojo.com/thetrippyfrog/beas-kund-trek-ab0ba/"
 
@@ -465,6 +475,8 @@ marshyangdi-river-rafting:
     popular: "Y"
     price: "250"
     
+    photos: "assets/css/images/rafting/marshyangdi-river-rafting/banner6.jpg"
+
     
     bookLink: "https://www.instamojo.com/thetrippyfrog/beas-kund-trek-ab0ba/"
 
@@ -516,7 +528,7 @@ bheri-river-rafting:
     groupSize: "2-15 pax"
     season: "Spring/Autumn"
     region: "Manaslu"
-    popular: "Y"
+    # popular: "Y"
     price: "1787"
     
     bookLink: "https://www.instamojo.com/thetrippyfrog/beas-kund-trek-ab0ba/"
@@ -566,7 +578,7 @@ sun-koshi-river-rafting:
     rating: 'Class IV - V'
     region: "Manaslu"
 
-    popular: "Y"
+    # popular: "Y"
     price: "1250"
     
     
@@ -642,7 +654,7 @@ arun-river-rafting:
     rating: 'Class IV - V'
     region: "Manaslu"
 
-    popular: "Y"
+    # popular: "Y"
     price: "250"
     
     

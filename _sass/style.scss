@@ -1120,7 +1120,7 @@ i {
 }
 
 .banner__home{
-	top: 58%;
+	// top: 58%;
 }
 
 .tagline{
@@ -3680,7 +3680,7 @@ li.image-holder{
     position: relative;
     width: 100%;
     height: 100vh; 
-    overflow: hidden;
+    // overflow: hidden;
 }
 
 .banner-background {
@@ -3736,10 +3736,10 @@ li.image-holder{
 .profile-image {
     width: 250px;
     height: 250px;
-    border-radius: 50%;
+    border-radius: 8px;
     object-fit: cover; 
     background-color: rgba(34, 34, 34, .8);
-    border: solid 5px #fff;
+    // border: solid 5px #fff;
     
 }
 

@@ -87,9 +87,9 @@ keywords: "trekking in nepal, nepal trekking, himalayan treks, alpine expedition
 			<span class="banner__overlay"></span>
 			
 			<div class="banner__tagline banner__home" style="opacity: 1;">
-				<p class="tagline" style="text-transform: none;"></p>
-				<br />
-				<p class="sub-tagline" style="display: inline;">
+				<!-- <h1 class="tagline" style="text-transform: none;">NEPAL</h1> -->
+				<!-- <br /> -->
+				<!-- <p class="sub-tagline" style="display: inline;"> -->
 				
 				</p>
 			</div>
@@ -100,6 +100,8 @@ keywords: "trekking in nepal, nepal trekking, himalayan treks, alpine expedition
 
 
 </div>
+
+
 <!--- B-A-N-N-E-R -->
 <!-- <div class="slider-wrapper">
   <button class="slide-prev"><i class="fas fa-chevron-left"></i></button>
@@ -291,7 +293,8 @@ keywords: "trekking in nepal, nepal trekking, himalayan treks, alpine expedition
 				<div class="button-container ">
 					<button class="toggle-button" onclick="showSection('peaks')"> <p>Peak Climbing</p></button>
 					<button class="toggle-button" onclick="showSection('treks')"><p>Treks</p></button>
-					<button class="toggle-button" onclick="showSection('tours')"> <p>MTB Tours</p> </button>
+					<button class="toggle-button" onclick="showSection('tours')"> <p>Mountain Biking </p> </button>
+					<button class="toggle-button" onclick="showSection('rafting')"> <p>White Water Rafting</p> </button>
 				</div>
 			
 				<br/>
@@ -351,6 +354,28 @@ keywords: "trekking in nepal, nepal trekking, himalayan treks, alpine expedition
 					{% for tour in site.data.bike-data %}
 						{% if tour[1].popular == "Y" %}
 						<a href="{{ site.baseurl }}/activities/bike-tours/{{ tour[0] }}" class="tour-link">
+							<div class="tour-card">
+								<div class="tour-photo" style="background-image: url('{{ site.baseurl }}/{{ tour[1].photos }}');">
+									<div class="tour-card-overlay">
+										<div class="tour-info">
+											<h2>{{ tour[1].name }}</h2>
+											<p><strong>Location:</strong> {{ tour[1].region }}</p>
+											<p><strong>Price:</strong> ${{ tour[1].price }}</p>
+										</div>
+
+									</div>
+								</div>
+								
+							</div>
+						</a>
+						{% endif %}
+					{% endfor %}
+				</div>
+
+				<div id="rafting" class="content-section">
+					{% for tour in site.data.rafting-data %}
+						{% if tour[1].popular == "Y" %}
+						<a href="{{ site.baseurl }}/activities/rafting/{{ tour[0] }}" class="tour-link">
 							<div class="tour-card">
 								<div class="tour-photo" style="background-image: url('{{ site.baseurl }}/{{ tour[1].photos }}');">
 									<div class="tour-card-overlay">

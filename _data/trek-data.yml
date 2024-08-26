@@ -362,19 +362,19 @@ langtang-valley-trek:
 
 pikey-peak-trek:
     name: "Pikey Peak Trek"
-    days: "18"
-    nights: "17"
+    days: "8"
+    nights: "7"
     altitude: "12,467"
     grade: "Moderate"
     walking: "5-7 hours"
     accomodation: "Hotel + Lodge"
     groupSize: "2-15 pax"
     season: "Spring/Autumn"
-    region: "Manaslu"
-    # popular: "Y"
-    price: "1787"
-    photos: "assets/css/images/treks/everest_base_min.jpg"
-    photoo: "assets/css/images/treks/manasalu_min.jpg"
+    region: "Khumbu"
+    popular: "Y"
+    price: "1200"
+    photos: "assets/css/images/treks/pikey-peak.jpg"
+    photoo: "assets/css/images/treks/pikey-peak.jpg"
     url: ""
     
     bookLink: "https://www.instamojo.com/thetrippyfrog/beas-kund-trek-ab0ba/"
@@ -396,15 +396,61 @@ pikey-peak-trek:
 
     overview:
 
-    - content: "<a class='highlight-link' href='/activities/trekking/manaslu-base-camp-trek/'>Manaslu Base Camp Trek</a> is a remarkable journey for adventure enthusiasts and nature lovers alike. This trek takes you through the unspoiled Manaslu Conservation Area, home to some of the world’s rarest flora and fauna. Along the way, you'll experience the genuine hospitality of local communities, deeply rooted in traditions that have stood the test of time."
-    - content: "As you ascend to the base camp of Manaslu, the eighth highest mountain in the world, you'll be treated to stunning panoramic views of the surrounding peaks, including the iconic Mt. Everest. You'll also have the opportunity to explore the famous Larkya La Pass, a high-altitude crossing that offers breathtaking views of the Himalayan range."
-    - content: "The Manaslu Base Camp Trek is an experience that will stay with you forever. Whether you're an experienced hiker or a first-time trekker, this journey is sure to challenge and inspire you in equal measure. So why wait? Book your trek today and discover the magic of the Manaslu region for yourself!"
-   
+    - content: " Pikey Peak is a hidden gem in the Solu region of Nepal, known for its breathtaking views of Everest, Kanchenjunga, and several other Himalayan giants. This trek is perfect for those seeking a short, relatively easy adventure with stunning vistas. Below is a suggested 8-day itinerary for the Pikey Peak trek:"
+    - content: " "
+    - content: " "
+
     itinerary:
 
-    
-    - title: "DAY 1 - Arrival in Kathmandu, Nepal"
-      content: "Welcome to the vibrant city of Kathmandu, where ancient architecture, rich culture, and warm hospitality await you. Upon arrival at the airport, our representative will greet you with a traditional garland of marigolds and transfer you to your hotel. After settling in, you can explore the city on your own or relax and prepare for your upcoming adventure."
+      
+    - title: "Day 1: Arrival in Kathmandu"
+      content: |
+        Arrive in Kathmandu.
+        Spend the day exploring the city, arranging permits, and preparing for the trek.
+        Overnight in Kathmandu.
+
+    - title: "Day 2: Drive from Kathmandu to Dhap (2,930m)"
+      content: |
+        Drive Duration: 8-9 hours.
+        Begin your journey with a scenic drive to Dhap early in the morning.
+        Overnight in Dhap.
+
+    - title: "Day 3: Trek from Dhap to Jhapre (2,820m)"
+      content: |
+        Trekking Duration: 4-5 hours.
+        Start your trek to Jhapre, a picturesque village offering your first glimpses of Everest.
+        Overnight in Jhapre.
+
+    - title: "Day 4: Trek from Jhapre to Pikey Base Camp (3,640m)"
+      content: |
+        Trekking Duration: 6-7 hours.
+        Gradual ascent through rhododendron forests and traditional Sherpa villages.
+        Overnight at Pikey Base Camp.
+
+    - title: "Day 5: Hike to Pikey Peak (4,065m) and Trek to Junbesi (2,700m)"
+      content: |
+        Hike Duration: 6-7 hours.
+        Wake up early for a sunrise hike to Pikey Peak, where you’ll be rewarded with panoramic views of Everest, Makalu, Kanchenjunga, and more.
+        Descend to Junbesi, a charming Sherpa village.
+        Overnight in Junbesi.
+
+    - title: "Day 6: Trek from Junbesi to Phaplu (2,469m)"
+      content: |
+        Trekking Duration: 5-6 hours.
+        Enjoy a scenic trek through beautiful landscapes and cross suspension bridges.
+        Overnight in Phaplu.
+
+    - title: "Day 7: Fly or Drive from Phaplu to Kathmandu"
+      content: |
+        Flight Duration: 30 minutes (if flying).
+        Drive Duration: 8-9 hours (if driving).
+        Return to Kathmandu with time to relax and explore the city.
+        Overnight in Kathmandu.
+
+    - title: "Day 8: Departure from Kathmandu"
+      content: |
+        Depending on your flight schedule, you can do some last-minute shopping or sightseeing.
+        Depart from Kathmandu.
 
 
 yala-peak-trek:
@@ -479,6 +525,9 @@ yala-peak-trek:
       content: "Today is the last day of our trip, and we transfer you to the airport for your final departure. We bid farewell to each other, hoping to see you soon on another adventure in the Himalayas."
 
 
+
+
+  
 
 gosai-kunda-trek:
     name: "Gosai Kund Trek"
