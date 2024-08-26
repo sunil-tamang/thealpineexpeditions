@@ -362,15 +362,15 @@ langtang-valley-trek:
 
 pikey-peak-trek:
     name: "Pikey Peak Trek"
-    days: "8"
-    nights: "7"
-    altitude: "12,467"
+    days: "10"
+    nights: "9"
+    altitude: "4,065"
     grade: "Moderate"
     walking: "5-7 hours"
     accomodation: "Hotel + Lodge"
     groupSize: "2-15 pax"
     season: "Spring/Autumn"
-    region: "Khumbu"
+    region: "Solukhumbu"
     popular: "Y"
     price: "1200"
     photos: "assets/css/images/treks/pikey-peak.jpg"
@@ -403,54 +403,52 @@ pikey-peak-trek:
     itinerary:
 
       
-    - title: "Day 1: Arrival in Kathmandu"
+    - title: "Day 01: Arrival in Kathmandu and Transfer to Hotel"
       content: |
-        Arrive in Kathmandu.
-        Spend the day exploring the city, arranging permits, and preparing for the trek.
-        Overnight in Kathmandu.
+        Upon arrival at Tribhuvan International airport in Kathmandu, you will be met and welcomed by an officer from Excellent Himalaya Trek and Expedition. He will assist you to transfer to your hotel. You will be briefed about your trip at the hotel. Then, you can relax at your hotel or wander around Thamel, the tourist center of Kathmandu, and do some last-minute shopping. Overnight at a hotel in Kathmandu.
 
-    - title: "Day 2: Drive from Kathmandu to Dhap (2,930m)"
+    - title: "Day 02: Drive from Kathmandu to Dhap Bazaar (Altitude 2850 meters)"
       content: |
-        Drive Duration: 8-9 hours.
-        Begin your journey with a scenic drive to Dhap early in the morning.
-        Overnight in Dhap.
+        Driving Distance: 240 km | Duration: 8 hours
+        The first leg of our journey takes you by road from Kathmandu to Dhap Bazaar. The road follows the banks of the Sunkoshi River until you reach Ghurmi Village. Along the way, enjoy the constantly changing Nepali countryside with dense forests, terraced rice fields, and numerous gushing rivers. Upon arrival at Dhap Bazaar, take a leisurely walk around the markets. Overnight at Mountain Lodge.
 
-    - title: "Day 3: Trek from Dhap to Jhapre (2,820m)"
+    - title: "Day 03: Trek from Dhap Bazaar to Japre (Altitude 2815 meters)"
       content: |
-        Trekking Duration: 4-5 hours.
-        Start your trek to Jhapre, a picturesque village offering your first glimpses of Everest.
-        Overnight in Jhapre.
+        Distance: 14 km | Walking Duration: 4/5 hours
+        Begin your trek from Dhap. Near Sigane, you will catch a view of the peaks of the Numbur Himal range. The trail from Sigane follows a road under construction for the first few hours. The first village you reach is Japre (2920 meters), located above a deep valley with lovely views of Everest and Numbur Himal. There’s a small Buddhist Monastery and stupa in Japre. Overnight at Mountain Lodge.
 
-    - title: "Day 4: Trek from Jhapre to Pikey Base Camp (3,640m)"
+    - title: "Day 04: Trek from Japre to Pikey Base Camp (Altitude 3640 meters)"
       content: |
-        Trekking Duration: 6-7 hours.
-        Gradual ascent through rhododendron forests and traditional Sherpa villages.
-        Overnight at Pikey Base Camp.
+        Distance: 13.73 km | Walking Duration: 5/6 hours
+        After Japre, the trail climbs up to a grassy ridge at Bhulbhule with great views of the Everest range. Shortly after Bhulbhule, the trail splits, leading right towards Pikey Peak. You’ll pass old yak houses and a long mani stone wall, before continuing on a forested trail through rhododendron trees (which bloom in spring). After leaving the forest, it takes around 2 hours to reach Pikey Peak Base Camp. Overnight at Mountain Lodge.
 
-    - title: "Day 5: Hike to Pikey Peak (4,065m) and Trek to Junbesi (2,700m)"
+    - title: "Day 05: Rest Day (Optional, if Weather is Bad)"
       content: |
-        Hike Duration: 6-7 hours.
-        Wake up early for a sunrise hike to Pikey Peak, where you’ll be rewarded with panoramic views of Everest, Makalu, Kanchenjunga, and more.
-        Descend to Junbesi, a charming Sherpa village.
-        Overnight in Junbesi.
+        This is a flexible day built into the itinerary in case of bad weather. You can stay at Pikey Base Camp and wait for better conditions to safely continue the trek. Use this day to rest, acclimatize, and explore the surroundings.
 
-    - title: "Day 6: Trek from Junbesi to Phaplu (2,469m)"
+    - title: "Day 06: Trek from Pikey Base Camp to Pikey Peak (Altitude 4065 meters) to Jase Bhanjyang (Altitude 3520 meters)"
       content: |
-        Trekking Duration: 5-6 hours.
-        Enjoy a scenic trek through beautiful landscapes and cross suspension bridges.
-        Overnight in Phaplu.
+        Distance: 5 km | Walking Duration: 4/5 hours
+        Start early in the morning to hike to Pikey Peak. Enjoy breathtaking sunrise views and the panorama of Mt. Everest (8848m), Number Chuli (6959m), Thamserku (6608m), Kangtega (6685m), Khatang (6853m), Kanchenjunga (8586m), Manaslu (8163m), Dhaulagiri (8167m), Gaurishankar (7134m), Dorje Lakpa (6966m), and Langtang. After enjoying the views, descend to Jase Bhanjyang for the night’s rest. Overnight at Mountain Lodge.
 
-    - title: "Day 7: Fly or Drive from Phaplu to Kathmandu"
+    - title: "Day 07: Trek from Jase Bhanjyang to Junbesi (Altitude 2680 meters)"
       content: |
-        Flight Duration: 30 minutes (if flying).
-        Drive Duration: 8-9 hours (if driving).
-        Return to Kathmandu with time to relax and explore the city.
-        Overnight in Kathmandu.
+        Distance: 11.02 km | Walking Duration: 5/6 hours
+        After breakfast, follow the trail through a forest and then continue through meadows before reaching the village of Taktor. After lunch in Taktor, continue trekking towards Junbesi on a wide dirt road. Before arriving in Junbesi, you can visit a Buddhist Monastery. Junbesi is a beautiful village with a Buddhist Stupa and comfortable tea houses, home to Sherpa, Magar, and Tamang communities. Overnight at Mountain Lodge.
 
-    - title: "Day 8: Departure from Kathmandu"
+    - title: "Day 08: Trek from Junbesi to Phaplu (Altitude 2380 meters)"
       content: |
-        Depending on your flight schedule, you can do some last-minute shopping or sightseeing.
-        Depart from Kathmandu.
+        Distance: 13.26 km | Walking Duration: 5/6 hours
+        After breakfast, descend along the trail following Junbesi Khola until you reach a steel suspension bridge. Cross the bridge to reach Beni Ghat, then continue along the scenic trail towards Phaplu. At Phaplu, enjoy local cuisine and partake in traditional Sherpa cultural events. Overnight at Mountain Lodge.
+
+    - title: "Day 09: Drive from Phaplu to Kathmandu (Altitude 1350 meters)"
+      content: |
+        Driving Distance: 280 km | Driving Duration: 9/10 hours
+        Drive from Phaplu to Kathmandu via a regular sumo jeep. Upon arrival in Kathmandu, transfer to your hotel. In the evening, enjoy a farewell dinner at an authentic Nepali restaurant featuring traditional cuisine.
+
+    - title: "Day 10: Transfer to International Airport for Final Departure"
+      content: |
+        Today marks the end of your Nepal adventure. Our officer will drive you to the airport approximately 3 hours before your scheduled flight, ensuring a smooth journey to your onward destination.
 
 
 yala-peak-trek:
