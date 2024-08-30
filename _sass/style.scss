@@ -1132,9 +1132,10 @@ i {
     color: #fff;
     position: absolute;
     left: 0;
-    top: 40%;
+    bottom: 0%;
+    // top: 40%;
     width: 100%;
-    text-align: center;
+    text-align: left;
     padding: 20px;
     margin: 0 auto;
     box-sizing: border-box;
@@ -1145,8 +1146,9 @@ i {
 }
 
 .tagline{
-    text-transform: uppercase;
-    font-size: 2.25em;
+    // text-transform: uppercase;
+    font-size: 2em;
+
 }
 .sub-tagline{
     font-size: 1.2em;
