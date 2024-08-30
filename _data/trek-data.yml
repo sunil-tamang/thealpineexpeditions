@@ -1,4 +1,6 @@
 # Sorted trek by Alphabetic Order
+
+
 everest-base-camp-trek:
     name: "Everest Base Camp Trek"
     days: "15"
@@ -12,7 +14,7 @@ everest-base-camp-trek:
     season: "Spring/Autumn"
     region: "Everest"
     popular: "Y"
-    price: "2500"
+    price: "1,559.00"
     photos: "assets/css/images/treks/everest_base_min.jpg"
 
     
@@ -304,7 +306,7 @@ langtang-valley-trek:
     season: "Spring/Autumn"
     region: "Langtang"
     popular: "Y"
-    price: "2000"
+    price: "1,300.00"
     photos: "assets/css/images/treks/langtang_valley_min.jpg"
     card: assets/css/images/treks/langtang-card.jpg"
     
@@ -758,7 +760,7 @@ three-pass-trek:
     season: "Spring/Autumn"
     region: "Everest"
     # popular: "Y"
-    price: "8500"
+    price: "2,200.00"
     photos: "assets/css/images/treks/three_passes_min.jpg"
     
     bookLink: "https://www.instamojo.com/thetrippyfrog/beas-kund-trek-ab0ba/"
@@ -1234,7 +1236,7 @@ upper-mustang-trek:
     season: "Spring/Autumn"
     region: "Mustang"
     # popular: "Y"
-    price: "8500"
+    price: "3,995.00"
     photos: "assets/css/images/treks/dhaulagiri_circuit_min.jpg"
 
     
@@ -1487,7 +1489,7 @@ annapurna-base-camp-trek:
     season: "Spring/Autumn"
     region: "Annapurna"
     # popular: "Y"
-    price: "8500"
+    price: "1,415.00"
     photos: "assets/css/images/treks/annapurna_base_camp_min.jpg"
 
     
@@ -1564,7 +1566,7 @@ annapurna-circuit-trek:
     season: "Spring/Autumn"
     region: "Annapurna"
     popular: "Y"
-    price: "8500"
+    price: "2,020.00"
     photos: "assets/css/images/treks/annapurna_circuit_min.jpg"
 
     

@@ -245,6 +245,20 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			//  Trekking 
 			{
 				id : 11,
+				name : 'Luxury Everest Base Camp Trek',
+				img : 'assets/css/images/treks/everest_base_min.jpg',
+				price : 12000.00,
+				prodType :    'trekking',
+				descShort :   'A luxurious and unforgettable adventure to Everest Base Camp, with a helicopter return and optional hike to Pumori Camp I. Experience breathtaking views of the world’s tallest peaks and immerse yourself in the unique culture of the Sherpa people.  Experience the ultimate trek to Everest Base Camp in luxury, with helicopter flights, high-end lodges, and an optional hike to Pumori Camp I, creating memories that will last a lifetime.',
+				descPartOne : 'A luxurious and unforgettable adventure to Everest Base Camp, with a helicopter return and optional hike to Pumori Camp I. Experience breathtaking views of the world’s tallest peaks and immerse yourself in the unique culture of the Sherpa people.  Experience the ultimate trek to Everest Base Camp in luxury, with helicopter flights, high-end lodges, and an optional hike to Pumori Camp I, creating memories that will last a lifetime.',
+				descPartTwo : 'A luxurious and unforgettable adventure to Everest Base Camp, with a helicopter return and optional hike to Pumori Camp I. Experience breathtaking views of the world’s tallest peaks and immerse yourself in the unique culture of the Sherpa people.  Experience the ultimate trek to Everest Base Camp in luxury, with helicopter flights, high-end lodges, and an optional hike to Pumori Camp I, creating memories that will last a lifetime.',
+				stock : 1,
+				days : 15,
+				nights: 14,
+				urlName : 'luxury-everest-base-camp-trek'
+			},
+			{
+				id : 12,
 				name : 'Everest Base Camp Trek',
 				img : 'assets/css/images/treks/everest_base_min.jpg',
 				price : 12000.00,
@@ -259,7 +273,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			},
 			{
 
-				id : 12,
+				id : 13,
 				name : 'Annapurna Base Camp Trek',
 				img : 'assets/css/images/treks/annapurna_base_camp_min.jpg',
 				price : 12000.00,
@@ -273,7 +287,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				urlName : 'annapurna-base-camp-trek'
 			},
 			{
-				id : 13,
+				id : 14,
 				name : 'Manaslu Base Camp Trek',
 				img : 'assets/css/images/treks/manasalu_min.jpg',
 				price : 1787,
@@ -288,7 +302,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				
 			},
 			{
-				id : 14,
+				id : 15,
 				name : 'Mardi Himal Trek',
 				img : 'assets/css/images/treks/mardi_himal_min.jpg',
 				price : 12000.00,
@@ -302,7 +316,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				urlName : 'mardi-himal-trek'
 			},
 			{
-				id : 15,
+				id : 16,
 				name : 'Makalu Base Camp Trek',
 				img : 'assets/css/images/treks/makalu_base_camp_min.jpg',
 				price : 12000.00,
@@ -317,7 +331,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			},
 		
 			{
-				id : 16,
+				id : 17,
 				name : 'Manaslu Circuit Trek',
 				img : 'assets/css/images/treks/manaslu_circuit_min.jpg',
 				price : 7500.00,
@@ -331,7 +345,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				urlName : 'manaslu-circuit-trek'
 			},
 			{
-				id : 17,
+				id : 18,
 				name : 'Langtang Valley Trek',
 				img : 'assets/css/images/treks/langtang_valley_min.jpg',
 				// price : 5000.00,
@@ -345,7 +359,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				urlName : 'langtang-valley-trek'
 			},
 			{
-				id : 18,
+				id : 19,
 				name : 'Upper Mustang Trek',
 				img : 'assets/css/images/treks/dhaulagiri_circuit_min.jpg',
 				price : 12000.00,
@@ -359,7 +373,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				urlName : 'upper-mustang-trek'
 			},
 			{
-				id : 19,
+				id : 20,
 				name : 'Annapurna Circuit Trek',
 				img : 'assets/css/images/treks/annapurna_circuit_min.jpg',
 				price : 12000.00,
@@ -374,7 +388,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			},
 
 			{
-				id : 20,
+				id : 21,
 				name : 'Gosai Kund Trek',
 				img : 'assets/css/images/treks/gosai_kunda_min.jpg',
 				price : 12000.00,
@@ -390,7 +404,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 
 
 			{
-				id : 21,
+				id : 22,
 				name : 'Three Passes Trek',
 				img : 'assets/css/images/treks/three_passes_min.jpg',
 				price : 12000.00,
@@ -404,7 +418,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				urlName : 'three-pass-trek'
 			},
 			{
-				id : 22,
+				id : 23,
 				name : 'Kanchenjunga Circuit Trek',
 				img : 'assets/css/images/treks/kanchenjunga_circuit_min.jpg',
 				price : 12000.00,
@@ -418,7 +432,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				urlName : 'kanchenjunga-circuit-trek'
 			},
 			{
-				id : 23,
+				id : 24,
 				name : 'Pikey Peak Trek',
 				img : 'assets/css/images/treks/pikey-peak.jpg',
 				price : 1100.00,
@@ -433,7 +447,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			},
 
 			// {
-			// 	id : 23,
+			// 	id : 25,
 			// 	name : 'Makalu sherpani Col Pass Trek',
 			// 	img : 'assets/css/images/treks/makalu_sherpani_min.jpg',
 			// 	price : 12000.00,
@@ -448,7 +462,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			// },
 
 			{
-				id : 24 ,
+				id : 26,
 				name : 'Panch Pokhari Trek',
 				img : 'assets/css/images/treks/panch_min.jpg',
 				price : 12000.00,
@@ -463,7 +477,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			},
 	
 			{
-				id : 25,
+				id : 27,
 				name : 'Tamang Heritage Trail',
 				img : 'assets/css/images/treks/gosai_kunda_min.jpg',
 				price : 12000.00,
@@ -479,7 +493,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			
 			
 			{
-				id : 26,
+				id : 28,
 				name : 'Dhaulagiri Circuit Trek',
 				img : 'assets/css/images/treks/dhaulagiri_circuit_min.jpg',
 				price : 12000.00,
@@ -493,7 +507,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				urlName : 'dhaulagiri-circuit-trek'
 			},
 			{
-				id : 27,
+				id : 29,
 				name : 'Tashi Lapcha Pass Trek',
 				img : 'assets/css/images/treks/tashi_lapcha_min.jpg',
 				price : 12000.00,
@@ -508,7 +522,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			},
 			
 						{
-				id : 28,
+				id : 30,
 				name : 'Yala Peak Trek',
 				img : 'assets/css/images/treks/yala_peak_min.jpg',
 				price : 12000.00,
@@ -522,7 +536,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				urlName : 'yala-peak-trek'
 			},
 						{
-				id : 29,
+				id : 31,
 				name : 'Gokyo Chola Pass Trek',
 				img : 'assets/css/images/treks/chola_min.jpg',
 				price : 12000.00,
@@ -537,7 +551,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			},
 
 			{
-				id : 30,
+				id : 32,
 				name : 'Annapurna Base Camp Trek North',
 				img : 'assets/css/images/treks/dhaulagiri_circuit_min.jpg',
 				price : 12000.00,
@@ -553,7 +567,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 
 
 			{
-				id : 31,
+				id : 33,
 				name : 'Bhrigu Lake Trek',
 				img : 'assets/css/images/treks/bhrigu_min.jpg',
 				price : 7500.00,
@@ -567,7 +581,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				urlName : 'bhrigu-lake-trek'
 		},
 			{
-				id : 32,
+				id : 34,
 				name : 'Mantalai Lake Trek',
 				img : 'assets/css/images/treks/wild_min.jpg',
 				price : 12000.00,
@@ -581,7 +595,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				urlName : 'mantalai-lake-trek'
 			},
 			{
-				id : 33,
+				id : 35,
 				name : 'Kufri Trek',
 				img : 'assets/css/images/treks/kufri_min.jpg',
 				price : 5000.00,
@@ -596,7 +610,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			},
 
 			{
-				id : 34,
+				id : 36,
 				name : 'Beas Kund Trek',
 				img : 'assets/css/images/treks/beas_min.jpg',
 				price : 8500.00,
@@ -611,7 +625,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			},
 
 			{
-				id : 35,
+				id : 37,
 				name : 'Pin Parvati Trek',
 				img : 'assets/css/images/treks/pin_parvati_min.jpg',
 				price : 35000.00,
@@ -625,7 +639,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				urlName : 'pin-parvati-trek'
 			},
 			{
-				id : 36,
+				id : 38,
 				name : 'Fungni Top Trek',
 				img : 'assets/css/images/treks/fungni_min.jpg',
 				price : 6000.00,
@@ -639,7 +653,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				urlName : 'fungni-top-trek'
 			},
 			{
-				id : 37,
+				id : 39,
 				name : 'Kais Dhar Trek',
 				img : 'assets/css/images/treks/kais_dhar_min.jpg',
 				price : 7500.00,
@@ -653,7 +667,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				urlName : 'kais-dhar-trek'
 			},
 			{
-				id : 38,
+				id : 40,
 				name : 'Malana Village Trek',
 				img : 'assets/css/images/treks/malana_min.jpg',
 				price : 6500.00,
@@ -667,7 +681,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				urlName : 'malana-village-trek'
 			},
 			{
-				id : 39,
+				id : 41,
 				name : 'Sar Pass Trek',
 				img : 'assets/css/images/treks/sar_min.jpg',
 				price : 9000.00,
@@ -681,7 +695,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				urlName : 'sar-pass-trek'
 			},
 			{
-				id : 40,
+				id : 42,
 				name : 'Dehnasar Lake Trek',
 				img : 'assets/css/images/treks/dehnasar_lake_min.jpg',
 				price : 10000.00,
@@ -695,7 +709,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				urlName : 'dehnasar-lake-trek'
 			},
 			{
-				id : 41,
+				id : 43,
 				name : 'ChandraKhani Pass Trek',
 				img : 'assets/css/images/treks/chandrakhani-pass_min.jpg',
 				price : 8500.00,
@@ -710,7 +724,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			},
 
 			{
-				id : 42,
+				id : 44,
 				name : 'Deo Tibba Base Camp Trek',
 				img : 'assets/css/images/treks/deo_tibba_min.jpg',
 				price : 15500.00,
@@ -726,7 +740,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 
 
 			{
-				id : 43,
+				id : 45,
 				name : 'Hampta Pass Trek',
 				img : 'assets/css/images/treks/hampta_min.jpg',
 				price : 8500.00,
@@ -743,7 +757,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			
 			// Camping Products
 			{
-				id : 44,
+				id : 46,
 				name : 'Camping In The Wild',
 				img : 'assets/css/images/camping/camp-in-wild-min.jpg',
 				price : 1200.00,
@@ -758,7 +772,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			},
 
 			{
-				id : 45,
+				id : 47,
 				name : 'Camping Near River',
 				img : 'assets/css/images/camping/camp-near-river-min.jpg',
 				price : 1000.00,
@@ -775,7 +789,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 
 // Tour Packages
 			{
-				id : 46,
+				id : 48,
 				name : 'Shimla Manali Escape',
 				img : 'assets/css/images/escape-trips/shimla-manali-escape/shimla_min.jpg',
 				price : 10000,
@@ -792,7 +806,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				urlName : 'shimla-manali-escape'
 			},
 			{
-				id : 47,
+				id : 49,
 				name : 'Bijli Mahadev Escape',
 				img : 'assets/css/images/escape-trips/weekend-escape/weekend-escape-min.jpg',
 				price : 7000,
@@ -811,7 +825,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 
 
 			{
-				id : 48,
+				id : 50,
 				name : 'Spiti Valley Escape',
 				img : 'assets/css/images/escape-trips/spiti-valley-escape/spiti_min.jpg',
 				price : 9999,
@@ -829,7 +843,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			},
 
 			{
-				id : 48,
+				id : 51,
 				name : 'Tirthan Valley Escape',
 				img : 'assets/css/images/escape-trips/tirthan-valley/tirthan-valley.jpg',
 				price : 9999,
@@ -846,7 +860,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				urlName : 'tirthan-valley-escape'
 			},
 			{
-				id : 49,
+				id : 52,
 				name : 'Himalayan Escape',
 				img : 'assets/css/images/escape-trips/himalayan-escape/himalayan-escape-min.jpg',
 				price : 6500,
@@ -864,7 +878,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			},
 
 			{
-				id : 49,
+				id : 53,
 				name : 'Magic Valley Escape',
 				img : 'assets/css/images/escape-trips/magic-valley-escape/magic-valley-escape-min.jpg',
 				price : 8000,
@@ -881,7 +895,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				urlName : 'magic-valley-escape'
 			},
 			{
-				id : 50,
+				id : 54,
 				name : 'Leh Ladakh Escape',
 				img : 'assets/css/images/escape-trips/leh-ladakh-escape/leh_min.jpg',
 				price : 9999,
@@ -903,7 +917,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 
 			//Bike-Tours Products
 			{
-				id : 51,
+				id : 55,
 				name : 'Annapurna Circuit MTB Tour',
 				img : 'assets/css/images/bike-tours/annapurna-circuit-mtb-tour/01.jpg',
 				price : 36000.00,
@@ -918,7 +932,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				urlName : 'annapurna-circuit-mtb-tour'
 			},
 			{
-				id : 52,
+				id : 56,
 				name : 'Kathmandu Valley MTB Tour',
 				img : 'assets/css/images/bike-tours/kathmandu-valley-mtb-tour/banner2.jpg',
 				price : 36000.00,
@@ -933,7 +947,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				urlName : 'kathmandu-valley-bike-tour'
 			},
 			{
-				id : 53,
+				id : 57,
 				name : 'Upper Mustang MTB Tour',
 				img : 'assets/css/images/bike-tours/upper-mustang-mtb-tour/banner2.jpg',
 				price : 8500.00,
@@ -948,7 +962,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				
 			},
 			{
-				id : 54,
+				id : 58,
 				name : 'Manaslu Circuit MTB Tour',
 				img : 'assets/css/images/bike-tours/manaslu-circuit-mtb-tour/banner2.jpg',
 				price : 36000.00,
@@ -964,7 +978,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			},
 
 			{
-				id : 55,
+				id : 59,
 				name : 'Nagarkot MTB Tour',
 				img : 'assets/css/images/bike-tours/spiti/spiti_min.jpg',
 				price : 8500.00,
@@ -978,7 +992,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				urlName : 'nagarkot-mtb-tour'
 			},
 			{
-				id : 56,
+				id : 60,
 				name : 'Shivapuri National Park MTB Tour',
 				img : 'assets/css/images/bike-tours/spiti/spiti_min.jpg',
 				price : 8500.00,
@@ -992,7 +1006,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				urlName : 'shivapuri-mtb-tour'
 			},
 			{
-				id : 57,
+				id : 61,
 				name : 'Chitwan Safari MTB Tour',
 				img : 'assets/css/images/bike-tours/spiti/spiti_min.jpg',
 				price : 8500.00,
@@ -1006,7 +1020,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				urlName : 'chitwan-safari-mtb-tour'
 			},
 			{
-				id : 58,
+				id : 62,
 				name : 'Pokhara MTB Tour',
 				img : 'assets/css/images/bike-tours/leh-manali/banner1.jpg',
 				price : 36000.00,
@@ -1021,7 +1035,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				urlName : 'pokhara-valley-bike-tour'
 			},
 			{
-				id : 59,
+				id : 63,
 				name : 'Parphing Rock Climbing',
 				img : 'assets/css/images/rock-climbing/parphing-rock-climbing/banner.jpg',
 				price : 36000.00,
@@ -1037,7 +1051,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			},
 
 			{
-				id : 60,
+				id : 64,
 				name : 'Nagarjun Rock Climbing',
 				img : 'assets/css/images/bike-tours/leh-manali/banner1.jpg',
 				price : 36000.00,
@@ -1051,8 +1065,10 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				fixedDate: '15 September',
 				urlName : 'nagarjun'
 			},
+
+			// Peak Climbing 
 			{
-				id : 61,
+				id : 65,
 				name : 'Mera Peak Climbing',
 				img : 'assets/css/images/peak-climbing/mera-peak/banner.jpg',
 				price : 36000.00,
@@ -1068,7 +1084,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			},
 
 			{
-				id : 62,
+				id : 66,
 				name : 'Ama Dablam Peak Climbing',
 				img : 'assets/css/images/peak-climbing/ama-dablam/banner.jpg',
 				price : 36000.00,
@@ -1084,7 +1100,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			},
 
 			{
-				id : 63,
+				id : 67,
 				name : 'Island Peak Climbing',
 				img : 'assets/css/images/peak-climbing/island-peak/banner.jpg',
 				price : 36000.00,
@@ -1100,7 +1116,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			},
 
 			{
-				id : 64,
+				id : 68,
 				name : 'Lobuche Peak Climbing',
 				img : 'assets/css/images/peak-climbing/lobuche-peak/banner.jpg',
 				price : 36000.00,
@@ -1116,7 +1132,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			},
 
 			{
-				id : 65,
+				id : 69,
 				name : 'Pisang Peak Climbing',
 				img : 'assets/css/images/peak-climbing/pisang-peak/banner.jpg',
 				price : 36000.00,
@@ -1132,7 +1148,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			},
 
 			{
-				id : 66,
+				id : 70,
 				name : 'Tharpu Chuli Peak Climbing',
 				img : 'assets/css/images/bike-tours/leh-manali/banner1.jpg',
 				price : 36000.00,
@@ -1148,7 +1164,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			},
 
 			{
-				id : 67,
+				id : 71,
 				name : 'Chulu East Peak Climbing',
 				img : 'assets/css/images/bike-tours/leh-manali/banner1.jpg',
 				price : 36000.00,
@@ -1164,7 +1180,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			},
 		
 			{
-				id : 68,
+				id : 72,
 				name : 'Chulu West Peak Climbing',
 				img : 'assets/css/images/bike-tours/leh-manali/banner1.jpg',
 				price : 36000.00,
@@ -1179,7 +1195,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				urlName : 'chulu-west-peak'
 			},
 			{
-				id : 69,
+				id : 73,
 				name : 'Naya Kanga Peak Climbing',
 				img : 'assets/css/images/bike-tours/leh-manali/banner1.jpg',
 				price : 36000.00,
@@ -1195,7 +1211,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			},
 
 			{
-				id : 70,
+				id : 74,
 				name : 'Yala Peak Climbing',
 				img : 'assets/css/images/bike-tours/leh-manali/banner1.jpg',
 				price : 36000.00,
@@ -1227,11 +1243,11 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 		}
 		else if(productName=='trekking'){
 			lowerLimit = 10
-			upperLimit = 23
+			upperLimit = 24
 		}
 		else if(productName=='camping'){
-			lowerLimit = 43
-			upperLimit = 44
+			lowerLimit = 44
+			upperLimit = 45
 		}
 		else if(productName=='escape-trips'){
 			lowerLimit = 45
@@ -1242,16 +1258,16 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			upperLimit = 48
 		}
 		else if(productName=='bike-tours'){
-			lowerLimit = 52
-			upperLimit = 55
+			lowerLimit = 53
+			upperLimit = 56
 		}
 		else if(productName=='rock-climbing'){
-			lowerLimit = 60
-			upperLimit = 60
+			lowerLimit = 61
+			upperLimit = 61
 		}
 		else if(productName=='peak-climbing'){
-			lowerLimit = 62
-			upperLimit = 66
+			lowerLimit = 63
+			upperLimit = 67
 		}
 		else{
 			lowerLimit = 68
@@ -1384,7 +1400,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				}
 			}
 			// PeakClimbing
-			else if((upperLimit >= 62)&&(upperLimit<=66)){
+			else if((upperLimit >= 63)&&(upperLimit<=67)){
 				if(products[i].stock > 0){
 						content+= '<div class="row row--padding-medium">'
 						content+= '<div class="wrapper col-medium" data-aos="zoom-in" data-aos-easing="ease-in-out-quad">'
@@ -1422,7 +1438,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			}
 
 			// Treks
-			else if((upperLimit >= 10)&&(upperLimit<=23)){
+			else if((upperLimit >= 10)&&(upperLimit<=24)){
 				if(products[i].stock > 0){
 					content+= '<div class="row row--padding-medium">'
 					content+= '<div class="wrapper col-medium" data-aos="zoom-in" data-aos-easing="ease-in-out-quad">'
@@ -1460,7 +1476,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 				}
 			}
 			// Camping
-			else if((upperLimit >= 43)&&(upperLimit<=44)){
+			else if((upperLimit >= 44)&&(upperLimit<=45)){
 				if(products[i].stock > 0){
 // 					content+= '<div class="wrapper col-medium" data-aos="zoom-in" data-aos-easing="ease-in-out-quad">'
 // 					content+= '<a href="/activities/camping/'+ products[i].urlName +'" class="wopper wopper--'+ products[i].prodType +' '+ products[i].prodType +'-'+(i+1)+'" style="background-image: url(/'+products[i].img+')">'
@@ -1601,7 +1617,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			}
 
 			// Bike-Tours
-			else if((upperLimit >= 52)&&(upperLimit<=55)){
+			else if((upperLimit >= 53)&&(upperLimit<=56)){
 				if(products[i].stock > 0){
 
 					// content+='<div class="row--padding-medium col-medium">'
@@ -1714,7 +1730,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 
 
 			// Rock Climbing Tours
-			else if((upperLimit >= 56)&&(upperLimit<=56)){
+			else if((upperLimit >= 61)&&(upperLimit<=61)){
 				if(products[i].stock > 0){
 
 					content+= '<div class="row row--padding-medium">'
