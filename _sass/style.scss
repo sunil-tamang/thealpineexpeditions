@@ -3756,9 +3756,23 @@ li.image-holder{
     line-height: 1.4;
     color: #fff;
 }
+
+
+.profile-image {
+    width: 80vw;
+    height: 70vh;
+    border-radius: 8px;
+    margin-top: 8em;
+    object-fit: cover;
+    background-color: rgba(34, 34, 34, 0.8);
+}
+
+@media(min-width:48em) {
+
 .profile-image {
     width: 250px;
     height: 250px;
+    margin-top: 0em;
     border-radius: 8px;
     object-fit: cover; 
     background-color: rgba(34, 34, 34, .8);
@@ -3766,6 +3780,8 @@ li.image-holder{
     
 }
 
+}
+    
 /* If you want additional details below the banner */
 .member-details {
     padding: 20px;
@@ -3773,15 +3789,14 @@ li.image-holder{
 
 .mountains-table {
     width: 100%;
-
-    // border-collapse: collapse;
+    border-collapse: collapse;
     // margin: 20px 0;
     font-family: 'Arial', sans-serif; 
 }
 
 .mountains-table th, .mountains-table td {
     border:none;
-    padding: 1em;
+    padding: 1em .5em;
     text-align: left;
 }
 

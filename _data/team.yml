@@ -25,13 +25,13 @@
   mountains:
     - name: Lobuche
       summited: 1
-      years: [2020]
+      years: [2024]
     - name: Island Peak
       summited: 1
-      years: [2021]
+      years: [2024]
     - name: Mera Peak
       summited: 1
-      years: [2022]
+      years: [2021]
 
   slug: gelu-sherpa
 
@@ -43,7 +43,7 @@
   email: "john.doe@email.com"
   facebook: "https://facebook.com/johndoe"
   instagram: "https://instagram.com/johndoe"
-  description: Sensai Pema Waiba
+  description: Sensai Pema Waiba is a seasoned climber and filmmaker who has conquered some of the highest peaks in the Himalayas. With a passion for storytelling and adventure, Pema has successfully climbed Mount Everest not once, but twice, and has also stood atop Lobuche, a formidable mountain in the Khumbu region. As a filmmaker, Pema brings a unique perspective to the world of mountaineering, capturing the beauty and drama of the high mountains through his lens. His experience and expertise make him an invaluable asset to our team at Alpine Expeditions.
   mountains:
     - name: Everest 
       summited: 2
@@ -69,7 +69,7 @@
 - name: Prem Mamba
   role: Climbing Guide
   photos: "assets/css/images/team/4.jpg"
-  description: 
+  description: Prem Mamba is the legendary force behind The Alpine Expeditions’ most daring climbs. With the Himalayas as his playground, Prem has mastered the art of summiting the world's highest peaks, including Everest, Lhotse, Ama Dablam, and Lobuche. His name is synonymous with resilience, precision, and an unyielding passion for mountaineering. As our chief mountaineer, Prem doesn’t just lead expeditions—he crafts unforgettable experiences, pushing the boundaries of adventure while ensuring the utmost safety and success for our clients. At The Alpine Expeditions, Prem Mamaba isn’t just a guide; he’s the embodiment of the spirit of exploration that drives us to new heights.
   mountains:
     - name: Mount Everest
       summited: 1
@@ -77,16 +77,28 @@
     - name: Lhotse
       summited: 1
       years: [2023]
-  slug: prem-mamba
-
-- name: Sunil Ghalan
-  role: Climbing Guide
-  photos: "assets/css/images/team/7.jpg"
-  description:
-  mountains:
-    - name: Lobuche
+    - name: Ama Dablam
       summited: 1
       years: [2023]
+  slug: prem-mamba
+
+- name: Sunil Tamang
+  role: Climbing Guide
+  photos: "assets/css/images/team/7.jpg"
+  description: Sunil Tamang is a highly skilled and ambitious climbing guide at Alpine Expeditions, with a strong passion for leading expeditions in the Himalayas. With a impressive climbing resume, Sunil has successfully summited several notable peaks, including Bauntse, Island Peak, and Mera Peak. As an aspiring IFMGA (International Federation of Mountain Guides Associations) mountain guide, Sunil is committed to honing his skills and knowledge to provide the highest level of safety and expertise to our clients. His dedication to his craft and his extensive experience in the Himalayas make him an excellent guide for our treks and expeditions.
+  mountains:
+    - name: Baruntse Peak
+      summited: 1
+      years: [2024]
+    - name: Mera Peak
+      summited: 1
+      years: [2024]
+    - name: Lobuche
+      summited: 1
+      years: [2024]
+    - name: Island Peak
+      summited: 1
+      years: [2024]
   slug: sunil-ghalan
 
 # - name: Pema Sherpa
