@@ -294,6 +294,7 @@ keywords: "trekking in nepal, nepal trekking, himalayan treks, alpine expedition
 					<button class="toggle-button" onclick="showSection('peaks')"> <p>Peak Climbing</p></button>
 					<button class="toggle-button" onclick="showSection('treks')"><p>Treks</p></button>
 					<button class="toggle-button" onclick="showSection('tours')"> <p>Mountain Biking </p> </button>
+					<button class="toggle-button" onclick="showSection('rock')"> <p>Rock Climbing</p> </button>
 					<button class="toggle-button" onclick="showSection('rafting')"> <p>White Water Rafting</p> </button>
 				</div>
 			
@@ -354,6 +355,28 @@ keywords: "trekking in nepal, nepal trekking, himalayan treks, alpine expedition
 					{% for tour in site.data.bike-data %}
 						{% if tour[1].popular == "Y" %}
 						<a href="{{ site.baseurl }}/activities/bike-tours/{{ tour[0] }}" class="tour-link">
+							<div class="tour-card">
+								<div class="tour-photo" style="background-image: url('{{ site.baseurl }}/{{ tour[1].photos }}');">
+									<div class="tour-card-overlay">
+										<div class="tour-info">
+											<h2>{{ tour[1].name }}</h2>
+											<p><strong>Location:</strong> {{ tour[1].region }}</p>
+											<p><strong>Price:</strong> ${{ tour[1].price }}</p>
+										</div>
+
+									</div>
+								</div>
+								
+							</div>
+						</a>
+						{% endif %}
+					{% endfor %}
+				</div>
+
+				<div id="rock" class="content-section">
+					{% for tour in site.data.rock-data %}
+						{% if tour[1].popular == "Y" %}
+						<a href="{{ site.baseurl }}/activities/rock-climbing/{{ tour[0] }}" class="tour-link">
 							<div class="tour-card">
 								<div class="tour-photo" style="background-image: url('{{ site.baseurl }}/{{ tour[1].photos }}');">
 									<div class="tour-card-overlay">

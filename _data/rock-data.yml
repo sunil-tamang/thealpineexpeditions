@@ -13,6 +13,7 @@ parphing:
   region: "Dollu"
   popular: "Y"
   price: "50"
+  photos: "assets/css/images/rock-climbing/bg.jpg"
 
   bookLink: "https://www.instamojo.com/thetrippyfrog/beas-kund-trek-ab0ba/"
 

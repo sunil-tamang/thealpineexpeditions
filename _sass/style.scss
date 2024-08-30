@@ -806,14 +806,14 @@ i {
 
 .two-col-layout .content__left{
 	position: relative;
-	padding-top: 50em;
+	// padding-top: 50em;
 	padding-left: 1em;
 	padding-right: 1em;
 }
 
 .two-col-layout .content__right{
 	flex-grow: 1;
-	position: absolute;
+	// position: absolute;
 //	background: red;
 	color: #fff;
     margin-top: 4em;
@@ -902,6 +902,7 @@ i {
 
 }
 
+
 .banner__trek-overview{
 	color: #fff;
 	font-weight: 800;
@@ -913,6 +914,8 @@ i {
 	max-width: 70em;
 	margin-top: 2em;
 }
+
+
 .trek-name{
 	display: inline-block;
 	text-transform: capitalize;
