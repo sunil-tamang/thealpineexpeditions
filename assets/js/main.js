@@ -621,7 +621,7 @@ function stickElement(){
 	var hT = $('#scroll-to').offset().top,
 		hH = $('#scroll-to').outerHeight(),
 		wS = $(window).scrollTop();
-		if (wS > hT-66 && wS < (hT+hH-200)){
+		if (wS > hT-66 && wS < (hT+hH-500)){
 //			console.log("View");
 			twoCol.addClass("fix");
 		}
