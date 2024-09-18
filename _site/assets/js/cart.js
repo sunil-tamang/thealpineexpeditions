@@ -1462,7 +1462,7 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 					// content+= '</div>'
 					content+= '</div>'
 					content+= '<div class="col-medium wrapper-text-right" data-aos="fade-left" data-aos-easing="ease-in-out-quad">'
-					// content+= '<h2 class="content__sub-title content__title-white" style="float: left; margin-left: 0; padding-top: 0; margin-bottom: .8em;">About</h2><br />'
+					content+= '<h2 class="content__sub-title content__title-white" style="float: left; margin-left: 0; padding-top: 0; margin-bottom: .8em;">About</h2><br />'
 					// content+= '<h1 class="content__sub-title content__title-white" style="float: left; margin-left: 0; padding-top: 0; margin-bottom: .8em;">'+ products[i].name +'</h1><br />'
 					content+= '<p class="content__pg content--detail">'
 					content+= '<span>'+ products[i].descShort +' </span>'
