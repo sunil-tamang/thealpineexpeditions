@@ -1,5 +1,5 @@
 trishuli-river-rafting:
-    name: "Trishuli River Rafting Tour"
+    name: "Trishuli River Rafting"
     days: "1"
     nights: "0"
    
@@ -107,7 +107,7 @@ trishuli-river-rafting:
 
 
 bhote-koshi-river-rafting:
-    name: "Bhote Koshi River Rafting Tour"
+    name: "Bhote Koshi River Rafting"
     days: "2"
     nights: "1"
 
@@ -175,7 +175,7 @@ bhote-koshi-river-rafting:
 
 
 karnali-river-rafting:
-    name: "Karnali River Rafting Tour"
+    name: "Karnali River Rafting"
     days: "10"
     nights: "9"
 
@@ -247,7 +247,7 @@ karnali-river-rafting:
       content: "After breakfast, we will take a short flight back to Kathmandu, where you can spend the rest of the day exploring the city or relaxing in your hotel. In the evening, we will have a farewell dinner to celebrate the end of our amazing journey."
 
 kali-gandaki-river-rafting:
-    name: "Kali Gandaki River Rafting Tour"
+    name: "Kali Gandaki River Rafting"
     days: "3"
     nights: "2"
 
@@ -308,7 +308,7 @@ kali-gandaki-river-rafting:
       content: "Have breakfast and pack up camp.<br /> <br />Continue rafting down the Kaligandaki River, enjoying the final stretch of rapids.<br /> <br />Stop for a picnic lunch on the riverbank.<br /> <br />Arrive at the take-out point in the early afternoon.<br /> <br />Transfer back to Pokhara, where the tour ends."
 
 tamur-river-rafting:
-    name: "Tamur River Rafting Tour"
+    name: "Tamur River Rafting"
     days: "12"
     nights: "11"
   
@@ -390,7 +390,7 @@ tamur-river-rafting:
 
 
 seti-river-rafting:
-    name: "Seti River Rafting Tour"
+    name: "Seti River Rafting"
     days: "1"
     nights: "0"
 
@@ -456,7 +456,7 @@ seti-river-rafting:
 
 
 marshyangdi-river-rafting:
-    name: "Marshyangdi River Rafting Tour"
+    name: "Marshyangdi River Rafting"
     days: "2"
     nights: "1"
 
@@ -518,7 +518,7 @@ marshyangdi-river-rafting:
 
 
 bheri-river-rafting:
-    name: "Bheri River Rafting Tour"
+    name: "Bheri River Rafting"
     days: "18"
     nights: "17"
     altitude: "12,467"
@@ -562,7 +562,7 @@ bheri-river-rafting:
 
 
 sun-koshi-river-rafting:
-    name: "Sun Koshi River Rafting Tour"
+    name: "Sun Koshi River Rafting"
     days: "9"
     nights: "8"
 
@@ -638,7 +638,7 @@ sun-koshi-river-rafting:
 
 
 arun-river-rafting:
-    name: "Arun River Rafting Tour"
+    name: "Arun River Rafting"
     days: "2"
     nights: "1"
 

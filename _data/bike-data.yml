@@ -1,6 +1,6 @@
 
 pokhara-valley-bike-tour:
-    name: "Pokhara Mountain Biking Tour"
+    name: "Pokhara Mountain Biking"
     days: "18"
     nights: "17"
 
@@ -54,7 +54,7 @@ pokhara-valley-bike-tour:
 
 
 kathmandu-valley-bike-tour:
-    name: "Kathmandu Valley MTB Tour"
+    name: "Kathmandu Valley MTB"
     days: "12"
     nights: "11"
     startPoint: 'Kakani'
@@ -142,7 +142,7 @@ kathmandu-valley-bike-tour:
 
 
 annapurna-circuit-mtb-tour:
-    name: "Annapurna Circuit MTB Tour"
+    name: "Annapurna Circuit MTB"
     days: "13"
     nights: "12"
     startPoint: 'Besi Sahar'
@@ -246,7 +246,7 @@ annapurna-circuit-mtb-tour:
 
 
 manaslu-circuit-mtb-tour:
-    name: "Manaslu Circuit Bike Tour"
+    name: "Manaslu Circuit Bike"
     days: "13"
     nights: "12"
     startPoint: 'Aarughat'
@@ -335,7 +335,7 @@ manaslu-circuit-mtb-tour:
 
 
 upper-mustang-mtb-tour:
-    name: "Upper Mustang Bike Tour"
+    name: "Upper Mustang Bike"
     days: "16"
     nights: "15"
     startPoint: 'Jomsom'
@@ -433,7 +433,7 @@ upper-mustang-mtb-tour:
 
 
 nagarkot-mtb-tour:
-    name: "Nagarkot Mountain Bike Tour"
+    name: "Nagarkot Mountain Bike"
     days: "18"
     nights: "17"
     altitude: "12,467"
@@ -523,7 +523,7 @@ shivapuri-mtb-tour:
 
 
 chitwan-safari-mtb-tour:
-    name: "Chitwan Safari Mountain Biking Tour"
+    name: "Chitwan Safari Mountain Biking"
     days: "18"
     nights: "17"
     altitude: "12,467"
