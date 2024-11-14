@@ -1,17 +1,52 @@
 # Climbing Guide 
 
-- name: Gelmo Sherpa
+- name: Gelmu Sherpa
+  slug: gelmu-sherpa
   role: Climbing Guide
   photos: "assets/css/images/team/2.jpg"
-  description: Gelmo Sherpa is a distinguished climber from Nepal, renowned for her remarkable achievements in the world of mountaineering. With a career spanning numerous peaks and mountain ranges, Gelmu has made her mark as one of the most accomplished climbers in the region. Her extensive experience and unwavering dedication have solidified her reputation as a leading guide and mountaineering expert.
+  description: "Gelmu Sherpa is a distinguished mountaineer from Nepal, widely recognized for her exceptional achievements in high-altitude climbing. With a career spanning numerous peaks like Mount Everest, Ama Dablam, and Lhotse, she has earned her place among the most respected climbers in the region. <br/><br/> Starting her journey at a young age, Gelmu's passion for exploring the highest mountains drove her to master technical climbing, ice climbing, and high-altitude navigation. Her extensive training and experience have made her a highly skilled guide and a trusted leader on expeditions. <br/><br/> As a professional guide, Gelmu is known for her meticulous planning and ability to make critical decisions in extreme conditions. Her dedication to safety and her deep knowledge of the mountains have earned her the respect of clients and fellow climbers. <br/><br/> Beyond her climbing achievements, Gelmu is an advocate for empowering women in mountaineering. She mentors aspiring climbers, promotes ethical climbing practices, and serves as a role model in the adventure community. "
   mountains:
     - name: Mera Peak
-      summited: 4
+      summited: 12
+      years: [2019, 2020, 2021, 2022]
+    - name: Lobuche Peak
+      summited: 8
+      years: [2019, 2020, 2021, 2022]
+    - name: Island Peak
+      summited: 7
       years: [2019, 2020, 2021, 2022]
     - name: Ama Dablam
       summited: 1
-      years: [2018]
-  slug: gelmu-sherpa
+      years: [2023]
+  trainings:
+    - course: Introductory Rock Climbing Training
+      institution: Nepal Mountaineering Instructors Association
+      year: 2022
+    - course: Basic Mountain Rescue Training
+      institution: Nepal Mountaineering Instructors Association
+      year: 2022
+    - course: Rock Level-1 
+      institution: Nepal Mountaineering Instructors Association
+      year: 2023
+    - course: ICE Level-1 
+      institution: Nepal Mountaineering Instructors Association
+      year: 2023
+    - course: First-Aid
+      institution: Himalyan Medics
+      year: 2022
+
+# - name: Gelmo Sherpa
+#   role: Climbing Guide
+#   photos: "assets/css/images/team/2.jpg"
+#   description: Gelmo Sherpa is a distinguished climber from Nepal, renowned for her remarkable achievements in the world of mountaineering. With a career spanning numerous peaks and mountain ranges, Gelmu has made her mark as one of the most accomplished climbers in the region. Her extensive experience and unwavering dedication have solidified her reputation as a leading guide and mountaineering expert.
+#   mountains:
+#     - name: Mera Peak
+#       summited: 4
+#       years: [2019, 2020, 2021, 2022]
+#     - name: Ama Dablam
+#       summited: 1
+#       years: [2018]
+#   slug: gelmu-sherpa
 
 
 - name: Gelu Sherpa
@@ -34,7 +69,22 @@
       years: [2021]
 
   slug: gelu-sherpa
-
+  trainings:
+    - course: Introductory Rock Climbing Training
+      institution: Nepal Mountaineering Instructors Association
+      year: 2022
+    - course: Basic Mountain Rescue Training
+      institution: Nepal Mountaineering Instructors Association
+      year: 2022
+    - course: Rock Level-1 
+      institution: Khumbu Climbing Center
+      year: 2023
+    - course: ICE Level-1 
+      institution: Khumbu Climbing Center
+      year: 2023
+    - course: First-Aid
+      institution: Himalyan Medics
+      year: 2022
 
 - name: Sensai Pema Waiba
   role: Climbing Guide 
@@ -81,15 +131,20 @@
       summited: 1
       years: [2023]
   slug: prem-mamba
+  trainings:
+    - course: Introductory Rock Climbing Training
+      institution: Nepal Mountaineering Instructors Association
+      year: 2022
+    - course: Basic Mountain Rescue Training
+      institution: Nepal Mountaineering Instructors Association
+      year: 2022
+
 
 - name: Sunil Tamang
   role: Climbing Guide
   photos: "assets/css/images/team/7.jpg"
-  description: Sunil Tamang is a highly skilled and ambitious climbing guide at Alpine Expeditions, with a strong passion for leading expeditions in the Himalayas. With a impressive climbing resume, Sunil has successfully summited several notable peaks, including Bauntse, Island Peak, and Mera Peak. As an aspiring IFMGA (International Federation of Mountain Guides Associations) mountain guide, Sunil is committed to honing his skills and knowledge to provide the highest level of safety and expertise to our clients. His dedication to his craft and his extensive experience in the Himalayas make him an excellent guide for our treks and expeditions.
+  description: Sunil Tamang is a highly skilled and ambitious climbing guide at Alpine Expeditions, with a strong passion for leading expeditions in the Himalayas. With a impressive climbing resume, Sunil has successfully summited several notable peaks, including Bauntse, Island Peak, and Mera Peak."
   mountains:
-    - name: Baruntse Peak
-      summited: 1
-      years: [2024]
     - name: Mera Peak
       summited: 1
       years: [2024]
@@ -100,6 +155,19 @@
       summited: 1
       years: [2024]
   slug: sunil-ghalan
+  trainings:
+    - course: Introductory Rock Climbing Training
+      institution: Nepal Mountaineering Instructors Association
+      year: 2022
+    - course: Basic Mountain Rescue Training
+      institution: Nepal Mountaineering Instructors Association
+      year: 2022
+    - course: Rock Level-1 
+      institution: Khumbu Climbing Center
+      year: 2024
+    - course: First-Aid
+      institution: Himalyan Medics
+      year: 2024
 
 # - name: Pema Sherpa
 #   role: Climbing Guide

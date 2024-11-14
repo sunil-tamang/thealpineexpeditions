@@ -4767,3 +4767,70 @@ li.image-holder{
 }
 
 }
+
+
+
+
+.training-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .training-card {
+    flex: 1 1 250px;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .training-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .training-course {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .training-institution,
+  .training-year {
+    font-size: 14px;
+    color: #555;
+  }
+  
+
+  .mountains-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .mountain-card {
+    flex: 1 1 250px;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .mountain-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .mountain-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .mountain-summited,
+  .mountain-years {
+    font-size: 14px;
+    color: #555;
+  }
+  
