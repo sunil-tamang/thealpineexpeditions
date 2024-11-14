@@ -55,15 +55,15 @@
   slug: sensai-pema-waiba
 
  
-- name: Lakpa Tenjen Sherpa
-  role: Climbing Guide
-  photos: "assets/css/images/team/11.jpg"
-  description: 
-  mountains:
-    - name: Makalu
-      summited: 1
-      years: [2024]
-  slug: lakpa-tenjen-sherpa
+# - name: Lakpa Tenjen Sherpa
+#   role: Climbing Guide
+#   photos: "assets/css/images/team/11.jpg"
+#   description: 
+#   mountains:
+#     - name: Makalu
+#       summited: 1
+#       years: [2024]
+#   slug: lakpa-tenjen-sherpa
 
 
 - name: Prem Mamba
