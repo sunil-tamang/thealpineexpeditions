@@ -14,7 +14,7 @@ everest-base-camp-trek:
     season: "Spring/Autumn"
     region: "Everest"
     popular: "Y"
-    price: "1,559.00"
+    price: "3,000.00"
     photos: "assets/css/images/treks/everest_base_min.jpg"
 
     
@@ -46,30 +46,38 @@ everest-base-camp-trek:
 
     - title: "DAY 1 - Arrival in Kathmandu (1400m) & Transfer to Hotel"
       content: "Welcome to Nepal! Upon your arrival at Tribhuvan International Airport in Kathmandu, our friendly representative will greet you and provide a seamless transfer to your hotel. Take this day to relax, recover from your journey, and explore the vibrant streets of Kathmandu. Discover local cuisine and shop for souvenirs as you prepare for your thrilling Everest Base Camp trek."
+      img: "/assets/css/images/treks/everest-base-camp/kathmandu.jpg"
 
     - title: "DAY 2 - Fly from Kathmandu to Lukla and Trek to Phakding (2,800m)"
       content: "Your adventure truly begins today with an exhilarating early morning flight from Kathmandu to Lukla, the gateway to the majestic Everest region. Upon landing, you will meet your dedicated trekking crew and embark on a scenic trek to Phakding, a charming village situated at an altitude of 2,800m. Enjoy stunning views of the surrounding mountains as you traverse lush landscapes."
+      img: "/assets/css/images/treks/everest-base-camp/lukla.jpg"
 
     - title: "DAY 3 - Trek from Phakding to Namche Bazaar (3,440m)"
       content: "On this exciting day, follow the picturesque trail alongside the Dudh Koshi River. Experience the thrill of crossing suspension bridges while ascending gradually through enchanting forests. Finally, you will reach the bustling Sherpa town of Namche Bazaar, renowned for its vibrant market and hospitality, located at 3,440m."
+      img: "/assets/css/images/treks/everest-base-camp/namche.jpg"
 
     - title: "DAY 4 - Acclimatization Day in Namche Bazaar with Hike to Everest View Hotel"
       content: "To ensure a safe ascent, today is dedicated to acclimatization in Namche Bazaar. Explore the town and hike to the Everest View Hotel, where breathtaking panoramic views of <a class='highlight-link' href='/activities/trekking/everest-base-camp-trek/'> Mount Everest </a>, Lhotse, Nuptse, and  <a class='highlight-link' href='/activities/peak-climbing/ama-dablam/'>Ama Dablam </a> await you. This day is crucial for adjusting to the high altitude while enjoying the stunning scenery."
+      img: "/assets/css/images/treks/everest-base-camp/namchee.jpg"
 
-    - title: "DAY 5 - Trek from Namche Bazaar to Deboche (3,870m)"
+    - title: "DAY 5 - Trek from Namche Bazaar to Tengboche (3,870m)"
       content: "Today, you will follow a scenic trail adorned with rhododendron forests, crossing multiple suspension bridges as you make your way to Deboche, located at an altitude of 3,870m. Experience the tranquility of this village as you continue your journey toward Everest Base Camp."
+      img: "/assets/css/images/treks/everest-base-camp/tengboche.jpg"
 
-    - title: "DAY 6 - Trek from Deboche to Dingboche (4,243m)"
+    - title: "DAY 6 - Trek from Tengboche to Dingboche (4,243m)"
       content: "The trek today takes you through lush forests of birch and rhododendron. Cross the Imja Khola river and arrive at Dingboche, situated at 4,243m. This village serves as an ideal stop for acclimatization and offers stunning views of the surrounding peaks."
+      img: "/assets/css/images/treks/everest-base-camp/dingboche.jpg"
 
     - title: "DAY 7 - Acclimatization Day in Dingboche"
       content: "Spend another day acclimatizing in Dingboche. Take the opportunity to explore the village or embark on a short hike to Nagarjun Hill for awe-inspiring views of the majestic Himalayan landscape. This day is essential for ensuring your body adjusts to the altitude."
 
     - title: "DAY 8 - Trek from Dingboche to Lobuche (4,940m)"
       content: "Continue your trek through the iconic Khumbu Valley as you ascend to Lobuche, situated at an altitude of 4,940m. Enjoy breathtaking vistas of towering peaks as you move closer to your ultimate destination: Everest Base Camp."
+      img: "/assets/css/images/treks/everest-base-camp/lobuche.jpg"
 
     - title: "DAY 9 - Trek from Lobuche to Everest Base Camp and Return to Gorak Shep (5,170m)"
       content: "Today is a highlight of your Everest Base Camp trek as you finally reach Everest Base Camp at 5,364m. Stand in awe of the world's highest mountain as you soak in the atmosphere before retracing your steps back to Gorak Shep, a quaint village at 5,170m."
+      img: "/assets/css/images/treks/everest-base-camp/gorakshep.jpg"
 
     - title: "DAY 10 - Trek from Gorak Shep to Kala Patthar (5,545m) and Back to Pheriche (4,371m)"
       content: "Rise early for an unforgettable hike to Kala Patthar, renowned for its stunning views of Mount Everest, Nuptse, and Pumori. Capture breathtaking photographs and create lasting memories before descending back to Pheriche, situated at 4,371m."

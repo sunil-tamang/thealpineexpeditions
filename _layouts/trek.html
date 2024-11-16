@@ -223,14 +223,17 @@ tags: "Everest Base Camp Trek, Annapurna Circuit Trek, Annapurna Base Camp Trek,
 				<ul class="trek-itinerary">
 
 					{% for i in trek.itinerary %}
-						<li>
-							<h2 class="itinerary-subtitle">
-								{{ i.title }}
-							</h2>
-							<p class="content--detail itinerary-detail">
-								{{ i.content }}
-							</p>
-						</li>
+					<li>
+						<h2 class="itinerary-subtitle">
+							{{ i.title }}
+						</h2>
+						<p class="content--detail itinerary-detail">
+							{{ i.content }}
+						</p>
+						{% if i.img %}
+							<img style="width: 100%; margin-left: 1em; padding: 1em 0; border-radius: 8px;" src="{{ i.img }}" alt="{{ i.title }}">
+						{% endif %}
+					</li>
 					{% endfor %}
 
 					<li>
