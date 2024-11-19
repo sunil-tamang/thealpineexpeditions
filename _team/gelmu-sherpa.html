@@ -7,16 +7,13 @@ excerpt: "Your custom excerpt here..."
 
 ---
 
-
-
+<div class="container-wide row--padding-wide member-container">
 
 <div class="member-banner">
   {% for member in site.data.team %}
     {% if member.slug == page.slug %}
-      <!-- Background Image -->
-      <div class="banner-background" style="background-image: url('{{ site.baseurl }}/{{ member.photos }}')"></div>
+      <!-- <div class="banner-background" style="background-image: url('{{ site.baseurl }}/{{ member.photos }}')"></div> -->
 
-      <!-- Profile Picture and Name -->
       <div class="member-profile">
         <img src="{{ site.baseurl }}/{{ member.photos }}" alt="{{ member.name }}" class="profile-image">
         <h2 class="member-title">{{ member.name }}</h2>
@@ -28,11 +25,10 @@ excerpt: "Your custom excerpt here..."
 </div>
 
 
-<div class="container-wide row--padding-wide">
+
    
-      <div class="member-details">
-
-
+     <div class="member-details">
+          
             {% for member in site.data.team %}
                 {% if member.slug == page.slug %}
 
@@ -80,7 +76,5 @@ excerpt: "Your custom excerpt here..."
           {% endfor %}
         </div>
     
-  </div>
-
-
+    </div>
 
