@@ -1036,18 +1036,18 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 			},
 			{
 				id : 63,
-				name : 'Parphing Rock Climbing',
-				img : 'assets/css/images/rock-climbing/parphing-rock-climbing/banner.jpg',
+				name : 'Hattiban Rock Climbing',
+				img : 'assets/css/images/rock-climbing/hattiban-rock-climbing/banner.jpg',
 				price : 36000.00,
 				prodType : 'rock',
-				descShort : "Experience the thrill of rock climbing at Parphing, one of Nepal's premier climbing destinations. Nestled amidst the stunning landscapes, Parphing offers a perfect blend of adventure and natural beauty. Our Parphing Rock Climbing package is designed for climbers of all skill levels, from beginners seeking their first ascent to seasoned climbers looking for a new challenge.",
-				descPartOne : "Experience the thrill of rock climbing at Parphing, one of Nepal's premier climbing destinations. Nestled amidst the stunning landscapes, Parphing offers a perfect blend of adventure and natural beauty. Our Parphing Rock Climbing package is designed for climbers of all skill levels, from beginners seeking their first ascent to seasoned climbers looking for a new challenge.",
-				descPartTwo : "Experience the thrill of rock climbing at Parphing, one of Nepal's premier climbing destinations. Nestled amidst the stunning landscapes, Parphing offers a perfect blend of adventure and natural beauty. Our Parphing Rock Climbing package is designed for climbers of all skill levels, from beginners seeking their first ascent to seasoned climbers looking for a new challenge.",
+				descShort :   "Discover the thrill of rock climbing at Hattiban, one of Nepal’s most iconic climbing destinations, located near the serene village of Pharping. Surrounded by breathtaking landscapes and rich cultural heritage, Hattiban is the perfect getaway for adventure enthusiasts.",
+				descPartOne : "Discover the thrill of rock climbing at Hattiban, one of Nepal’s most iconic climbing destinations, located near the serene village of Pharping. Surrounded by breathtaking landscapes and rich cultural heritage, Hattiban is the perfect getaway for adventure enthusiasts.",
+				descPartTwo : "Discover the thrill of rock climbing at Hattiban, one of Nepal’s most iconic climbing destinations, located near the serene village of Pharping. Surrounded by breathtaking landscapes and rich cultural heritage, Hattiban is the perfect getaway for adventure enthusiasts.",
 				stock : 10,
 				days : 1,
 				nights: 0,
 				fixedDate: '15 September',
-				urlName : 'parphing'
+				urlName : 'hattiban'
 			},
 
 			{
@@ -1738,9 +1738,8 @@ business_paypal = 'jondoe@gmail.com'; // here goes your paypal email
 					content+= '<a href="/activities/rock-climbing/'+ products[i].urlName +'" class="wopper wopper--trek" style="display: flex; justify-content: center; background-size:cover; background-image: url(\'/'+products[i].img+'\')">'
 					content+= '<span class="banner__overlay">'
 					// content+= '<span class="trek-slide--price"><span style="font-size: 60%;">Starting From</span> <i class="fa fa-rupee-sign"></i> 2199/-</span>'
-					content+= '<span class="trek-slide--price"'+ products[i].urlName +'">'+ products[i].days +' Days '+ products[i].nights +' Nights</span>'
 					content+= '</span>'
-					content+= '<span class="trek__title">'
+					// content+= '<span class="trek__title">'
 					content+= '<span>'+ products[i].name +'</span></span>'
 					content+= '</a>'
 					// content+= '<div class="wopper__footer">'
