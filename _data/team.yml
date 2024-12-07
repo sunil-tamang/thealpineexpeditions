@@ -99,11 +99,25 @@
       summited: 2
       years: [2023,2024]
     - name: Lobuche Peak
-      summited: 1
+      summited: 2
       years: [2023,2024]
-
+    - name:  Manaslu 
+      summited: 1
+      years: [2024]
+    - name: Sishapangma 
+      summited: 1
+      years: [2024]
   slug: sensai-pema-waiba
-
+  trainings:
+    - course: Introductory Rock Climbing Training
+      institution: Nepal Mountaineering Instructors Association
+      year: 2022
+    - course: Basic Mountain Rescue Training
+      institution: Nepal Mountaineering Instructors Association
+      year: 2022
+    - course: First-Aid
+      institution: Himalyan Medics
+      year: 2024
  
 # - name: Lakpa Tenjen Sherpa
 #   role: Climbing Guide
