@@ -234,18 +234,31 @@
 
 # Trekking guide
 
-- name: Neema Lama Sherpa
+- name: Neema Lhamu Sherpa
   role: Trekking Guide
   photos: "assets/css/images/team/12.jpg"
+  description: "Neema Sherpa is a distinguished mountaineer from Nepal, widely recognized for her exceptional achievements in high-altitude climbing. With a career spanning numerous peaks like Mount Everest, Ama Dablam, and Lhotse, she has earned her place among the most respected climbers in the region. <br/><br/> Starting her journey at a young age, Gelmu's passion for exploring the highest mountains drove her to master technical climbing, ice climbing, and high-altitude navigation. Her extensive training and experience have made her a highly skilled guide and a trusted leader on expeditions. <br/><br/> As a professional guide, Gelmu is known for her meticulous planning and ability to make critical decisions in extreme conditions. Her dedication to safety and her deep knowledge of the mountains have earned her the respect of clients and fellow climbers. <br/><br/> Beyond her climbing achievements, Gelmu is an advocate for empowering women in mountaineering. She mentors aspiring climbers, promotes ethical climbing practices, and serves as a role model in the adventure community. "
   mountains:
-    - name: Mount Everest
-      summited: 3
-      years: [2019, 2020, 2021]
-    - name: K2
-      summited: 2
-      years: [2018, 2020]
-  slug: alice-brown
-
+    - name: Mera Peak
+      summited: 12
+      years: [2019, 2020, 2021, 2022]
+  trainings:
+    - course: Introductory Rock Climbing Training
+      institution: Nepal Mountaineering Instructors Association
+      year: 2022
+    - course: Basic Mountain Rescue Training
+      institution: Nepal Mountaineering Instructors Association
+      year: 2022
+    - course: Rock Level-1 
+      institution: Nepal Mountaineering Instructors Association
+      year: 2023
+    - course: ICE Level-1 
+      institution: Nepal Mountaineering Instructors Association
+      year: 2023
+    - course: First-Aid
+      institution: Himalyan Medics
+      year: 2022
+  slug: neema-sherpa
 
 - name: Srijana Tamang
   role: Trekking Guide
