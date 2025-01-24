@@ -14,7 +14,7 @@ everest-base-camp-trek:
     season: "Spring/Autumn"
     region: "Everest"
     popular: "Y"
-    price: "3,000.00"
+    price: "2,500.00"
     photos: "assets/css/images/treks/everest_base_min.jpg"
 
     
@@ -37,7 +37,17 @@ everest-base-camp-trek:
  
     overview:
 
-    - content: "The Everest Base Camp Trek is a bucket-list adventure that takes you through the stunning Khumbu region of Nepal, providing trekkers with the opportunity to experience the world's highest mountain range up close. The trek begins in Lukla, a small mountain town, and passes through charming Sherpa villages, where trekkers can experience the unique culture and way of life of the local people. At an altitude of 5,364 meters, reaching the Everest Base Camp is one of the most significant achievements of the trek. Standing at the foot of Mount Everest, trekkers can feel the awe-inspiring power of the mountain, which has captivated adventurers for generations. The base camp is surrounded by towering peaks and glaciers, providing trekkers with breathtaking views of their surroundings. Moreover, the trek also includes a hike up to Kala Patthar, a vantage point that offers stunning panoramic views of the Himalayan Mountains."
+    - content: "
+                The <a class='highlight-link'>Everest Base Camp Trek</a> is a bucket-list adventure that takes you through the breathtaking <a class='highlight-link'>Khumbu region of Nepal</a>, offering trekkers the chance to experience the majestic Himalayan Mountains up close. Starting in Lukla, a bustling mountain town, the trek winds through picturesque Sherpa villages like Namche Bazaar and Tengboche, giving trekkers a unique opportunity to immerse themselves in the <a class='highlight-link'>Sherpa culture</a>.
+
+                At an altitude of 5,364 meters, reaching the Everest Base Camp is the ultimate highlight of the journey. Standing at the base of <a class='highlight-link'>Mount Everest</a>, the world’s tallest peak at 8,848.86 meters, trekkers can feel the awe-inspiring grandeur of the mountain, which has captivated explorers for generations.
+
+                The trek also includes a hike to <a class='highlight-link'>Kala Patthar</a>, a renowned vantage point at 5,545 meters, offering jaw-dropping, panoramic views of the <a class='highlight-link'>Himalayan range</a>, including a close-up of Mount Everest.
+
+                Embarking on the Everest Base Camp Trek is not just about reaching a destination—it’s about the journey through rugged trails, crossing suspension bridges over the Dudh Koshi River, and experiencing Nepal’s diverse landscapes, from lush rhododendron forests to alpine meadows and high-altitude deserts.
+
+                The <a class='highlight-link'>Everest Base Camp Trek</a> combines adventure, cultural immersion, and awe-inspiring natural beauty, making it one of the most iconic trekking experiences in the world. Whether you’re a seasoned hiker or a first-time trekker, this adventure will leave you with memories that last a lifetime.
+                "
 
     # - content: "The Everest Base Camp Trek is not only a physical challenge but also a cultural and spiritual journey. The trek provides a unique opportunity for trekkers to immerse themselves in the local culture, which is deeply rooted in the Sherpa tradition. Trekkers can witness traditional Sherpa dances and songs, sample local cuisine, and visit monasteries and other religious sites, providing an insight into the spiritual beliefs of the region."
     
@@ -45,7 +55,9 @@ everest-base-camp-trek:
   
 
     - title: "DAY 1 - Arrival in Kathmandu (1400m) & Transfer to Hotel"
-      content: "Welcome to Nepal! Upon your arrival at Tribhuvan International Airport in Kathmandu, our friendly representative will greet you and provide a seamless transfer to your hotel. Take this day to relax, recover from your journey, and explore the vibrant streets of Kathmandu. Discover local cuisine and shop for souvenirs as you prepare for your thrilling Everest Base Camp trek."
+      content: "
+                Welcome to Nepal! Upon your arrival at Tribhuvan International Airport in <a class='highlight-link'>Kathmandu</a>, our friendly representative will greet you and provide a seamless transfer to your hotel. Take this day to relax, recover from your journey, and explore the vibrant streets of Kathmandu. Discover authentic Nepalese cuisine and shop for unique souvenirs in Kathmandu as you prepare for your thrilling <a class='highlight-link'>Everest Base Camp trek</a>.
+               "
       img: "/assets/css/images/treks/everest-base-camp/kathmandu.jpg"
 
     - title: "DAY 2 - Fly from Kathmandu to Lukla and Trek to Phakding (2,800m)"
