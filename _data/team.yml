@@ -159,7 +159,10 @@
   photos: "assets/css/images/team/7.jpg"
   description: Sunil Tamang is a highly skilled and ambitious climbing guide at Alpine Expeditions, with a strong passion for leading expeditions in the Himalayas. With a impressive climbing resume, Sunil has successfully summited several notable peaks, including Bauntse, Island Peak, and Mera Peak."
   mountains:
-    - name: Mera Peak
+    - name: Everest
+      summited: 1
+      years: [2025]
+    - name: Everest 
       summited: 1
       years: [2024]
     - name: Lobuche
