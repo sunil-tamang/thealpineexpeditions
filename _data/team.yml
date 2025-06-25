@@ -6,6 +6,9 @@
   photos: "assets/css/images/team/2.jpg"
   description: "Gelmu Sherpa is a distinguished mountaineer from Nepal, widely recognized for her exceptional achievements in high-altitude climbing. With a career spanning numerous peaks like Mount Everest, Ama Dablam, and Lhotse, she has earned her place among the most respected climbers in the region. <br/><br/> Starting her journey at a young age, Gelmu's passion for exploring the highest mountains drove her to master technical climbing, ice climbing, and high-altitude navigation. Her extensive training and experience have made her a highly skilled guide and a trusted leader on expeditions. <br/><br/> As a professional guide, Gelmu is known for her meticulous planning and ability to make critical decisions in extreme conditions. Her dedication to safety and her deep knowledge of the mountains have earned her the respect of clients and fellow climbers. <br/><br/> Beyond her climbing achievements, Gelmu is an advocate for empowering women in mountaineering. She mentors aspiring climbers, promotes ethical climbing practices, and serves as a role model in the adventure community. "
   mountains:
+    - name: Everest 
+      summited: 1
+      years: [2025]
     - name: Mera Peak
       summited: 12
       years: [2019, 2020, 2021, 2022]
@@ -58,6 +61,12 @@
   instagram: "https://instagram.com/johndoe"
   description: Gelu Sherpa is a seasoned climber from Nepal with a unique and inspiring background. Before dedicating his life to the mountains, Gelu was a monk at a monastery, where he cultivated a deep sense of discipline, spirituality, and inner strength. However, his love for the majestic peaks of the Himalayas drew him away from the monastic life and onto the challenging trails that lead to the world’s highest summits. <br /> <br/>  Gelu’s journey from the serene environment of the monastery to the rugged and demanding world of mountaineering has shaped him into a climber with exceptional resilience and a profound respect for nature. His spiritual background brings a unique perspective to his expeditions, allowing him to navigate the mountains with a calm and focused mind, even in the most trying conditions. <br /> <br /> As a member of The Alpine Expeditions team, Gelu’s experience as both a monk and a mountaineer makes him a valuable guide. He has led numerous successful expeditions, where his combination of physical endurance and mental clarity has earned him the trust and admiration of climbers from around the world. <br/> 
   mountains:
+    - name: Everest 
+      summited: 1
+      years: [2025]
+    - name: Ama Dablam
+      summited: 1
+      years: [2024] 
     - name: Lobuche
       summited: 1
       years: [2024]
@@ -162,7 +171,7 @@
     - name: Everest
       summited: 1
       years: [2025]
-    - name: Everest 
+    - name: Baruntse 
       summited: 1
       years: [2024]
     - name: Lobuche
