@@ -3536,13 +3536,14 @@ p.content__pg:not(:last-child) {
 }
 
 .text h2 {
-  font: 600 2em "ANTON", sans-serif;
+  font: 600 1em "ANTON", sans-serif;
 }
 
 .text p {
   letter-spacing: 1px;
   text-transform: lowercase;
   margin-top: 1em;
+  font-size: 10px;
 }
 
 /*
@@ -3585,7 +3586,7 @@ p.content__pg:not(:last-child) {
     text-align: left;
   }
   .text h2 {
-    font: 600 2.5vw "ANTON", sans-serif;
+    font: 600 1em "ANTON", sans-serif;
   }
   .popup_background {
     width: 60%;
@@ -4365,7 +4366,7 @@ li.image-holder #content p {
   left: 0;
   right: 0;
   top: 0;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
   justify-content: center;
