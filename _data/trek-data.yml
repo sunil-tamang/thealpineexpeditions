@@ -13,6 +13,8 @@ everest-base-camp-trek:
     groupSize: "2-8 pax"
     season: "Spring/Autumn"
     region: "Everest"
+    category: "Trekking"
+    difficulty: "Challenging"
     popular: "Y"
     price: "2,500.00"
     photos: "assets/css/images/treks/everest_base_min.jpg"
@@ -38,15 +40,15 @@ everest-base-camp-trek:
     overview:
 
     - content: "
-                The <a class='highlight-link'>Everest Base Camp Trek</a> is a bucket-list adventure that takes you through the breathtaking <a class='highlight-link'>Khumbu region of Nepal</a>, offering trekkers the chance to experience the majestic Himalayan Mountains up close. Starting in Lukla, a bustling mountain town, the trek winds through picturesque Sherpa villages like Namche Bazaar and Tengboche, giving trekkers a unique opportunity to immerse themselves in the <a class='highlight-link'>Sherpa culture</a>.
+                The Everest Base Camp Trek is a bucket-list adventure that takes you through the breathtaking Khumbu region of Nepal, offering trekkers the chance to experience the majestic Himalayan Mountains up close. Starting in Lukla, a bustling mountain town, the trek winds through picturesque Sherpa villages like Namche Bazaar and Tengboche, giving trekkers a unique opportunity to immerse themselves in the Sherpa culture.
 
-                At an altitude of 5,364 meters, reaching the Everest Base Camp is the ultimate highlight of the journey. Standing at the base of <a class='highlight-link'>Mount Everest</a>, the world’s tallest peak at 8,848.86 meters, trekkers can feel the awe-inspiring grandeur of the mountain, which has captivated explorers for generations.
+                At an altitude of 5,364 meters, reaching the Everest Base Camp is the ultimate highlight of the journey. Standing at the base of Mount Everest, the world’s tallest peak at 8,848.86 meters, trekkers can feel the awe-inspiring grandeur of the mountain, which has captivated explorers for generations.
 
-                The trek also includes a hike to <a class='highlight-link'>Kala Patthar</a>, a renowned vantage point at 5,545 meters, offering jaw-dropping, panoramic views of the <a class='highlight-link'>Himalayan range</a>, including a close-up of Mount Everest.
+                The trek also includes a hike to Kala Patthar, a renowned vantage point at 5,545 meters, offering jaw-dropping, panoramic views of the Himalayan range, including a close-up of Mount Everest.
 
                 Embarking on the Everest Base Camp Trek is not just about reaching a destination—it’s about the journey through rugged trails, crossing suspension bridges over the Dudh Koshi River, and experiencing Nepal’s diverse landscapes, from lush rhododendron forests to alpine meadows and high-altitude deserts.
 
-                The <a class='highlight-link'>Everest Base Camp Trek</a> combines adventure, cultural immersion, and awe-inspiring natural beauty, making it one of the most iconic trekking experiences in the world. Whether you’re a seasoned hiker or a first-time trekker, this adventure will leave you with memories that last a lifetime.
+                The Everest Base Camp Trek combines adventure, cultural immersion, and awe-inspiring natural beauty, making it one of the most iconic trekking experiences in the world. Whether you’re a seasoned hiker or a first-time trekker, this adventure will leave you with memories that last a lifetime.
                 "
 
     # - content: "The Everest Base Camp Trek is not only a physical challenge but also a cultural and spiritual journey. The trek provides a unique opportunity for trekkers to immerse themselves in the local culture, which is deeply rooted in the Sherpa tradition. Trekkers can witness traditional Sherpa dances and songs, sample local cuisine, and visit monasteries and other religious sites, providing an insight into the spiritual beliefs of the region."
@@ -108,106 +110,6 @@ everest-base-camp-trek:
 
     - title: "DAY 15 - Transfer to International Airport for Final Departure"
       content: "On the last day of your incredible Everest Base Camp journey, check out from your hotel and transfer to Tribhuvan International Airport for your departure flight. Our team will assist you with airport formalities, bidding you farewell as you carry unforgettable memories of your extraordinary trek."
-
-
-
-manaslu-base-camp-trek:
-    name: "Manaslu Base Camp Trek"
-    days: "18"
-    nights: "17"
-    altitude: "12,467"
-    grade: "Moderate"
-    walking: "5-7 hours"
-    accomodation: "Hotel + Lodge"
-    groupSize: "2-15 pax"
-    season: "Spring/Autumn"
-    region: "Manaslu"
-    # popular: "Y"
-    price: "1787"
-    photos: "assets/css/images/treks/everest_base_min.jpg"
-    photoo: "assets/css/images/treks/manasalu_min.jpg"
-    url: ""
-    
-    bookLink: "https://www.instamojo.com/thetrippyfrog/beas-kund-trek-ab0ba/"
-
-    description: "The Manaslu Base Camp Trek is a true gem for adventure seekers and nature lovers alike. The trek takes you through the pristine Manaslu Conservation Area, home to some of the rarest flora and fauna in the world. Along the way, you'll get to experience the warm hospitality of local communities, steeped in ancient traditions and customs that have remained unchanged for centuries."
-
-    excerpt: "The Manaslu Base Camp Trek is a true gem for adventure seekers and nature lovers alike. The trek takes you through the pristine Manaslu Conservation Area, home to some of the rarest flora and fauna in the world. Along the way, you'll get to experience the warm hospitality of local communities, steeped in ancient traditions and customs that have remained unchanged for centuries."
-
-    video: "<iframe width='100%' class='vid' height='400' src='https://www.youtube.com/embed/I1Sx_DdHaUE' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
-    
-
-    # download: "//assets/docs/manaslu.pdf"
-    gears-list: "//assets/docs/trekking-gears-nepal.pdf"
-
-    
-    # image: "<img class='map1'>"
-
-
-
-    overview:
-
-    - content: "<a class='highlight-link' href='/activities/trekking/manaslu-base-camp-trek/'>Manaslu Base Camp Trek</a> is a remarkable journey for adventure enthusiasts and nature lovers alike. This trek takes you through the unspoiled Manaslu Conservation Area, home to some of the world’s rarest flora and fauna. Along the way, you'll experience the genuine hospitality of local communities, deeply rooted in traditions that have stood the test of time."
-    - content: "As you ascend to the base camp of Manaslu, the eighth highest mountain in the world, you'll be treated to stunning panoramic views of the surrounding peaks, including the iconic Mt. Everest. You'll also have the opportunity to explore the famous Larkya La Pass, a high-altitude crossing that offers breathtaking views of the Himalayan range."
-    - content: "The Manaslu Base Camp Trek is an experience that will stay with you forever. Whether you're an experienced hiker or a first-time trekker, this journey is sure to challenge and inspire you in equal measure. So why wait? Book your trek today and discover the magic of the Manaslu region for yourself!"
-   
-    itinerary:
-
-    
-    - title: "DAY 1 - Arrival in Kathmandu, Nepal"
-      content: "Welcome to the vibrant city of Kathmandu, where ancient architecture, rich culture, and warm hospitality await you. Upon arrival at the airport, our representative will greet you with a traditional garland of marigolds and transfer you to your hotel. After settling in, you can explore the city on your own or relax and prepare for your upcoming adventure."
-
-    - title: "DAY 2 - Rest in Kathmandu, and Preparation"
-      content: "Today is a day for rest and preparation. You can take a stroll around the bustling streets of Thamel, where you will find a variety of restaurants, shops, and markets. You can also visit some of the city's historic landmarks, such as the Swayambhunath Stupa, also known as the  <a class='highlight-link' href='/news/Swayambhunath-Stupa-Discover-the-Spiritual-Hub-of-Nepal/'>Monkey Temple </a>, or the stunning Pashupatinath Temple, one of the most sacred Hindu temples in the world."
-
-    - title: "DAY 3 - Drive from Kathmandu to Besisahar (760m)"
-      content: " After breakfast, we will drive to Besisahar, the starting point of our trek. Along the way, we will pass through scenic landscapes, lush green forests, and traditional Nepalese villages. Upon arrival, we will check into our guesthouse and rest for the night."
-
-    - title: "DAY 4 - Trek from Besisahar to Dharapani (1,860)"
-      content: " We start our trek today, heading towards the village of Dharapani. The trail takes us through terraced fields, forests, and suspension bridges over glistening rivers. We will pass through quaint villages and interact with the friendly locals, immersing ourselves in the culture and traditions of the region."
-
-    - title: "DAY 5 - Trek from Dharapani to Tilije (2,300m)"
-      content: " We continue our journey towards Tilije, a small village nestled in the lap of the Himalayas. The trek offers breathtaking views of towering mountains, lush forests, and cascading waterfalls. We will also come across ancient monasteries and traditional chortens, adding a spiritual touch to our adventure."
-
-    - title: "DAY 6 - Trek from Tilije to Bhimthang (3,720m)"
-      content: " Today is the most challenging day of our trek as we cross the high-altitude Larke Pass at 5,160m. The trek is long and steep, but the panoramic views of the surrounding peaks are worth the effort. We will finally reach Bhimthang, a beautiful village with stunning views of Mount Manaslu, the eighth highest peak in the world."
-
-    - title: "DAY 7 - Acclimatization at Bhimthang (rest day)"
-      content: " Today is a rest day for acclimatization, allowing our bodies to adjust to the high altitude. You can explore the village, interact with the locals, or simply relax and take in the stunning views of the surrounding peaks."
-
-    - title: "DAY 8 - Trek from Bhimthan to Samdo (3,872m) via Larke Pass (5,160m)"
-      content: " We resume our trek and cross the majestic Larke Pass once again, this time from a different direction. We will witness the beauty of the snow-clad mountains and glaciers as we make our way towards Samdo, a picturesque village with traditional houses and a serene atmosphere."
-
-    - title: "DAY 9 - Trek from Samdo to Sama Gaun (3,450m)"
-      content: " The trek today takes us through scenic valleys and serene landscapes as we make our way towards Sama Gaun. We will pass through several traditional villages and encounter local yak herders, adding a unique touch to our adventure."
-
-    - title: "DAY 10 - Acclimatization in Sama Gaun (3,450m) – Rest Day"
-      content: " Today is another rest day for acclimatization. You can explore the village, visit the local monasteries, or simply relax and enjoy the stunning views of Mount Manaslu and its surrounding peaks."
-
-    - title: "DAY 11 - Trek from Sama Gaon to Manaslu Basecamp (5160m) and back to Sama Gaon (3,450m)"
-      content: "Today, we trek to the base camp of Mount Manaslu, the eighth highest peak in the world. The trek is challenging but rewarding, as we are rewarded with panoramic views of the surrounding peaks. After spending some time at the base camp, we will return to Sama Gaon for the night."
-
-    - title: "DAY 12 - Trek from Sama Gaon to Namrung (2,670m)"
-      content: "We start our descent towards Namrung, a traditional village with stunning views of the Himalayas. Along the way, we will pass through lush forests and quaint villages, immersing ourselves in the local culture and traditions."
-
-    - title: "DAY 13 - Trek from Namrung to Philim (1,606m)"
-      content: " The trek today takes us through beautiful valleys and stunning landscapes as we make our way towards Philim, a picturesque village with traditional houses and a serene atmosphere. We will also come across ancient monasteries and traditional chortens, adding a spiritual touch to our adventure."
-
-    - title: "DAY 14 - Trek from Philim to Machha Khola (883m)"
-      content: " We continue our descent towards Machha Khola, a small village located on the banks of the Budi Gandaki River. The trek offers stunning views of the surrounding peaks and landscapes, and we will pass through several traditional villages and suspension bridges over glistening rivers."
-
-    - title: "DAY 15 - Trek from Machha Khola to Arughat (606m)"
-      content: " OToday is the last day of our trek as we make our way towards Arughat, the endpoint of our journey. The trek takes us through scenic landscapes, terraced fields, and traditional villages, giving us a glimpse into the rich culture and traditions of the region."
-
-    - title: "DAY 16 - Drive from Arughat to Kathmandu & transfer to the Hotel"
-      content: "After breakfast, we will drive back to Kathmandu, where you can rest and relax in your hotel or explore the city on your own."
-
-    - title: "DAY 17 - Leisure Day in Kathmandu"
-      content: " Today is a leisure day for you to explore Kathmandu on your own. You can visit some of the city's historic landmarks, such as the Durbar Square or the Boudhanath Stupa, or simply relax and shop for souvenirs in the bustling streets of Thamel."
-
-    - title: "DAY 18 - Transfer to International Airport for final departure"
-      content: "Today is the last day of your adventure, and our representative will transfer you to the airport for your final departure. We hope you had a memorable experience and look forward to welcoming you back to Nepal soon."
-
 
 
 
@@ -670,6 +572,106 @@ tamang-heritage-trail-trek:
 
     - title: "DAY 9 -  Departure from Kathmandu"
       content : "Our representative will transfer you to the airport for your flight home, or to your next destination. We hope you had a memorable trekking experience with us and look forward to seeing you again in the future."
+
+manaslu-base-camp-trek:
+    name: "Manaslu Base Camp Trek"
+    days: "18"
+    nights: "17"
+    altitude: "12,467"
+    grade: "Moderate"
+    walking: "5-7 hours"
+    accomodation: "Hotel + Lodge"
+    groupSize: "2-15 pax"
+    season: "Spring/Autumn"
+    region: "Manaslu"
+    # popular: "Y"
+    price: "1787"
+    # photos: "assets/css/images/treks/everest_base_min.jpg"
+    photos: "assets/css/images/treks/manasalu_min.jpg"
+    url: ""
+    
+    bookLink: "https://www.instamojo.com/thetrippyfrog/beas-kund-trek-ab0ba/"
+
+    description: "The Manaslu Base Camp Trek is a true gem for adventure seekers and nature lovers alike. The trek takes you through the pristine Manaslu Conservation Area, home to some of the rarest flora and fauna in the world. Along the way, you'll get to experience the warm hospitality of local communities, steeped in ancient traditions and customs that have remained unchanged for centuries."
+
+    excerpt: "The Manaslu Base Camp Trek is a true gem for adventure seekers and nature lovers alike. The trek takes you through the pristine Manaslu Conservation Area, home to some of the rarest flora and fauna in the world. Along the way, you'll get to experience the warm hospitality of local communities, steeped in ancient traditions and customs that have remained unchanged for centuries."
+
+    video: "<iframe width='100%' class='vid' height='400' src='https://www.youtube.com/embed/I1Sx_DdHaUE' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+    
+
+    # download: "//assets/docs/manaslu.pdf"
+    gears-list: "//assets/docs/trekking-gears-nepal.pdf"
+
+    
+    # image: "<img class='map1'>"
+
+
+
+    overview:
+
+    - content: "<a class='highlight-link' href='/activities/trekking/manaslu-base-camp-trek/'>Manaslu Base Camp Trek</a> is a remarkable journey for adventure enthusiasts and nature lovers alike. This trek takes you through the unspoiled Manaslu Conservation Area, home to some of the world’s rarest flora and fauna. Along the way, you'll experience the genuine hospitality of local communities, deeply rooted in traditions that have stood the test of time."
+    - content: "As you ascend to the base camp of Manaslu, the eighth highest mountain in the world, you'll be treated to stunning panoramic views of the surrounding peaks, including the iconic Mt. Everest. You'll also have the opportunity to explore the famous Larkya La Pass, a high-altitude crossing that offers breathtaking views of the Himalayan range."
+    - content: "The Manaslu Base Camp Trek is an experience that will stay with you forever. Whether you're an experienced hiker or a first-time trekker, this journey is sure to challenge and inspire you in equal measure. So why wait? Book your trek today and discover the magic of the Manaslu region for yourself!"
+   
+    itinerary:
+
+    
+    - title: "DAY 1 - Arrival in Kathmandu, Nepal"
+      content: "Welcome to the vibrant city of Kathmandu, where ancient architecture, rich culture, and warm hospitality await you. Upon arrival at the airport, our representative will greet you with a traditional garland of marigolds and transfer you to your hotel. After settling in, you can explore the city on your own or relax and prepare for your upcoming adventure."
+
+    - title: "DAY 2 - Rest in Kathmandu, and Preparation"
+      content: "Today is a day for rest and preparation. You can take a stroll around the bustling streets of Thamel, where you will find a variety of restaurants, shops, and markets. You can also visit some of the city's historic landmarks, such as the Swayambhunath Stupa, also known as the  <a class='highlight-link' href='/news/Swayambhunath-Stupa-Discover-the-Spiritual-Hub-of-Nepal/'>Monkey Temple </a>, or the stunning Pashupatinath Temple, one of the most sacred Hindu temples in the world."
+
+    - title: "DAY 3 - Drive from Kathmandu to Besisahar (760m)"
+      content: " After breakfast, we will drive to Besisahar, the starting point of our trek. Along the way, we will pass through scenic landscapes, lush green forests, and traditional Nepalese villages. Upon arrival, we will check into our guesthouse and rest for the night."
+
+    - title: "DAY 4 - Trek from Besisahar to Dharapani (1,860)"
+      content: " We start our trek today, heading towards the village of Dharapani. The trail takes us through terraced fields, forests, and suspension bridges over glistening rivers. We will pass through quaint villages and interact with the friendly locals, immersing ourselves in the culture and traditions of the region."
+
+    - title: "DAY 5 - Trek from Dharapani to Tilije (2,300m)"
+      content: " We continue our journey towards Tilije, a small village nestled in the lap of the Himalayas. The trek offers breathtaking views of towering mountains, lush forests, and cascading waterfalls. We will also come across ancient monasteries and traditional chortens, adding a spiritual touch to our adventure."
+
+    - title: "DAY 6 - Trek from Tilije to Bhimthang (3,720m)"
+      content: " Today is the most challenging day of our trek as we cross the high-altitude Larke Pass at 5,160m. The trek is long and steep, but the panoramic views of the surrounding peaks are worth the effort. We will finally reach Bhimthang, a beautiful village with stunning views of Mount Manaslu, the eighth highest peak in the world."
+
+    - title: "DAY 7 - Acclimatization at Bhimthang (rest day)"
+      content: " Today is a rest day for acclimatization, allowing our bodies to adjust to the high altitude. You can explore the village, interact with the locals, or simply relax and take in the stunning views of the surrounding peaks."
+
+    - title: "DAY 8 - Trek from Bhimthan to Samdo (3,872m) via Larke Pass (5,160m)"
+      content: " We resume our trek and cross the majestic Larke Pass once again, this time from a different direction. We will witness the beauty of the snow-clad mountains and glaciers as we make our way towards Samdo, a picturesque village with traditional houses and a serene atmosphere."
+
+    - title: "DAY 9 - Trek from Samdo to Sama Gaun (3,450m)"
+      content: " The trek today takes us through scenic valleys and serene landscapes as we make our way towards Sama Gaun. We will pass through several traditional villages and encounter local yak herders, adding a unique touch to our adventure."
+
+    - title: "DAY 10 - Acclimatization in Sama Gaun (3,450m) – Rest Day"
+      content: " Today is another rest day for acclimatization. You can explore the village, visit the local monasteries, or simply relax and enjoy the stunning views of Mount Manaslu and its surrounding peaks."
+
+    - title: "DAY 11 - Trek from Sama Gaon to Manaslu Basecamp (5160m) and back to Sama Gaon (3,450m)"
+      content: "Today, we trek to the base camp of Mount Manaslu, the eighth highest peak in the world. The trek is challenging but rewarding, as we are rewarded with panoramic views of the surrounding peaks. After spending some time at the base camp, we will return to Sama Gaon for the night."
+
+    - title: "DAY 12 - Trek from Sama Gaon to Namrung (2,670m)"
+      content: "We start our descent towards Namrung, a traditional village with stunning views of the Himalayas. Along the way, we will pass through lush forests and quaint villages, immersing ourselves in the local culture and traditions."
+
+    - title: "DAY 13 - Trek from Namrung to Philim (1,606m)"
+      content: " The trek today takes us through beautiful valleys and stunning landscapes as we make our way towards Philim, a picturesque village with traditional houses and a serene atmosphere. We will also come across ancient monasteries and traditional chortens, adding a spiritual touch to our adventure."
+
+    - title: "DAY 14 - Trek from Philim to Machha Khola (883m)"
+      content: " We continue our descent towards Machha Khola, a small village located on the banks of the Budi Gandaki River. The trek offers stunning views of the surrounding peaks and landscapes, and we will pass through several traditional villages and suspension bridges over glistening rivers."
+
+    - title: "DAY 15 - Trek from Machha Khola to Arughat (606m)"
+      content: " OToday is the last day of our trek as we make our way towards Arughat, the endpoint of our journey. The trek takes us through scenic landscapes, terraced fields, and traditional villages, giving us a glimpse into the rich culture and traditions of the region."
+
+    - title: "DAY 16 - Drive from Arughat to Kathmandu & transfer to the Hotel"
+      content: "After breakfast, we will drive back to Kathmandu, where you can rest and relax in your hotel or explore the city on your own."
+
+    - title: "DAY 17 - Leisure Day in Kathmandu"
+      content: " Today is a leisure day for you to explore Kathmandu on your own. You can visit some of the city's historic landmarks, such as the Durbar Square or the Boudhanath Stupa, or simply relax and shop for souvenirs in the bustling streets of Thamel."
+
+    - title: "DAY 18 - Transfer to International Airport for final departure"
+      content: "Today is the last day of your adventure, and our representative will transfer you to the airport for your final departure. We hope you had a memorable experience and look forward to welcoming you back to Nepal soon."
+
+
+
 
 
 gokyo-chola-pass-trek:

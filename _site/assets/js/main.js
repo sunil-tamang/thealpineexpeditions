@@ -4,6 +4,9 @@
 
 
 
+
+
+
 $(document).ready(function(){
 	// Gallery
 	 if($('.image-popup-vertical-fit').length){
@@ -390,11 +393,15 @@ $(document).ready(function(){
 
 });
 
+
+
 $(window).on('load', function(){
 	if($(".slider").length)
 	{
 			$(".slider").slick('slickPlay');
 	}
+
+	
 //	$('.trek-slider').slick('slickPause');
 });
 
@@ -854,3 +861,47 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
+
+
+
+
+
+
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  const cards = document.querySelectorAll('.update__trek-card');
+  const filterButtons = document.querySelectorAll('.update__filter-btn');
+  const radios = document.querySelectorAll('input[type="radio"]');
+  const clearBtn = document.getElementById('update__clear-filters');
+
+  function applyFilters() {
+    let filters = {
+      category: document.querySelector('.update__filter-btn.active')?.dataset.value,
+      difficulty: document.querySelector('input[name="difficulty"]:checked')?.value,
+      region: document.querySelector('input[name="region"]:checked')?.value,
+    };
+
+    cards.forEach(card => {
+      const matches = Object.entries(filters).every(([key, val]) => {
+        return !val || card.dataset[key] === val;
+      });
+      card.style.display = matches ? 'block' : 'none';
+    });
+  }
+
+  filterButtons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      filterButtons.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      applyFilters();
+    });
+  });
+
+  radios.forEach(radio => radio.addEventListener('change', applyFilters));
+  clearBtn.addEventListener('click', () => {
+    filterButtons.forEach(b => b.classList.remove('active'));
+    radios.forEach(r => r.checked = false);
+    applyFilters();
+  });
+});

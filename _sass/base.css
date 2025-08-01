@@ -3,15 +3,22 @@ html {
   overflow-x: hidden;
 }
 
-html, body {
+body,
+html {
   font-family: "Lato", "Montserrat", sans-serif;
   height: 100%;
-  letter-spacing: 0.05em; /*font-variant: small-caps;*/
+  letter-spacing: 0.05em;
+  /*font-variant: small-caps;*/
 }
 
 h1 {
   font-size: 1.7em;
-  font-family: "Lato", sans-serif;
+  font-family: "Bowlby one sc", sans-serif;
+  font-weight: 200;
+}
+
+h2 {
+  font-family: "Bowlby one sc", sans-serif;
   font-weight: 200;
 }
 
@@ -37,11 +44,14 @@ a:focus {
   outline: 0;
 }
 
-*, *:before, *:after {
+*,
+*:after,
+*:before {
   box-sizing: border-box;
 }
 
-a, .no-select {
+.no-select,
+a {
   -webkit-user-select: none;
   -moz-user-select: none;
   user-select: none;
