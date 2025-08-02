@@ -52,76 +52,91 @@ contains_ads : "YES"
 		display: none;
 	}
 </style>
-<div class="container-wide row--padding-wide">
-{% assign path = 'assets/css/images/bg/contact.jpg' | relative_url%}
-    <div class="banner" style="background-image: url('{{ path }}')">
-        <span class="banner__overlay"></span>
-        <div class="banner__tagline" style="opacity: 1;">
-            <p class="tagline">CONTACT</p>
-            <p class="sub-tagline" style="display: inline;">
-				<span class="sub-tagline--part1">&nbsp;Get&nbsp;</span><span class="sub-tagline--part2">&nbsp;In Touch&nbsp;</span><br />
-			</p>
-        </div>
-		<span class="banner__skip">
-				<a class="skipToContent-trigger" href="#content" style="padding: 1em 1.08em; background: rgba(0,0,0,.4); color:#39ff41; border-radius: 360px;"><i class="fas fa-leaf" style="transform: rotate(135deg); font-size: 1em;"></i></a>
-		</span>
 
-    </div>
+
+
+<div class="container-wide row--padding-wide">
+        {% assign path = 'assets/css/images/bg/contact.jpg' | relative_url%}
+            <div class="banner" style="background-image: url('{{ path }}')">
+                <span class="banner__overlay"></span>
+                <div class="banner__tagline" style="opacity: 1;">
+                    <p class="tagline">CONTACT</p>
+                    <p class="sub-tagline" style="display: inline;">
+                        <span class="sub-tagline--part1">&nbsp;Get&nbsp;</span><span class="sub-tagline--part2">&nbsp;In Touch&nbsp;</span><br />
+                    </p>
+                </div>
+                <span class="banner__skip">
+                        <a class="skipToContent-trigger" href="#content" style="padding: 1em 1.08em; background: rgba(0,0,0,.4); color:#39ff41; border-radius: 360px;"><i class="fas fa-leaf" style="transform: rotate(135deg); font-size: 1em;"></i></a>
+                </span>
+
+            </div>
 
 </div>
-    <!----------C-O-N-T-A-C-T-------->
+
+<!----------C-O-N-T-A-C-T-------->
+
 <div class="row row--padding-medium content container--white" id="content">
-	<div style="position: relative;">
-    <div class="">
-		<h2 class="content__title content__title-white no-underline" style="padding: 0; margin: 0;">
-			<i class="fas fa-praying-hands"></i> </h2><br />
-		<h1 class="content__sub-title content__title-white no-underline" style="padding-top: 0; margin-bottom: 0; padding-bottom: 0;">Say Hello!
-		<p class="headline--detail" style="padding: 0; margin: 0; font-style: oblique; letter-spacing: .05em; color: #333;">"Ask us anything about the adventures and tours in Himalayas!"</p>
-		</h1>
-		<br /><br /><br />
+	
+        <div class="" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+            
+                <h2
+                    class="content__title content__title-white no-underline"
+                    style="padding: 0; margin: 0;">
+                    <i class="fas fa-praying-hands"></i>
+                </h2>
+                
+                <br/>
+            
+                <h1
+                    class="content__sub-title content__title-white no-underline"
+                    style="padding-top: 0; margin-bottom: 0; padding-bottom: 0;">Say Hello!
+                    <p
+                        class="headline--detail"
+                        style="padding: 0; margin: 0; font-style: oblique; letter-spacing: .05em; color: #333;">"Ask us anything about the adventures and tours in Himalayas!"</p>
+                </h1>
+            
 
-        <form autocomplete="off" action="https://formspree.io/f/mvgqqjew" method="POST" name="contact_form"  data-aos="fade-in">
-            <fieldset>
-                <legend style="font-size: 1.2em;">Keep it succinct</legend>
-                <div class="ar-input-set two-in-one_1">
-                    <input type="text" name="name" required id="id_name" />
-                    <span class="ar-fixed-label"><i class="far fa-user"></i></span>
-                    <span class="ar-floating-label">Name</span>
+            <form autocomplete="off" action="https://formspree.io/f/mvgqqjew" method="POST" name="contact_form"  data-aos="fade-in">
+                <fieldset>
+                    <div class="ar-input-set two-in-one_1">
+                        <input type="text" name="name" required id="id_name" />
+                        <!-- <span class="ar-fixed-label"><i class="far fa-user"></i></span> -->
+                        <span class="ar-floating-label">Name</span>
 
-                </div>
-                <div class="ar-input-set two-in-one_2">
-                    <input type="text" name="phone" required id="id_phone" />
-                    <span class="ar-fixed-label"><i class="fa fa-phone"></i></span>
-                    <span class="ar-floating-label">Mobile</span>
+                    </div>
+                    <div class="ar-input-set two-in-one_2">
+                        <input type="text" name="phone" required id="id_phone" />
+                        <!-- <span class="ar-fixed-label"><i class="fa fa-phone"></i></span> -->
+                        <span class="ar-floating-label">Mobile</span>
 
-                </div>
-                <div class="ar-input-set" style="clear:both;">
-                  <!--<input type="email" name="email" required id="id_email" />-->
-                  <input type="email" name="email" required id="id_email" />
-                    <span class="ar-fixed-label"><i class="fa fa-envelope"></i></span>
-                    <span class="ar-floating-label">E-Mail</span>
+                    </div>
+                    <div class="ar-input-set" style="clear:both;">
+                    <!--<input type="email" name="email" required id="id_email" />-->
+                    <input type="email" name="email" required id="id_email" />
+                        <!-- <span class="ar-fixed-label"><i class="fa fa-envelope"></i></span> -->
+                        <span class="ar-floating-label">E-Mail</span>
 
-                </div>
-                <div class="ar-input-set">
-                    <textarea rows="8" id="id_message" name="message" required="" style="height:120px;" type="text"></textarea>
-                    <!-- <span class="ar-fixed-label"><i class="fas fa-pencil-alt"></i></span> -->
-                    <span class="ar-floating-label">Message</span>
+                    </div>
+                    <div class="ar-input-set">
+                        <textarea rows="8" id="id_message" name="message" required="" style="height:120px;" type="text"></textarea>
+                        <!-- <span class="ar-fixed-label"><i class="fas fa-pencil-alt"></i></span> -->
+                        <span class="ar-floating-label">Message</span>
 
-                </div>
+                    </div>
 
-                <span class="ar-form-btn-span">
-                    <input type="hidden" name="_next" value="http://thealpineexpeditions.com/thanks" />
-                    <input type="hidden" name="_subject" value="New Submission from The Alpine Expeditions!" />
-                    <button class="book_btn" type="submit" name="sendMsg"><span class="trippy_btn-left"></span>SEND<span class="trippy_btn-right"></span></button><br />
-                    <!-- <button class="booktrippy_btn" type="submit" name="sendMsg"><span class="trippy_btn-left"></span>SEND<span class="trippy_btn-right"></span></button><br /> -->
-               
-                </span>
-            </fieldset>
-        </form>
-    </div>
-    </div>
+                    <span class="ar-form-btn-span">
+                        <input type="hidden" name="_next" value="http://thealpineexpeditions.com/thanks" />
+                        <input type="hidden" name="_subject" value="New Submission from The Alpine Expeditions!" />
+                        <button class="book_btn" type="submit" name="sendMsg"><span class="trippy_btn-left"></span>SEND<span class="trippy_btn-right"></span></button><br />
+                        <!-- <button class="booktrippy_btn" type="submit" name="sendMsg"><span class="trippy_btn-left"></span>SEND<span class="trippy_btn-right"></span></button><br /> -->
+                
+                    </span>
+                </fieldset>
+            </form>
+       
+        </div>
 
-    <div style="position: relative;">
+    <div style="">
     <span style="position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: url('{{ 'assets/css/images/static.gif' | absolute_url }}') repeat center; opacity: .05; z-index: -1;"></span>
         <div class="row row--padding-medium content">
             <h1 class="content__title content__title-white" data-aos="zoom-out" style="margin-bottom: 0;">SOCIAL MEDIA</h1>
