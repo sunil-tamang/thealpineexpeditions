@@ -172,30 +172,30 @@ tags: "Everest Base Camp Trek, Annapurna Circuit Trek, Annapurna Base Camp Trek,
 
 				
 				
-				<!-- TREK OVERVIEW -->
+			<!-- TREK OVERVIEW -->
+			
+			<!-- <div class="trek--section" style="text-align: left;" >
+
+				<h2 class="content__sub-title" style="padding-bottom: 0;"><i class="far fa-file-alt"></i>&nbsp;Highlights</h2>
 				
-				<!-- <div class="trek--section" style="text-align: left;" >
-
-					<h2 class="content__sub-title" style="padding-bottom: 0;"><i class="far fa-file-alt"></i>&nbsp;Highlights</h2>
+				{% for high in trek.highlights %}
 					
-					{% for high in trek.highlights %}
-						
-								<p><i class="fas fa-check-circle"></i>&nbsp;&nbsp;<span class="holo" style="font-family: 'Anton',sans-serif;"> {{  high.content }}</span>  </p>
-					
-							{% endfor %}
-					
+							<p><i class="fas fa-check-circle"></i>&nbsp;&nbsp;<span class="holo" style="font-family: 'Anton',sans-serif;"> {{  high.content }}</span>  </p>
+				
+						{% endfor %}
+				
 
-					<br />
-					<br />
-				</div> -->
+				<br />
+				<br />
+			</div> -->
 
-				<div class="material">
+			<div class="material">
 
 
 
-				<!-- <h1 class="content__title content__title-white no-underline" style="padding: 0; margin: 0;"><i class="fas fa-hiking"></i> </h1><br />
-				<h1 class="content__sub-title content__title-white no-underline" style="padding-top: 0; margin-bottom: 0; padding-bottom: 1em;">About The Trek
-				</h1> -->
+			<!-- <h1 class="content__title content__title-white no-underline" style="padding: 0; margin: 0;"><i class="fas fa-hiking"></i> </h1><br />
+			<h1 class="content__sub-title content__title-white no-underline" style="padding-top: 0; margin-bottom: 0; padding-bottom: 1em;">About The Trek
+			</h1> -->
 
 
 
@@ -322,7 +322,6 @@ tags: "Everest Base Camp Trek, Annapurna Circuit Trek, Annapurna Base Camp Trek,
 
 			</div>
 
-
 		
 
 			<!-- Mandatory Documents -->
@@ -333,6 +332,7 @@ tags: "Everest Base Camp Trek, Annapurna Circuit Trek, Annapurna Base Camp Trek,
 				<p class="content__list-item" style="text-indent: 2em; padding-top: 1em;"></p>
 			</div>
 
+
 			<!-- Cancellation Policy -->
 			<div class="trek--section" style="text-align: left;">
 				<h2 class="content__sub-title" style="padding-bottom: 0;"><i class="far fa-file-alt"></i>&nbsp;Cancellation Policy</h2>
@@ -341,7 +341,8 @@ tags: "Everest Base Camp Trek, Annapurna Circuit Trek, Annapurna Base Camp Trek,
 				<p class="content__list-item"><i class="far fa-list-alt"></i>&nbsp;&nbsp;Less than 15-days prior to departure - No Refund.<br /></p>
 				<p class="content__list-item" style="text-indent: 2em; padding-top: 1em;"></p>
 			</div>
-				
+			
+			
 			
 			<!-- Frequently Asked Questions -->
 			<div class="trek--section list-light" style="text-align: left;">
@@ -525,7 +526,7 @@ tags: "Everest Base Camp Trek, Annapurna Circuit Trek, Annapurna Base Camp Trek,
 
 								
 							
-								<form autocomplete="off" action="https://formspree.io/f/xyzygkjj" method="POST" name="contact_form"  data-aos="fade-in">
+								<form autocomplete="off" action="https://formsubmit.co/thealpineexpeditions@gmail.com" method="POST" name="contact_form"  data-aos="fade-in">
 									<div class="text" style="color: #333 !important;">
 										<h2>{{ page.alt }}</h2>
 										<p>Thank you for your interest, please complete the form below and we will be back to you as soon as possible..</p>
@@ -555,13 +556,12 @@ tags: "Everest Base Camp Trek, Annapurna Circuit Trek, Annapurna Base Camp Trek,
 											<span class="ar-floating-label">Contact Number</span>
 						
 										</div>
-										<div class="ar-input-set" style="clear:both;">
-										<!--<input type="email" name="email" required id="id_email" />-->
-										<input type="email" name="email" required id="id_email" />
-											<!-- <span class="ar-fixed-label"><i class="fa fa-envelope"></i></span> -->
-											<span class="ar-floating-label">E-Mail Address</span>
-						
-										</div>
+
+											<div class="ar-input-set" style="clear:both;">
+												<input type="email" name="email" id="id_email" required placeholder=" " />
+												<span class="ar-floating-label">E-Mail Address</span>
+												
+											</div>
 
 
 										<div class="ar-input-set">
@@ -576,14 +576,23 @@ tags: "Everest Base Camp Trek, Annapurna Circuit Trek, Annapurna Base Camp Trek,
 										</div>
 
 										<span class="ar-form-btn-span">
-											<input type="hidden" name="_next" value="https://thealpineexpeditions.com/thanks" />
-											<input type="hidden" name="_subject" value="New Submission from The Alpine Expeditions" />
+											<!-- <input type="hidden" name="_next" value="https://thealpineexpeditions.com/thanks" /> -->
+											<!-- <input type="hidden" name="_subject" value="New Submission from The Alpine Expeditions" /> -->
+											<input type="hidden" name="_next" value="https://thealpineexpeditions.com/thanks">
+											
+											 <input type="hidden" name="_captcha" value="false">
+
+  											<!-- <input type="hidden" name="_subject" value="New Submission from The Alpine Expeditions" /> -->
+
 											<button class="book_btn" type="submit" name="sendMsg"><span class="trippy_btn-left"></span>SEND<span class=""></span></button><br />
 										</span>
 									</fieldset>
 
 
-								</form>				
+								</form>		
+								
+								
+					
 
 							</div>
 					</div>
@@ -670,7 +679,6 @@ tags: "Everest Base Camp Trek, Annapurna Circuit Trek, Annapurna Base Camp Trek,
 
 
 
-
 	
 
 		<!-- <div class=" row--pading-medium col--recent-post" style="padding: 0 1em; text-align: justify;" >
@@ -727,6 +735,7 @@ tags: "Everest Base Camp Trek, Annapurna Circuit Trek, Annapurna Base Camp Trek,
     }
 
     </script> -->
+
 
 
 

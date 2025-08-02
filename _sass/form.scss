@@ -166,6 +166,14 @@ input:not(:focus):valid ~ .ar-floating-label,
     pointer-events: all;
 }
 
+.ar-input-set input:focus ~ .ar-floating-label,
+.ar-input-set input:valid ~ .ar-floating-label {
+  font-size: 0.9rem;
+  top: 0;
+  left: 0;
+  color: #666;
+}
+
 .ar-fixed-label{
     color: #222;
     border-radius: 5px;
