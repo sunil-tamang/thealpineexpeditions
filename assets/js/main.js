@@ -388,6 +388,26 @@ function checkScrollTop() {
     // Checking the position of scrolling in terms of Top position.
     checkScrollTop();
 
+// function checkScrollTop() {
+//   if ($("#twoCol").length) stickElement();
+
+//   const $header = $('.header');
+//   const isMenuOpen = $('#trigger').hasClass('expanded'); // check if menu is open
+
+//   if ($(window).scrollTop() > 100) {
+//     hideCallNowAdd();
+//     $header.css({ background: '#ffb100', top: '0px' });
+//   } else {
+//     hideCallNowRemove();
+
+//     // ✅ Only make header transparent if menu is NOT open
+//     if (!isMenuOpen) {
+//       const background = $('body').hasClass('mobile') ? 'rgba(0,0,0,0)' : 'rgba(0,0,0,0.9)';
+//       $header.css({ background });
+//     }
+//   }
+// }
+
     //Back To Top
     $(window).scroll(function(){
         checkScrollTop();
@@ -608,6 +628,7 @@ function stickElement(){
 			twoCol.removeClass("fix");
 		}
 }
+
 
 
 
