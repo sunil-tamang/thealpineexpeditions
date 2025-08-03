@@ -94,7 +94,7 @@ $(document).on('click', function () {
 function checkScrollTop() {
   if ($("#twoCol").length) stickElement();
 
-  if ($(window).scrollTop() > 100) {
+  if ($(window).scrollTop() > 0) {
     hideCallNowAdd();
     $('.header').css({ background: '#ffb100', top: '0px' });
   } else {
