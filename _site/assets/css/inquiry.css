@@ -75,6 +75,15 @@ a {
   color: #428bca;
 }
 
+.inquiry__container {
+  width: 100%;
+  padding: 10px 20px;
+  margin-top: 7em;
+  margin-bottom: 1em;
+  height: 100vh;
+  display: flex;
+}
+
 /* Form Wrapper */
 .form-wrapper {
   display: flex;

@@ -1,113 +1,138 @@
 ---
-layout: inqui
+layout: default
 title: Send an Enquiry
 permalink: /enquiry/
 custom_css: "inquiry.css"
 ---
 
-
-<div class="container" style="padding: 10px 20px; margin-top: 1em;" >
-  
-    <div id="popup" style="display: flex; flex-wrap: wrap; justify-content: flex-end; max-width: 1200px; margin: auto; gap: 40px;">
-
-    <!-- Left: Form Column -->
-    <div style="flex: 2; min-width: 300px;">
-
+   
+  <div class="inquiry__container" style="">
       
-        <form autocomplete="off" action="https://formsubmit.co/thealpineexpeditions@gmail.com" method="POST" name="contact_form" data-aos="fade-in">
        
-        <div class="text" style="color: #333;">
-          <h1 id="enquiry-title-header">Enquiry Details</h1>
-          <p>Thank you for your interest. Please complete the form below and we’ll get back to you as soon as possible.</p>
+    <div id="" style="display: flex; flex-wrap: wrap; justify-content: flex-end; max-width: 1200px; margin: auto; gap: 40px;">
+
+        <!-- Left: Form Column -->
+        <div style="flex: 2; min-width: 300px;">
+
+          
+            <form autocomplete="off" action="https://formsubmit.co/thealpineexpeditions@gmail.com" method="POST" name="contact_form" data-aos="fade-in">
+          
+            <div class="text" style="color: #333;">
+              <h1 id="enquiry-title-header">Enquiry Details</h1>
+              <p>Thank you for your interest. Please complete the form below and we’ll get back to you as soon as possible.</p>
+            </div>
+
+            <fieldset style="border: none; padding: 0;">
+            <!-- Tour name stays full width -->
+            <div class="ar-input-set" style="margin-bottom: 20px;">
+                <input type="text" name="tour_name" required id="id_tour_name" placeholder="Tour Name" />
+            </div>
+
+            <!-- Two-column layout starts -->
+            <div class="form-grid">
+              
+                <div class="ar-input-set">
+                <input type="text" name="first_name" required id="id_first_name" placeholder="John" />
+                <span class="ar-floating-label">First Name</span>
+                </div>
+
+                <div class="ar-input-set">
+                <input type="text" name="middle_name" id="id_middle_name" placeholder="Brad" />
+                <span class="ar-floating-label">Middle Name</span>
+                </div>
+
+                <div class="ar-input-set">
+                <input type="text" name="last_name" required id="id_last_name" placeholder="Doe" />
+                <span class="ar-floating-label">Last Name</span>
+                </div>
+
+                <div class="ar-input-set">
+                    <input type="date" name="date_of_birth" required id="id_date_of_birth" />
+                    <span class="ar-floating-label">Date of Birth</span>
+                </div>
+
+                <div class="ar-input-set">
+                <select name="gender" id="id_gender" required>
+                    <option value="">Select Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="non-binary">Non-binary</option>
+                    <option value="prefer-not-to-say">Prefer Not to Say</option>
+                </select>
+                <span class="ar-floating-label">Gender</span>
+                </div>
+
+                <div class="ar-input-set">
+                <input type="text" name="phone" required id="id_phone" placeholder="+977 123-456-7890" />
+                <span class="ar-floating-label">Contact Number</span>
+                </div>
+
+                <div class="ar-input-set">
+                <input type="email" name="email" id="id_email" required placeholder="youremail@example.com" />
+                <span class="ar-floating-label">E-Mail Address</span>
+                </div>
+
+                <div class="ar-input-set">
+                <textarea rows="1" id="id_user_remarks" name="user_remarks" placeholder="User Remarks"></textarea>
+                <span class="ar-floating-label">Remarks</span>
+                </div>
+            </div>
+
+            <div class="text">
+                <p>Don't worry, we won’t spam you.</p>
+            </div>
+    <!-- 
+            <div class="ar-input-set" style="margin: 15px 0;">
+                <label>
+                <input type="checkbox" name="passport_info" required>
+                I have a valid passport, emergency health insurance, and other necessary details.
+                </label>
+            </div> -->
+
+            <input type="hidden" name="_next" value="https://thealpineexpeditions.com/thanks">
+            <input type="hidden" name="_captcha" value="false">
+
+            <div class="ar-form-btn-span">
+                <button class="book_btn" type="submit" name="sendMsg">
+                <span class="trippy_btn-left"></span>Send An Enquiry<span></span>
+                </button>
+            </div>
+            </fieldset>
+
+          </form>
         </div>
 
-        <fieldset style="border: none; padding: 0;">
-        <!-- Tour name stays full width -->
-        <div class="ar-input-set" style="margin-bottom: 20px;">
-            <input type="text" name="tour_name" required id="id_tour_name" placeholder="Tour Name" />
+
+        <!-- Right: Sidebar Column -->
+
+        <div style="flex: 1; min-width: 300px;">
+          <div id="booking-details-sidebar" style="background-color: #f9f9f9; padding: 20px; border-radius: 8px; border: 1px solid #ddd;">
+            <h2 id="sidebar-tour-name">Tour Name</h2>
+            <img id="sidebar-tour-image" src="" alt="Tour Image" style="width: 100%; height: auto; margin-bottom: 15px; border-radius: 4px;" />
+
+            <!-- <h4>Price Detail</h4> -->
+            <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+              <span>Total</span>
+              <span id="sidebar-tour-price">$0.00</span>
+            </div>
+
+            <h4>Highlights</h4>
+            <ul id="sidebar-highlights-list" style="list-style: none; padding-left: 0; margin-top: 10px;">
+              <!-- Populate dynamically -->
+            </ul>
+
+            <!-- <button class="book_btn" type="submit" name="sendMsg" style="margin-top: 20px;">
+              <span class="trippy_btn-left"></span>Book Now<span></span>
+            </button> -->
+          </div>
         </div>
 
-        <!-- Two-column layout starts -->
-        <div class="form-grid">
-           
-            <div class="ar-input-set">
-            <input type="text" name="first_name" required id="id_first_name" placeholder="John" />
-            <span class="ar-floating-label">First Name</span>
-            </div>
-
-            <div class="ar-input-set">
-            <input type="text" name="middle_name" id="id_middle_name" placeholder="Brad" />
-            <span class="ar-floating-label">Middle Name</span>
-            </div>
-
-            <div class="ar-input-set">
-            <input type="text" name="last_name" required id="id_last_name" placeholder="Doe" />
-            <span class="ar-floating-label">Last Name</span>
-            </div>
-
-            <div class="ar-input-set">
-                <input type="date" name="date_of_birth" required id="id_date_of_birth" />
-                <span class="ar-floating-label">Date of Birth</span>
-            </div>
-
-            <div class="ar-input-set">
-            <select name="gender" id="id_gender" required>
-                <option value="">Select Gender</option>
-                <option value="male">Male</option>
-                <option value="female">Female</option>
-                <option value="non-binary">Non-binary</option>
-                <option value="prefer-not-to-say">Prefer Not to Say</option>
-            </select>
-            <span class="ar-floating-label">Gender</span>
-            </div>
-
-            <div class="ar-input-set">
-            <input type="text" name="phone" required id="id_phone" placeholder="+977 123-456-7890" />
-            <span class="ar-floating-label">Contact Number</span>
-            </div>
-
-            <div class="ar-input-set">
-            <input type="email" name="email" id="id_email" required placeholder="youremail@example.com" />
-            <span class="ar-floating-label">E-Mail Address</span>
-            </div>
-
-            <div class="ar-input-set">
-            <textarea rows="1" id="id_user_remarks" name="user_remarks" placeholder="User Remarks"></textarea>
-            <span class="ar-floating-label">Remarks</span>
-            </div>
+        
         </div>
 
-        <div class="text">
-            <p>Don't worry, we won’t spam you.</p>
-        </div>
-<!-- 
-        <div class="ar-input-set" style="margin: 15px 0;">
-            <label>
-            <input type="checkbox" name="passport_info" required>
-            I have a valid passport, emergency health insurance, and other necessary details.
-            </label>
-        </div> -->
-
-        <input type="hidden" name="_next" value="https://thealpineexpeditions.com/thanks">
-        <input type="hidden" name="_captcha" value="false">
-
-        <div class="ar-form-btn-span">
-            <button class="book_btn" type="submit" name="sendMsg">
-            <span class="trippy_btn-left"></span>Send An Enquiry<span></span>
-            </button>
-        </div>
-        </fieldset>
-
-      </form>
     </div>
-
-    <!-- Right: Sidebar Column -->
-
-
-  </div>
-  
+      
 </div>
-
 
 
 <script>
