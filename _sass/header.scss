@@ -15,7 +15,7 @@
     left: 0;
     width: 100%;
     z-index: 4;
-    // background: rgba(0, 0, 0, 0.9);
+    background: #ffd600;
     transition: all 0.4s ease;
     padding: 2em 0;
     display: inline-block;
@@ -90,8 +90,9 @@
     padding-left: 1em;
 /*    background: #cacaca;*/
 /*    background: #2794bf;*/
-    background: #2ad46e;
-    background: #ffd600;
+    // background: #2ad46e;
+    // background: #ffd600;
+    background-color: rgb(255, 177, 0);
     opacity: 1;
     float: none;
     overflow: hidden;

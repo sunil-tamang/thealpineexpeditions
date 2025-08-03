@@ -19,7 +19,6 @@ function menuWideOrMobile() {
   }
 }
 
-
 menuWideOrMobile();
 $(window).on('resize', menuWideOrMobile);
 
@@ -29,6 +28,7 @@ $('#trigger').on('click', function (event) {
   const $trigger = $(this);
   const $navWrapper = $('.nav-wrapper');
   const $headerNav = $('.header__nav');
+  const $header = $('.header');
 
   if ($trigger.hasClass('expanded')) {
     $navWrapper.fadeOut(500);
@@ -36,10 +36,19 @@ $('#trigger').on('click', function (event) {
     $headerNav.removeClass('nav--open');
     $('.dropdown__trigger, .nav__dropdown').removeClass('dropdown--open');
     $('.nav__dropdown--item, .nav__dropdown li').removeClass('item--open');
+
+    // ✅ Reset header background if user hasn't scrolled yet
+    if ($(window).scrollTop() <= 100 && $('body').hasClass('mobile')) {
+      $header.css('background', 'rgba(0,0,0,0)');
+    }
+
   } else {
     $navWrapper.fadeIn(500);
     $trigger.addClass('expanded');
     $headerNav.addClass('nav--open');
+
+    // ✅ Always show background when menu opens
+    $header.css('background', '#ffb100');
   }
 });
 
@@ -51,7 +60,6 @@ $('.dropdown__trigger').on('click', function (event) {
   const $this = $(this);
   const $dropdown = $this.next('.nav__dropdown');
   const $items = $dropdown.children('li');
-
   const isOpen = $this.hasClass('dropdown--open');
 
   $('.nav-wrapper').fadeIn(500);
@@ -73,10 +81,14 @@ $(document).on('click', function () {
   $('#trigger').removeClass('expanded');
   $('.header__nav').removeClass('nav--open');
 
+  // ✅ Reset header background if user is at top and on mobile
+  if ($(window).scrollTop() <= 100 && $('body').hasClass('mobile')) {
+    $('.header').css('background', 'rgba(0,0,0,0)');
+  }
+
   // hide modal
   hideModal();
 });
-
 
 // ----------------- Scroll Behavior -----------------
 function checkScrollTop() {
@@ -91,9 +103,6 @@ function checkScrollTop() {
     $('.header').css({ background });
   }
 }
-
-
-
 
 
 
