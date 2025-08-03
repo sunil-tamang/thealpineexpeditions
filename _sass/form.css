@@ -1,9 +1,4 @@
-/*--------------------------------------------
-Beautiful Form.css
-Copyright (C) https://www.github.com/arjunthaku08
---------------------------------------------*/
 form {
-  margin: 2em auto;
   max-width: 768px;
   width: 100%;
 }
@@ -35,7 +30,6 @@ legend i {
 
 .ar-input-set {
   position: relative;
-  padding: 1.4em 0 1.1em;
 }
 
 .two-in-one_1,
@@ -49,31 +43,48 @@ legend i {
   float: left;
 }
 
-input, textarea {
+input, textarea, select {
   font-size: 1em;
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
 }
 
+/* General styles for all form fields */
 textarea,
 input[type=text],
 input[type=password],
-input[type=email] {
+input[type=email],
+input[type=date],
+select {
   width: 100%;
   max-width: 100%;
   border: 1px solid #cecece;
-  /*    border-radius: 3px;*/
   padding: 0.8em;
-  transition: all 0.5s ease;
   background: #fbfbfb;
   background: rgba(248, 248, 248, 0.7);
   color: #555;
-  padding-left: 3em;
   border-radius: 8px;
+  box-sizing: border-box;
+  /* This line is the fix: apply transitions only to specific properties */
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
+/* Specific styles for select and date inputs to add the dropdown arrow */
+select,
+input[type=date] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url('data:image/svg+xml;utf8,<svg fill="black" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 10px top 50%;
+  background-size: 20px auto;
+}
+
+/* Focus styles */
 textarea:focus,
-input:focus {
+input:focus,
+select:focus {
   outline: none;
   background: #ffffff;
   background: rgba(255, 255, 255, 0.75);
@@ -81,11 +92,14 @@ input:focus {
   box-shadow: 0 0 5px rgba(44, 151, 222, 0.2);
   box-shadow: 0 0 5px rgba(142, 142, 142, 0.3);
   box-shadow: 0 0 7px 0px rgba(142, 142, 142, 0.3);
-  transition: all 0.3s ease, color 0.9s ease;
 }
 
 textarea {
   resize: vertical;
+}
+
+.ar-form-input {
+  /* This class seems unused but kept for compatibility */
 }
 
 .line-and-text {
@@ -123,34 +137,14 @@ textarea {
   margin: 0.5em auto;
 }
 
-.ar-floating-label {
-  display: block;
-  position: absolute;
-  top: 39px;
-  left: 14px;
-  left: 50px;
-  z-index: 1;
-  color: rgba(36, 41, 46, 0.63);
-  color: #888;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 300;
-  font-size: 0.9rem;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  user-select: none;
-  transition: all 0.3s cubic-bezier(1, 0.05, 0, 1);
-  pointer-events: none;
+/* New CSS to style the select option labels correctly */
+select option:first-of-type {
+  color: #888; /* Placeholder color */
 }
 
-textarea:valid ~ .ar-floating-label,
-textarea:not(:focus):valid ~ .ar-floating-label,
-input:valid ~ .ar-floating-label,
-input:not(:focus):valid ~ .ar-floating-label,
-.floating-label > .ar-floating-label {
-  font-size: 0.9rem;
-  top: 0;
-  left: 0;
-  pointer-events: all;
+select:valid option:first-of-type,
+select:focus option:first-of-type {
+  color: #555;
 }
 
 .ar-fixed-label {

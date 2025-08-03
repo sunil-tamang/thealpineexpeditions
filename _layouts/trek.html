@@ -505,97 +505,26 @@ tags: "Everest Base Camp Trek, Annapurna Circuit Trek, Annapurna Base Camp Trek,
 					<!-- <button class="book_btn enquiry" onclick="javascript:alert('Contact Form NOT Found!');" type="submit" style="width: 100%;  font-size: 1.5em; border-radius: 360px;">SEND ENQUIRY</button>
 					<br /><br /> -->
 
+                <div class="" id="trigger1">
+                    <button id="enquiry-button" class="book_btn enquiry" type="button" style="width: 100%; font-size: 1.5em; text-align: center; display: block; padding: 10px 20px;">SEND AN ENQUIRY</button>
+                </div>
 
-										
-					<div class="" id="trigger1">
-						
-						<button class="book_btn enquiry"  type="submit" style="width: 100%; font-size: 1.5em; ">SEND AN ENQUIRY</button>
+                <script>
+                    document.addEventListener('DOMContentLoaded', function() {
+                        const enquiryButton = document.getElementById('enquiry-button');
+                        if (enquiryButton) {
+                            enquiryButton.addEventListener('click', function() {
+                                const tourSlug = "{{ page.title-slug | uri_escape }}"; 
+                                const newUrl = `/enquiry/?tour_slug=${tourSlug}`;
+                                window.location.href = newUrl;
+                            });
+                        }
+                    });
+                </script>
+
+
+
 							
-					</div>
-
-					<div id="youtube_overlay">
-						
-						<div id="close-btn">
-								<svg class="SVG">
-									<path fill="#333" d="M35.707,16.293c-0.391-0.391-1.023-0.391-1.414,0L26,24.586l-8.293-8.293c-0.391-0.391-1.023-0.391-1.414,0   s-0.391,1.023,0,1.414L24.586,26l-8.293,8.293c-0.391,0.391-0.391,1.023,0,1.414C16.488,35.902,16.744,36,17,36   s0.512-0.098,0.707-0.293L26,27.414l8.293,8.293C34.488,35.902,34.744,36,35,36s0.512-0.098,0.707-0.293   c0.391-0.391,0.391-1.023,0-1.414L27.414,26l8.293-8.293C36.098,17.316,36.098,16.684,35.707,16.293z" fill="#FFFFFF"/>
-								</svg>
-						</div>
-
-							
-							<div id="popup">
-
-								
-							
-								<form autocomplete="off" action="https://formsubmit.co/thealpineexpeditions@gmail.com" method="POST" name="contact_form"  data-aos="fade-in">
-									<div class="text" style="color: #333 !important;">
-										<h2>{{ page.alt }}</h2>
-										<p>Thank you for your interest, please complete the form below and we will be back to you as soon as possible..</p>
-										
-										
-									</div>
-
-									<fieldset>
-										<div class="ar-input-set" style="clear:both;">
-											<input type="text" name="tour_name" required id="id_tour_name" value="{{ page.title }}" />
-											<!-- <span class="ar-fixed-label"><i class="fa fa-map-marker"></i></span> -->
-											<!-- <i class="fa-solid fa-person-hiking"></i> -->
-										</div>
-
-										<!-- <legend style="font-size: 1.2em;">Keep it succinct</legend> -->
-										<div class="ar-input-set two-in-one_1">
-											<input type="text" name="name" required id="id_name" />
-											<!-- <span class="ar-fixed-label"><i class="far fa-user"></i></span> -->
-											<span class="ar-floating-label">Full Name</span>
-						
-										</div>
-
-									
-										<div class="ar-input-set two-in-one_2">
-											<input type="text" name="phone" required id="id_phone" />
-											<!-- <span class="ar-fixed-label"><i class="fa fa-phone"></i></span> -->
-											<span class="ar-floating-label">Contact Number</span>
-						
-										</div>
-
-											<div class="ar-input-set" style="clear:both;">
-												<input type="email" name="email" id="id_email" required placeholder=" " />
-												<span class="ar-floating-label">E-Mail Address</span>
-												
-											</div>
-
-
-										<div class="ar-input-set">
-											<textarea rows="8" id="id_message" name="message" required="" style="height:120px;" type="text"></textarea>
-											<!-- <span class="ar-fixed-label"><i class="fas fa-pencil-alt"></i></span> -->
-											<span class="ar-floating-label">Message</span>
-						
-										</div>
-						
-										<div class="text">
-											<p>Don't Worry, We won't spam you..</p>
-										</div>
-
-										<span class="ar-form-btn-span">
-											<!-- <input type="hidden" name="_next" value="https://thealpineexpeditions.com/thanks" /> -->
-											<!-- <input type="hidden" name="_subject" value="New Submission from The Alpine Expeditions" /> -->
-											<input type="hidden" name="_next" value="https://thealpineexpeditions.com/thanks">
-											
-											 <input type="hidden" name="_captcha" value="false">
-
-  											<!-- <input type="hidden" name="_subject" value="New Submission from The Alpine Expeditions" /> -->
-
-											<button class="book_btn" type="submit" name="sendMsg"><span class="trippy_btn-left"></span>SEND<span class=""></span></button><br />
-										</span>
-									</fieldset>
-
-
-								</form>		
-								
-								
-					
-
-							</div>
-					</div>
 
 			</div>
 		</div>

@@ -4913,7 +4913,7 @@ li.image-holder{
 /* Base Styles */
 .shelter-section {
   background-color: transparent;
-  padding: 3rem 1rem;
+//   padding: 3rem 1rem;
   color: white;
   font-family: 'Arial', sans-serif;
 }
@@ -4955,9 +4955,9 @@ li.image-holder{
 }
 
 .shelter-stats {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
 }
 
 .shelter-stat {
@@ -4973,8 +4973,12 @@ li.image-holder{
 }
 
 .stat-label {
-  font-size: 1rem;
-  margin-top: 0.5rem;
+    line-height: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    font-style: normal;
+    letter-spacing: 0.035em;
 }
 
 /* Responsive Layout */
@@ -4988,6 +4992,7 @@ li.image-holder{
   }
 
   .shelter-stats {
+    display: flex;
     flex-direction: row;
     justify-content: center;
   }
