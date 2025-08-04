@@ -135,11 +135,15 @@ custom_css: "inquiry.css"
 </div>
 
 
+
+
 <script>
-  document.addEventListener('DOMContentLoaded', function() {
+  document.addEventListener('DOMContentLoaded', function () {
     const urlParams = new URLSearchParams(window.location.search);
-    const tourSlug = urlParams.get('tour_slug');
-    
+    const urlSlug = urlParams.get('tour_slug');
+    const fallbackSlug = "{{ page.title-slug | default: page.slug | default: page.permalink | split: '/' | last }}";
+    const tourSlug = urlSlug || fallbackSlug;
+
     const trekData = {
       {% for slug_key in site.data.trek-data %}
         "{{ slug_key[0] }}": {
@@ -150,32 +154,99 @@ custom_css: "inquiry.css"
           highlights: [
             "Days: {{ slug_key[1].days }}",
             "Difficulty: {{ slug_key[1].difficulty }}",
-            "Distance: {{ slug_key[1].distance }}",
+            "Distance: {{ slug_key[1].distance | default: 'N/A' }}",
           ]
         },
       {% endfor %}
     };
 
-    const currentTrek = trekData[tourSlug];
+    const peakData = {
+      {% for slug_key in site.data.peak-data %}
+        "{{ slug_key[0] }}": {
+          slug: "{{ slug_key[0] }}",
+          title: "{{ slug_key[1].name }}",
+          image: "/{{ slug_key[1].photos }}",
+          price: "{{ slug_key[1].price }}",
+          highlights: [
+            "Days: {{ slug_key[1].days }}",
+            "Altitude: {{ slug_key[1].height }} m",
+            "Difficulty: {{ slug_key[1].difficulty }}",
+          ]
+        },
+      {% endfor %}
+    };
 
-    if (currentTrek) {
-        document.getElementById('id_tour_name').value = currentTrek.title;
-        document.getElementById('sidebar-tour-name').innerText = currentTrek.title;
-        document.getElementById('sidebar-tour-image').src = currentTrek.image;
-        document.getElementById('sidebar-tour-price').innerText = `$ ${currentTrek.price}`;
+    const bikeData = {
+      {% for slug_key in site.data.bike-data %}
+        "{{ slug_key[0] }}": {
+          slug: "{{ slug_key[0] }}",
+          title: "{{ slug_key[1].name }}",
+          image: "/{{ slug_key[1].photos }}",
+          price: "{{ slug_key[1].price }}",
+          highlights: [
+            "Days: {{ slug_key[1].days }}",
+            "Region: {{ slug_key[1].region }}",
+            "Difficulty: {{ slug_key[1].difficulty | default: 'Moderate' }}",
+          ]
+        },
+      {% endfor %}
+    };
 
-        const highlightsList = document.getElementById('sidebar-highlights-list');
-        highlightsList.innerHTML = '';
-        currentTrek.highlights.forEach(item => {
-            const li = document.createElement('li');
-            li.textContent = item;
-            highlightsList.appendChild(li);
-        });
+    const rockData = {
+      {% for slug_key in site.data.rock-data %}
+        "{{ slug_key[0] }}": {
+          slug: "{{ slug_key[0] }}",
+          title: "{{ slug_key[1].name }}",
+          image: "/{{ slug_key[1].photos }}",
+          price: "{{ slug_key[1].price }}",
+          highlights: [
+            "Location: {{ slug_key[1].location }}",
+            "Duration: {{ slug_key[1].duration }}",
+            "Difficulty: {{ slug_key[1].difficulty | default: 'Moderate' }}",
+          ]
+        },
+      {% endfor %}
+    };
+
+    const raftingData = {
+      {% for slug_key in site.data.rafting-data %}
+        "{{ slug_key[0] }}": {
+          slug: "{{ slug_key[0] }}",
+          title: "{{ slug_key[1].name }}",
+          image: "/{{ slug_key[1].photos }}",
+          price: "{{ slug_key[1].price }}",
+          highlights: [
+            "River: {{ slug_key[1].river }}",
+            "Days: {{ slug_key[1].days }}",
+            "Grade: {{ slug_key[1].grade | default: 'Class III' }}",
+          ]
+        },
+      {% endfor %}
+    };
+
+    const allTours = {
+      ...trekData,
+      ...peakData,
+      ...bikeData,
+      ...rockData,
+      ...raftingData,
+    };
+
+    const currentTour = allTours[tourSlug];
+
+    if (currentTour) {
+      document.getElementById('id_tour_name').value = currentTour.title;
+      document.getElementById('sidebar-tour-name').innerText = currentTour.title;
+      document.getElementById('sidebar-tour-image').src = currentTour.image;
+      document.getElementById('sidebar-tour-price').innerText = `$ ${currentTour.price}`;
+
+      const highlightsList = document.getElementById('sidebar-highlights-list');
+      highlightsList.innerHTML = '';
+      currentTour.highlights.forEach(item => {
+        const li = document.createElement('li');
+        li.textContent = item;
+        highlightsList.appendChild(li);
+      });
     }
   });
-
-
 </script>
-
-
-
