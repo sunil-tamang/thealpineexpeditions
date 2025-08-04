@@ -1,96 +1,62 @@
+/* Base Styles */
 html {
   font-size: 16px;
   overflow-x: hidden;
 }
 
-body,
-html {
+body, html {
   font-family: "Lato", "Montserrat", sans-serif;
   height: 100%;
   letter-spacing: 0.05em;
 }
 
 h1, h2, h3 {
-  font-size: clamp(1.5rem, 2vw + 1rem, 2.5rem);
+  font-size: clamp(1.5rem, 2vw + 1rem, 2rem);
 }
 
-p, label, .ar-floating-label, .ar-input-set input,
-.ar-input-set select, .ar-input-set textarea {
+p, label, .ar-floating-label,
+.ar-input-set input,
+.ar-input-set select,
+.ar-input-set textarea {
   font-size: clamp(0.875rem, 1vw + 0.5rem, 1.1rem);
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
-a:focus {
-  outline: 0;
-}
-
-*,
-*:after,
-*:before {
+/* Container */
+.inquiry__container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 17em auto 2em auto;
+  padding: 1rem 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  /* Allow content height to grow naturally */
+  min-height: 100vh;
   box-sizing: border-box;
 }
 
-.no-select,
-a {
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  user-select: none;
+#sidebar-tour-name {
+  padding: 1em 0;
 }
 
-*::-moz-selection {
-  background-color: #fb4a4a;
-  color: #fff;
+/* Make sure form doesn't overflow on smaller devices */
+@media (max-width: 768px) {
+  .inquiry__container {
+    padding: 1rem;
+    margin-top: 6em;
+    min-height: auto;
+    flex-direction: column;
+    align-items: stretch;
+  }
 }
-
-*::selection {
-  background-color: #fb4a4a;
-  color: #fff;
-}
-
-.highlight {
-  line-height: 1.6em;
-  font-family: "Montserrat";
-  font-weight: bold;
-  font-size: 0.9em;
-  font-style: normal;
-  color: #00b7ff;
-}
-
-.holo {
-  font-size: 1em;
-  font-family: "Roboto", sans-serif;
-  font-weight: 900;
-}
-
-.hover:hover {
-  color: #428bca;
-}
-
-.inquiry__container {
-  width: 100%;
-  padding: 10px 20px;
-  margin-top: 7em;
-  margin-bottom: 1em;
-  height: 100vh;
-  display: flex;
-}
-
-/* Form Wrapper */
-.form-wrapper {
+/* Flex Layout */
+.inquiry__row {
   display: flex;
   flex-wrap: wrap;
-  max-width: 1100px;
-  margin: 2rem auto;
-  padding: 1rem;
-  gap: 30px;
+  justify-content: flex-end;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 /* Form Section */
@@ -102,15 +68,15 @@ a {
 /* Sidebar Section */
 .sidebar-section {
   flex: 1;
-  min-width: 250px;
+  min-width: 300px;
 }
 
 /* Booking Sidebar Styling */
 #booking-details-sidebar {
   background-color: #f9f9f9;
   padding: 20px;
-  border-left: 1px solid #ccc;
   border-radius: 8px;
+  border: 1px solid #ddd;
 }
 
 #booking-details-sidebar img {
@@ -123,12 +89,13 @@ a {
 .price-row {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 10px;
+  margin: 10px 0;
 }
 
-#sidebar-highlights-list ul {
-  list-style-type: none;
-  padding: 0;
+#sidebar-highlights-list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 10px;
 }
 
 #sidebar-highlights-list li {
@@ -136,7 +103,7 @@ a {
   font-weight: 400;
 }
 
-/* Input Fields */
+/* Input Styles */
 .ar-input-set {
   position: relative;
   margin-bottom: 20px;
@@ -148,11 +115,10 @@ a {
   width: 100%;
   padding: 12px;
   border-radius: 4px;
-  border: 0.1em solid #8a8c8f;
-  font-size: 0.775rem;
+  border: 1px solid #8a8c8f;
+  font-size: 0.875rem;
   outline: none;
   transition: border 0.3s;
-  box-sizing: border-box;
 }
 
 .ar-input-set input:focus,
@@ -181,13 +147,17 @@ a {
   padding: 0 5px;
   color: #555;
   font-family: monospace;
-}
-
-.ar-floating-label {
   font-size: clamp(0.7rem, 1vw + 0.3rem, 1rem);
 }
 
-/* Button */
+/* Form Grid */
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+/* Submit Button */
 .book_btn {
   color: #444;
   background: #ffce00;
@@ -198,7 +168,6 @@ a {
   transition: all 0.2s ease;
   cursor: pointer;
   font-family: "Anton", sans-serif;
-  font-weight: lighter;
   letter-spacing: 0.1em;
 }
 
@@ -206,22 +175,9 @@ a {
   background-color: #e69500;
 }
 
-/* Responsive Grid */
-.form-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-}
-
+/* Responsive: Sidebar on top */
 @media (max-width: 768px) {
-  .form-wrapper {
-    flex-direction: column;
-  }
   .form-grid {
     grid-template-columns: 1fr 1fr;
-  }
-  #booking-details-sidebar {
-    border-left: none;
-    border-top: 1px solid #ccc;
   }
 }/*# sourceMappingURL=inquiry.css.map */

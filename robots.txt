@@ -1,9 +1,11 @@
 ---
 ---
-# Allow crawling of all content
 
 User-agent: *
 Disallow:
 
-# Sitemap
-Sitemap: {{ site.url }}/sitemap.xml
+# Sitemap: {{ site.url }}/sitemap.xml
+Sitemap: https://thealpineexpeditions.com/sitemap.xml
+
+
+
