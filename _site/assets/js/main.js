@@ -15,7 +15,7 @@ function menuWideOrMobile() {
   } else {
     $body.addClass('wide').removeClass('mobile');
     $navTriggerWrapper.addClass('wide').removeClass('mobile');
-    $('.header').css('background', 'rgba(0,0,0,0.9)');
+    $('.header').css('background', 'rgb(255, 177, 0)');
   }
 }
 

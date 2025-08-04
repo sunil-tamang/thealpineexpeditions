@@ -2368,6 +2368,7 @@ p.content__pg:not(:last-child) {
 
 .more-trippy_btn {
   padding: 14px 28px;
+  border: 0;
 }
 
 .trippy_btn:after {
