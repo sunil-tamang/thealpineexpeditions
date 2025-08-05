@@ -24,7 +24,7 @@ p, label, .ar-floating-label,
 /* Container */
 .inquiry__container {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1450px;
   margin: 17em auto 2em auto;
   padding: 1rem 1.5rem;
   display: flex;
@@ -55,7 +55,7 @@ p, label, .ar-floating-label,
   flex-wrap: wrap;
   justify-content: flex-end;
   gap: 40px;
-  max-width: 1200px;
+  max-width: 1500px;
   margin: 0 auto;
 }
 
